@@ -1,0 +1,348 @@
+# This update took a long time, but here it is.
+
+# ===============================================
+# GENERAL MESSAGES
+# ===============================================
+general:
+  prefix: "&8[&6AuctionHouse&8] &r"
+  no-permission: "{prefix}&cYou don't have permission to do that!"
+  player-only: "{prefix}&cThis command can only be used by players!"
+  database-error: "{prefix}&cA database error occurred. Please contact an administrator."
+  reload-success: "{prefix}&aConfiguration reloaded successfully!"
+  unknown-command: "{prefix}&cUnknown command. Use /ah help for a list of commands."
+
+# ===============================================
+# SELLING MESSAGES
+# ===============================================
+sell:
+  success: "{prefix}&aSuccessfully listed &e{item} &ax&e{amount} &afor &e{currency}{price}&a!"
+  success-with-tax: "{prefix}&aSuccessfully listed &e{item} &ax&e{amount} &afor &e{currency}{price} &a(Tax: &e{currency}{tax}&a)!"
+  no-item: "{prefix}&cYou must be holding an item to sell!"
+  invalid-price: "{prefix}&cInvalid price! Must be a positive number."
+  limit-reached: "{prefix}&cYou have reached your listing limit! (&e{current}/{max}&c)"
+  not-enough-money: "{prefix}&cYou don't have enough money to pay the listing fee! (Need: &e{currency}{amount}&c)"
+  usage: "{prefix}&cUsage: /ah sell <price>"
+  price-must-be-positive: "{prefix}&cPrice must be greater than 0."
+  not-enough-money-tax: "{prefix}&cYou don't have enough money to pay the listing tax of {currency}{amount}."
+  tax-paid: "{prefix}&eYou paid {currency}{amount} as a listing tax ({rate}% of the price)."
+  failed-contact-admin: "{prefix}&cFailed to list item! Contact an administrator."
+  listings-count: "{prefix}&7You now have {current}/{max} listings active."
+
+
+# ===============================================
+# GUI MESSAGES
+# ===============================================
+gui:
+  titles:
+    auction-house-title: "&6&lAuction House &7(Page {page})"
+    my-listings-title: "&d&lMy Listings &7(Page {page})"
+    confirm-purchase-title: "&a&lConfirm Purchase"
+    confirm-cancel-title: "&c&lConfirm Cancellation"
+    shulker-preview-title: "&5&lShulker Box Preview"
+
+# ========================================
+# AUCTION HOUSE ITEM LORE
+# ========================================
+lore:
+  auction:
+    price: "&6Price: &a{price}"
+    seller: "&6Seller: &7{seller}"
+    server: "&6Server: &b{server}"
+    expires-in: "&6Expires in: &7{time}"
+    expired: "&6Expires in: &cExpired"
+    preview-shulker: "&bRight-click to preview contents"
+    purchase-shulker: "&eLeft-click to purchase"
+    purchase-normal: "&eClick to purchase"
+    id: "&8ID: {id}"
+
+# ========================================
+# MY LISTINGS ITEM LORE
+# ========================================
+  my-listing:
+    price: "&6Price: &a{price}"
+    server: "&6Server: &b{server}"
+    expires-in: "&6Expires in: &7{time}"
+    expired: "&6Expires in: &cExpired"
+    preview-shulker: "&bRight-click to preview contents"
+    cancel-shulker: "&cLeft-click to cancel listing"
+    cancel-normal: "&cClick to cancel listing"
+    id: "&8ID: {id}"
+
+# ========================================
+# CONFIRM PURCHASE GUI
+# ========================================
+  confirm-purchase:
+    confirm-button-name: "&aConfirm Purchase"
+    confirm-lore-1: "&7Click to confirm purchase"
+    confirm-lore-2: "&7Price: &a{price}"
+    confirm-lore-3: "&7Your balance: &e{balance}"
+    cancel-button-name: "&cCancel"
+    cancel-lore: "&7Click to go back without purchasing"
+    display-price: "&6Price: &a{price}"
+    display-seller: "&6Seller: &7{seller}"
+    display-question: "&aAre you sure you want to buy this item?"
+
+# ========================================
+# CONFIRM CANCEL GUI
+# ========================================
+  confirm-cancel:
+    confirm-button-name: "&aConfirm Cancellation"
+    confirm-lore-1: "&7Click to confirm cancellation"
+    confirm-lore-2: "&7The item will be returned to your inventory"
+    cancel-button-name: "&cCancel"
+    cancel-lore: "&7Click to go back without cancelling"
+    display-price: "&6Price: &a{price}"
+    display-question: "&cAre you sure you want to cancel this listing?"
+
+# ========================================
+# NAVIGATION BUTTONS
+# ========================================
+buttons:
+  claim: "&6📦 Claim Items"
+  claim-lore-pending: "&e{count} items waiting!"
+  claim-lore-none: "&7No items to claim"
+  previous-page: "&ePrevious Page"
+  next-page: "&eNext Page"
+  page-indicator: "&6Page {page}/{total}"
+  total-items: "&7Total items: &e{count}"
+  cross-server-enabled: "&7Cross-server sync: &aENABLED"
+  my-listings: "&dMy Listings"
+  refresh: "&aRefresh"
+  help: "&bHelp"
+  back-to-auction: "&cBack to Auction House"
+  back: "&cBack"
+  back-lore: "&7Return to {location}"
+
+
+# ===============================================
+# BUYING MESSAGES
+# ===============================================
+buy:
+  success: "{prefix}&a✓ Successfully purchased &e{item} &ax&e{amount} &afor &e{currency}{price}&a!"
+  own-listing: "{prefix}&cYou cannot buy your own listing!"
+  not-enough-money: "{prefix}&cYou don't have enough money! Need: &e{currency}{price}"
+  already-sold: "{prefix}&cThis item has already been sold!"
+  inventory-full: "{prefix}&cYour inventory is full! Item sent to /ah claim."
+  listing-not-found: "{prefix}&cListing not found."
+  purchase-success: "{prefix}&aYou purchased the item{server} for {currency}{price}!"
+
+# ===============================================
+# CANCELING MESSAGES
+# ===============================================
+cancel:
+  item-returned-from-web: "{prefix}&aYour cancelled listing has been returned from &e{server}&a!"
+  item-dropped-from-web: "{prefix}&eYour cancelled listing from &6{server}&e was dropped (inventory full)."
+  success: "{prefix}&aListing cancelled! Item returned to your inventory."
+  not-found: "{prefix}&cListing not found or already sold!"
+  not-owner: "{prefix}&cYou don't own this listing!"
+  inventory-full: "{prefix}&cYour inventory is full! Item sent to /ah claim."
+  usage: "{prefix}&cUsage: /ah cancel <listing-id>"
+  wrong-server: "{prefix}&cYou can only cancel this listing on the &e{server} &cserver!"
+  switch-server-hint: "{prefix}&7Switch to &e{server} &7and try canceling there."
+  corruption-prevention-info: "{prefix}&7This prevents item corruption when transferring items between servers."
+  success-queued: "{prefix}&aListing cancelled! Item will be returned when you log into &e{server}&a."
+  will-deliver-on-login: "{prefix}&7Your item will be delivered when you join any server."
+  failed: "{prefix}&cFailed to cancel listing. Please try again."
+
+# ===============================================
+# EXPIRED ITEMS
+# ===============================================
+expired:
+  no-items: "{prefix}&cYou have no expired items to claim."
+  all-returned: "{prefix}&aAll expired items have been returned to your inventory."
+  some-not-fit: "{prefix}&eSome items couldn't fit in your inventory. Please free up some space and try again."
+
+# ===============================================
+# CLAIM SYSTEM
+# ===============================================
+claim:
+  expansion-disabled: "&cClaim system is not enabled!"
+  manager-not-available: "&cClaim manager is not available!"
+  no-items: "&7You have no items to claim."
+  claiming-items: "&aclaiming {count} items..."
+  success: "{prefix}&aClaimed {count} items!"
+  success-details: "{prefix}&a{inventory} items added to inventory."
+  success-drops: "{prefix}&e{dropped} items dropped on ground (inventory full)."
+  no-items-session-mode: "{prefix}&cNo pending items in session mode."
+  no-items-positive: "{prefix}&aYou have no pending items."
+  items-pending: "{prefix}&eYou have {count} pending items to claim."
+  use-command-hint: "{prefix}&7Use &e/ahplus claim &7to claim them."
+
+# ===============================================
+# WEB INTERFACE
+# ===============================================
+web:
+  disabled: "{prefix}&cWeb expansion is currently disabled on this server."
+  invalid-code: "{prefix}&cInvalid or expired verification code!"
+  verification-success: "{prefix}&a✓ Account verified successfully! You can now use the web interface."
+  item-received-purchase: "{prefix}&aYou received an item purchased via web for {currency}{price}!"
+  pending-purchases: "{prefix}&eYou have pending web purchases! Free up inventory space."
+  listing-cancelled: "{prefix}&aListing cancelled via web. Item returned to inventory."
+  listing-cancelled-returned: "{prefix}&aListing cancelled via web. Item returned."
+  pending-returns: "{prefix}&eYou have pending returned items! Free up inventory space."
+  verification-requested: "{prefix}&eWeb verification requested!"
+  verification-command: "&eRun this command: &a/ahplus verify {code}"
+  verification-expires: "&7This code expires in {minutes} minutes."
+  listing-cancelled-success: "{prefix}&aListing cancelled successfully via web. Item returned to your inventory."
+  item-purchased: "{prefix}&aPurchased item via web for {currency}{price}!"
+  item-sold-to-buyer: "{prefix}&aYour item was sold to {buyer} for {currency}{price}!"
+  item-sold-price: "{prefix}&aYour item was sold via web for {price}."
+  pending-items-count: "{prefix}&eYou have {count} pending items from web purchases!"
+  pending-items-instruction: "{prefix}&7Use &e/ahplus claim &7to claim them."
+  item-purchased-via-web: "{prefix}&aYou purchased the item{server} via web for {currency}{price}."
+  item-sold-to-buyer-web: "{prefix}&aYour item was sold to {buyer} for {currency}{price} via web interface."
+  session-generated-success: "{prefix}&aWeb session generated!"
+  session-expires: "{prefix}&7Session expires in {minutes} minutes."
+  session-url: "&7Copy this link: &b{url}"
+  interface-url: "{prefix}&aWeb interface: &b{url}"
+  not-configured: "{prefix}&cWeb interface is not properly configured."
+  verify-usage: "{prefix}&cUsage: /ahplus verify <code>"
+  verification-success-password: "{prefix}&aVerification successful! You can now set your password on the web interface."
+  manager-not-available: "{prefix}&cWeb manager is not available."
+  session-generated: "{prefix}&aClick here to access the web interface: &e{url}"
+  session-generating: "{prefix}&eGenerating web session, please wait..."
+  session-generated-success: "{prefix}&a✓ Web session generated!"
+
+# ===============================================
+# DISCORD INTEGRATION
+# ===============================================
+discord:
+  linking-disabled: "{prefix}&cDiscord linking is not enabled on this server."
+  already-linked-to: "❌ Your Discord account is already linked to **{player}**!"
+  item-purchased: "{prefix}&aYou purchased an item via Discord for {currency}{price}!"
+  item-sold: "{prefix}&aYour item was sold via Discord for {currency}{price}!"
+  not-linked: "❌ Your Discord account is not linked! Use `/auctionhouselink` first."
+  link-usage: "{prefix}&cUsage: /auctionhouselink <code>"
+  link-get-code-first: "{prefix}&eGet your linking code by using /auctionhouselink in Discord first."
+  link-commands-available: "{prefix}&eYou can now use Discord commands like /auctionhousebalance and purchase items via Discord!"
+  link-success: "{prefix}&a✓ Discord account linked successfully!"
+  link-invalid-code: "{prefix}&cInvalid or expired linking code. Please generate a new code in Discord."
+
+# ===============================================
+# VELOCITY/CROSS-SERVER
+# ===============================================
+velocity:
+  item-purchased: "{prefix}&a✓ Someone purchased your item for {currency}{price}!"
+  item-purchased-transferring: "{prefix}&a✔ Item purchased! Money will be transferred to seller..."
+  payment-system-unavailable: "{prefix}&e⚠ Payment system unavailable - contact admin"
+  item-received-from: "{prefix}&aYou received an item purchased from {seller} on {server}."
+  item-dropped-from: "{prefix}&eItem from {server} dropped on ground (inventory full)."
+  item-received-server: "{prefix}&aYou received an item from {server} server!"
+  payment-received-from: "{prefix}&a✓ Received {currency}{amount} from cross-server sale on {server}!"
+  item-purchased-from: "{prefix}&a✓ Someone from {server} purchased your {item} for {currency}{price}!"
+  delivery-failed-refunded: "{prefix}&c✖ Failed to deliver item! Refunded."
+  item-from-different-server: "{prefix}&cThis item is from a different server!"
+  server-must-be-specified: "{prefix}&cServer must be specified for cross-server purchase."
+
+# ===============================================
+# LISTING LIMITS
+# ===============================================
+limits:
+  info-header: "{prefix}&6Auction Listing Information:"
+  your-rank: "&eYour Rank: &a{rank}"
+  current-listings: "&eCurrent Listings: &a{current}&e/&a{max}"
+  available-slots: "&eAvailable Slots: &a{available}"
+  tip-web: "&7Tip: You can also manage auctions via web interface!"
+  tip-discord: "&7Tip: Link your Discord account to buy items from Discord!"
+
+# ===============================================
+# ADMIN COMMANDS
+# ===============================================
+admin:
+  status-header: "{prefix}&6AuctionHouse Plus Status:"
+  status-enabled: "&aEnabled"
+  status-disabled: "&cDisabled"
+  status-web-expansion: "&eWeb Expansion: {status}"
+  status-discord: "&eDiscord Integration: {status}"
+  status-web-server: "&eWeb Server: &aRunning on port {port}"
+  status-web-url: "&eWeb URL: &b{url}"
+  status-registered-users: "&eRegistered Users: &a{count}"
+  status-active-auctions: "&eActive Auctions: &a{count}"
+  reload-web-url: "&bWeb URL: &f{url}"
+  reload-web-failed: "{prefix}&cConfiguration reloaded, but web expansion failed to start."
+
+# ===============================================
+# HELP MENU
+# ===============================================
+help:
+  header: "{prefix}&e=== Auction House Help ==="
+  footer-line: "&6===================================="
+  
+  # Basic Commands
+  main: "&e/ah &7- Open the auction house"
+  sell: "&e/ah sell <price> &7- Sell the item in your hand"
+  cancel: "&e/ah cancel <listing-id> &7- Cancel one of your listings"
+  expired: "&e/ah expired &7- Retrieve your expired listings"
+  listings: "&e/ah listings &7- View and manage your listings"
+  limit: "&e/ah limit &7- Check your auction limit and current usage"
+  help: "&e/ah help &7- Show this help menu"
+  
+  # Web Commands
+  web: "&e/ah web &7- Access web interface"
+  session: "&e/ah session &7- Generate web session link"
+  web-commands-header: "&bWeb Commands:"
+  ahplus-verify-short: "&e/ahplus verify <code> &7- Verify web account"
+  web-interface-info: "&bWeb Interface: &f{url}"
+  session-mode-enabled: "&bSession Mode: &aEnabled"
+  session-mode-instructions: "&7Use /ah web or /ah session to get a temporary link"
+  
+  # Discord Commands
+  discord-link: "&e/auctionhouselink <code> &7- Link your Discord account"
+  
+  # Admin Commands
+  reload: "&e/ah reload &7- Reload the configuration"
+  
+  # AHPlus Help
+  ahplus-header: "&6========== &eAuctionHouse Plus Help &6=========="
+  ahplus-footer: "&6==============================================="
+  ahplus-verify: "&e/ahplus verify <code> &7- Verify your account for web access"
+  ahplus-pending: "&e/ahplus pending &7- Check pending items from web purchases"
+  ahplus-claim: "&e/ahplus claim &7- Claim pending items (purchases/returns)"
+  ahplus-status: "&e/ahplus status &7- View plugin status"
+  web-interface-url: "&bWeb Interface: &f{url}"
+  discord-commands-header: "&dDiscord Commands:"
+  status-web: "&7Web expansion: {status}"
+  status-discord: "&7Discord integration: {status}"
+  
+  # Cross-Server
+  cross-server-enabled: "&6Cross-Server: &aEnabled"
+  current-server: "&7Server: &e{server}"
+
+# ===============================================
+# NOTIFICATIONS
+# ===============================================
+notifications:
+  payment-received-sales: "{prefix}&aYou received {currency}{amount} from sold items!"
+
+# ===============================================
+# ERROR MESSAGES
+# ===============================================
+errors:
+  transaction-failed: "{prefix}&cTransaction failed! Please try again."
+  invalid-item-data: "{prefix}&cInvalid item data."
+  not-shulker-box: "{prefix}&cThis is not a shulker box!"
+
+# ===============================================
+# PLACEHOLDERS REFERENCE
+# ===============================================
+# {prefix} - Configured prefix
+# {player} - Player name
+# {server} - Server name
+# {item} - Item name
+# {amount} - Item amount
+# {price} - Price value
+# {currency} - Currency symbol
+# {tax} - Tax amount
+# {current} - Current count
+# {max} - Maximum count
+# {buyer} - Buyer name
+# {seller} - Seller name
+# {rank} - Rank name
+# {count} - Generic count
+# {url} - Web URL
+# {code} - Verification code
+# {minutes} - Time in minutes
+# {status} - Status text
+# {port} - Port number
+# {inventory} - Inventory count
+# {dropped} - Dropped count

@@ -1,0 +1,129 @@
+# ================================================================= #
+#                   ClearLag Language File                          #
+# ================================================================= #
+# You can translate all plugin messages here.
+# You can use color codes with '&' (e.g., &a, &c, &l).
+# Placeholders like {count} or {time} must be kept.
+# Please u can use: %prefix%
+
+# The prefix used before most messages
+prefix: '&e[ClearLag] &r'
+
+common:
+  reload: '&aClearLag configuration reloaded!'
+  player-only: '&cThis command can only be used by a player.'
+
+errors:
+  no-permission: '&cYou do not have permission to use this command.'
+  unknown-command: '&cThis command does not exist. Use &e/clearlag &cfor a list.'
+  usage: '&cUsage: &e{usage}'
+  must-be-positive: '&c''{value}'' must be a positive number.'
+  must-be-number: '&c''{value}'' must be a valid number.'
+  world-not-found: '&cWorld ''{world}'' not found.'
+
+commands:
+  help-header: '&6--- ClearLag Commands ---'
+  help-lines:
+  - '&e/clearlag clear <items/entity/all> &7- Removes entities/items.'
+  - '&e/clearlag info &7- Shows plugin information.'
+  - '&e/clearlag killmobs <evil/good/all> &7- Removes mobs.'
+  - '&e/clearlag reload &7- Reloads the configuration.'
+  - '&e/clearlag nextclear &7- Shows time until the next auto-clear.'
+  - '&e/clearlag topworld &7- Shows world ranking by entity count.'
+  - '&e/clearlag cpu &7- Shows recent CPU load.'
+  - '&e/clearlag ram &7- Shows recent RAM usage.'
+  - '&e/clearlag specs &7- Shows combined system specs.'
+  - '&e/clearlag togglemessages &7- Toggles countdown messages for yourself.'
+  - '&e/clearlag togglesound &7- Toggles countdown sounds for yourself.'
+  - '&e/clearlag togglemessage &7- Toggles countdown message location (Chat/Title/Actionbar).'
+  - '&e/clearlag chunkfinder <count> &7- Finds the <count> laggiest chunks.'
+  - '&e/clearlag unloadchunk <world> <x> <z> &7- Unloads a chunk.'
+  - '&e/clearlag nuke [radius] &7- Radically removes entities around you.'
+  
+  clear:
+    success: '&aRemoved {count} entities of type {type}.'
+  
+  info:
+    header: '&6--- ClearLag Info ---'
+    version: '&eVersion: &a{version}'
+    author: '&eAuthor: &a{author}'
+    website: '&eWebsite: &a{website}'
+    auto-clear: '&eAuto-Clear Enabled: {status}'
+    interval: '&eInterval: &a{time} seconds'
+    status-yes: '&aYes'
+    status-no: '&cNo'
+  
+  killmobs:
+    success: '&aKilled {count} mobs of type {type}.'
+  
+  nextclear:
+    disabled: '&cAuto-clear is disabled.'
+    in-progress: '&eAn auto-clear is currently in progress or just happened.'
+    time-until: '&eNext auto clear in &a{time}'
+  
+  topworld:
+    header: '&6--- Top Worlds by Entity Count ---'
+    line: '&e{rank}. {world}: &a{count} entities'
+  
+  cpu:
+    header: '&6--- CPU Usage (System-wide) ---'
+    no-data: '&cCPU history is not yet available. Please wait a moment.'
+    line: '&eLast {time}: &a{value}%'
+  
+  ram:
+    header: '&6--- RAM Usage (JVM) ---'
+    no-data: '&cRAM history is not yet available. Please wait a moment.'
+    total: '&eTotal Memory: &a{total} MB'
+    line: '&eLast {time}: &a{value} MB'
+  
+  specs:
+    header: '&6--- Server Performance Summary ---'
+    tps: '&aTPS: &e{tps}'
+    cpu: '&eCPU (1m Avg): &a{value}'
+    ram: '&eRAM (1m Avg): &a{value}'
+    no-data: N/A
+  
+  togglemessages:
+    enabled: '&aCountdown messages are now &lENABLED&a for you.'
+    disabled: '&aCountdown messages are now &lDISABLED&a for you.'
+  
+  togglesound:
+    enabled: '&aCountdown sounds are now &lENABLED&a for you.'
+    disabled: '&aCountdown sounds are now &lDISABLED&a for you.'
+  
+  togglemessage:
+    changed: '&aCountdown message location changed to: &e{location}'
+    no-permission: '&cYou do not have permission to change your message location.'
+  
+  chunkfinder:
+    header: '&6--- Top {count} Laggiest Chunks (by Entity Count) ---'
+    no-chunks: '&7No loaded chunks found.'
+    line: '&e{rank}. World: &a{world}&e, Chunk: [&a{x}, {z}&e] - Entities: &c{count}'
+  
+  unloadchunk:
+    already-unloaded: '&eChunk at [&a{x}, {z}&e] in {world} is already unloaded.'
+    success: '&aSuccessfully unloaded chunk at [&a{x}, {z}&e] in {world}.'
+    fail: '&cFailed to unload chunk. It might be in use or is a spawn chunk.'
+  
+  nuke:
+    success: '&c&lNUKE! &aRemoved {count} entities within a radius of {radius} blocks.'
+
+autoclear:
+  countdown: '&6Items and entities will be cleared in &c{time} &6seconds!'
+  success: '&a{count} entities have been removed!'
+
+warnings:
+  tps: '&c[ClearLag] Server TPS has dropped to &e{tps}&c! Performance is critical!'
+  fast-clock: '&cA fast redstone clock was detected in your chunk ({x}, {z}) and has
+    been temporarily disabled for lag prevention.'
+
+update:
+  header: '&6========================================'
+  outdated: '&eClearLag is outdated!'
+  current-version: '&eYour version: &c{current}'
+  new-version: '&eNewest version: &a{new}'
+  download: '&eDownload the new version here: &b{url}'
+
+papi:
+  disabled: Disabled
+  active: Active

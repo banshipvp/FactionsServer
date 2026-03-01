@@ -1,0 +1,26 @@
+#Enable this, if you want to prevent the crateTypes from changing their surrounding blocks.
+#Examples:
+#If a crateType spawns on a 'dirt path' block, that block will become dirt, if this feature is disabled.
+#Warning: This will probably tank your performance at crateType spawning, if lots of crateTypes spawn (lots = hundreds)
+#Changing this requires a restart!
+listen-to-block-physics: false
+#Enable this, if you want to prevent some blocks that
+#replaced by crates in certain cases.
+dont-replace-blocks: true
+#Add any blocks that you want to be passable
+#when using the iterative block-finder. These
+#blocks will not be used for determining the top block.
+passable-blocks:
+- air
+- barrier
+update-checker:
+  #Enable this, if you want the plugin to check for updates
+  enabled: true
+  #Enable this, if you want the plugin to check for updates
+  #and send messages to users with the axenvoys.updatecheck.onjoin permission.
+  #This only works if the update checker is enabled!
+  message-on-join: true
+#Enable this, if you'd like to receive some detailed
+#logs of why something is happening. This will send messages
+#in the console.
+debug: false

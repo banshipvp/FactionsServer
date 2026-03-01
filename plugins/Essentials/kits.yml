@@ -1,0 +1,120 @@
+# EssentialsX kit configuration.
+# If no kits are defined in this file, the plugin will attempt to copy them from 'config.yml'.
+
+# All items MUST be followed by a quantity.
+# Kit names should be in lowercase and will be treated as such in permissions and costs.
+# Syntax: - item[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For detailed information on item meta, visit https://wiki.ess3.net/wiki/Item_Meta
+#
+# To make a kit execute a command, add '/<command>' to the item list. Use {USERNAME} to reference the player receiving the kit.
+# Use {PLAYER} to display the player's display name instead of the username.
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds. Set to -1 for a one-time kit.
+#
+# You can also organize kits into separate files within the 'kits' subdirectory.
+# Essentials will treat all '.yml' files in the subdirectory as valid kit files and add them along with those in here.
+# Each file in the 'kits' subdirectory must be formatted the same as this file.
+#
+# For more information, refer to https://wiki.ess3.net/wiki/Kits
+
+kits:
+  tools:
+    delay: 10
+    items:
+      - stonesword 1
+      - stoneshovel 1
+      - stonepickaxe 1
+      - stoneaxe 1
+
+  # -------------------------------------------------------
+  # Starter Kit - One time only, given to all new players
+  # -------------------------------------------------------
+  starter:
+    delay: -1
+    items:
+      - oak_log 64
+      - cobblestone 64
+      - sand 64
+      - obsidian 16
+      - torch 64
+      - chest 8
+      - crafting_table 2
+      - furnace 2
+      - bread 32
+      - iron_ingot 32
+      - stick 32
+
+  # -------------------------------------------------------
+  # Rank Kits - 24 hour cooldown (86400 seconds)
+  # -------------------------------------------------------
+  scout:
+    delay: 86400
+    items:
+      - iron_helmet 1
+      - iron_chestplate 1
+      - iron_leggings 1
+      - iron_boots 1
+      - iron_sword 1
+      - iron_pickaxe 1
+      - iron_axe 1
+      - iron_shovel 1
+      - bread 16
+      - arrow 32
+      - bow 1
+
+  militant:
+    delay: 86400
+    items:
+      - iron_helmet 1 protection:2 unbreaking:1
+      - iron_chestplate 1 protection:2 unbreaking:1
+      - iron_leggings 1 protection:2 unbreaking:1
+      - iron_boots 1 protection:2 unbreaking:1
+      - iron_sword 1 sharpness:2 unbreaking:1
+      - diamond_pickaxe 1 efficiency:2 unbreaking:1
+      - golden_apple 4
+      - arrow 64
+      - bow 1 power:2
+
+  tactician:
+    delay: 86400
+    items:
+      - diamond_helmet 1 protection:2 respiration:1 unbreaking:2
+      - diamond_chestplate 1 protection:2 unbreaking:2
+      - diamond_leggings 1 protection:2 unbreaking:2
+      - diamond_boots 1 protection:2 feather_falling:2 unbreaking:2
+      - diamond_sword 1 sharpness:2 fire_aspect:1 unbreaking:2
+      - diamond_pickaxe 1 efficiency:3 fortune:1 unbreaking:2
+      - golden_apple 8
+      - arrow 64
+      - bow 1 power:3
+      - tnt 8
+
+  warlord:
+    delay: 86400
+    items:
+      - diamond_helmet 1 protection:3 respiration:2 unbreaking:3
+      - diamond_chestplate 1 protection:3 unbreaking:3
+      - diamond_leggings 1 protection:3 unbreaking:3
+      - diamond_boots 1 protection:3 feather_falling:3 unbreaking:3
+      - diamond_sword 1 sharpness:3 fire_aspect:1 looting:2 unbreaking:3
+      - diamond_pickaxe 1 efficiency:4 fortune:2 unbreaking:3
+      - golden_apple 16
+      - arrow 64
+      - bow 1 power:4 flame:1
+      - tnt 16
+      - shield 1 unbreaking:2
+
+  sovereign:
+    delay: 86400
+    items:
+      - netherite_helmet 1 protection:4 respiration:3 unbreaking:3
+      - netherite_chestplate 1 protection:4 unbreaking:3
+      - netherite_leggings 1 protection:4 unbreaking:3
+      - netherite_boots 1 protection:4 feather_falling:4 unbreaking:3
+      - netherite_sword 1 sharpness:5 fire_aspect:2 looting:3 unbreaking:3
+      - netherite_pickaxe 1 efficiency:5 fortune:3 unbreaking:3
+      - golden_apple 32
+      - arrow 128
+      - bow 1 power:5 flame:1 infinity:1
+      - tnt 32
+      - shield 1 unbreaking:3
+      - totem_of_undying 1

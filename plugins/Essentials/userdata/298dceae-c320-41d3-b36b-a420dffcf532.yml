@@ -1,0 +1,51 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1772277554589
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1772340052779
+  login: 1772339939256
+  kits:
+    militant: 1772339303484
+    scout: 1772272915503
+    sovereign: 1772272921395
+money: '1674532.00'
+last-account-name: BanshiPvP
+logoutlocation:
+  world: 79258ee1-51af-4b32-bd47-9ddc9e070f60
+  world-name: world
+  x: -609.203888588585
+  y: 84.11365272907685
+  z: 150.59588581862232
+  yaw: -92.62088012695312
+  pitch: 36.463165283203125
+lastlocation:
+  world: 79258ee1-51af-4b32-bd47-9ddc9e070f60
+  world-name: world
+  x: -696.1295313209721
+  y: 97.32073285997421
+  z: 232.89084457361827
+  yaw: 85.62652587890625
+  pitch: 1.833277940750122
+homes:
+  up:
+    world: 79258ee1-51af-4b32-bd47-9ddc9e070f60
+    world-name: world
+    x: -582.5
+    y: 71.0
+    z: 179.5
+    yaw: 0.0
+    pitch: 0.0

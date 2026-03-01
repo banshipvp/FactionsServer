@@ -1,0 +1,88 @@
+# AuctionHouse Configuration
+
+# Prefix for all plugin messages
+prefix: "&8[&6AuctionHouse&8] &r"
+
+# Economy settings
+currency-symbol: "$"
+enable-tax: true
+tax-rate: 0.05
+
+# Default listing settings
+listing-duration-hours: 48
+max-listings-per-player: 10
+
+# Rank-based auction limits (requires LuckPerms)
+rank-limits:
+  default: 3      # Default group
+  member: 3       # Member group
+  vip: 5          # VIP group
+  premium: 8      # Premium group  
+  legend: 12      # Legend group
+  hero: 15        # Hero group
+  titan: 20       # Titan group
+  admin: 50       # Admin group
+
+# IMPORTANT: Server identification for Velocity networks
+# Each server must have a unique name when using Velocity
+server-name: "survival"  # Change this for each server: survival, creative, skyblock, etc.
+
+# Database table prefix (used for all database tables)
+# Change this if you need multiple auction house instances in the same database
+# or to avoid conflicts with other plugins
+table-prefix: "ah"
+
+# Velocity integration settings
+velocity:
+  # Enable Velocity proxy integration (requires MySQL database)
+  enabled: false
+  
+  # Database settings for cross-server data sharing (REQUIRED for Velocity mode)
+  database:
+    host: "localhost"
+    port: 3306
+    name: "auctionhouse"
+    username: "auctionhouse_user"
+    password: "secure_password"
+
+# Session-based web access (recommended for security)
+sessions:
+  # Enable session-based web access (no permanent accounts needed)
+  enabled: false
+  
+  # Session duration in minutes
+  duration: 20
+  
+  # Base URL for web access (update with your domain/IP)
+  base-url: "http://localhost:8080"
+  
+  # Message sent when generating session link
+  session-message: "&aClick here to access the web interface: "
+
+# Web expansion settings (alternative to sessions)
+web-expansion:
+  # Enable traditional web interface with user accounts
+  enabled: false
+  
+  # Message shown when web expansion is disabled
+  disabled-message: "&cWeb expansion is currently disabled on this server."
+
+# Discord integration (Bukkit servers only)
+discord:
+  # Enable Discord integration
+  enabled: false
+  
+  # Bot token for interactive features
+  bot-token: ""
+  
+  # Channel ID for account linking commands
+  linking-channel-id: ""
+  
+  # Channel ID for live auction updates and transaction logs
+  auction-channel-id: ""
+  
+  # Update interval for auction listings in minutes
+  auction-update-interval: 1
+  
+  # Maximum items to show per auction embed
+  max-items-per-embed: 10

@@ -1,0 +1,346 @@
+#Cooldown in seconds until a player can collect a new crateType of this type
+#THIS OVERRIDES THE SAME SETTING IN THE ENVOY'S CATEGORY! If you do NOT want to override it, remove it from here
+collect-cooldown: 0
+broadcast-collect: true
+
+display-name: '&9&lRARE SUPPLY CRATE'
+block: gold_block
+
+required-interactions:
+  amount: 1
+  #In ticks. 1 second is 20 ticks! Set to 0 to disable!
+  cooldown: 0
+
+falling-block:
+  enabled: true
+  height: 14
+  block: blue_concrete
+  speed: -0.6
+
+firework:
+  enabled: true
+  color: '#4444FF'
+  type: ball_large
+
+flare:
+  enabled: true
+  #In ticks, 20 ticks is 1 second
+  every: 160
+  firework:
+    color: '#4444FF'
+    type: ball_large
+
+reward-amount: 2
+
+rewards:
+  # ── ECO MONEY (EssentialsX / Vault) ─────────────────────
+
+  
+  
+  # ── MYSTERY MOB SPAWNER (SimpleKits - /spawner) ──────────
+
+  
+  # ── SIMPLECRATES REWARDS ──────────────────────────────────
+
+  
+  
+  
+  # ── RANDOM ENCHANTED GEAR (RARE TIER) ───────────────────
+
+  
+  
+  # ── RANK VOUCHERS ─────────────────────────────────────────
+
+  
+  # ── RANK VOUCHER (SimpleCrates) - 3% ─────────────────────
+
+  # ── ENCHANTED DIAMOND GEAR ───────────────────────────────
+
+  
+  # ── GOD APPLES & RESOURCES ───────────────────────────────
+
+  
+  - chance: 30.0
+    messages:
+    - <gray>You found a</gray> <green><bold>$5,000 Bank Balance Note</bold></green> <gray>in the Rare Supply Crate!</gray>
+    commands:
+    - banknote give %player% 5000
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.2
+  - chance: 18.0
+    messages:
+    - <gray>You found a</gray> <green><bold>$10,000 Bank Balance Note</bold></green> <gray>in the Rare Supply Crate!</gray>
+    commands:
+    - banknote give %player% 10000
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.0
+  - chance: 8.0
+    messages:
+    - <gold><bold>LUCKY!</bold></gold> <gray>You found a</gray> <green><bold>$25,000 Bank Balance Note</bold></green> <gray>in the Rare Supply Crate!</gray>
+    commands:
+    - banknote give %player% 25000
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.5
+  - chance: 28.0
+    messages:
+    - <gray>You found a</gray> <yellow><bold>Mystery Mob Spawner</bold></yellow> <gray>in the Rare Crate! Place it to reveal the mob!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_BLAZE_AMBIENT;1;0.8
+    items:
+    - type: spawner
+      name: '&6&l??? Mystery Spawner ???'
+      lore:
+      - '&7Place to reveal a random mob!'
+      - '&8Powered by SimpleKits'
+      glow: true
+      amount: 1
+  - chance: 18.0
+    messages:
+    - <gray>You found</gray> <yellow><bold>2x Mystery Mob Spawners</bold></yellow> <gray>in the Rare Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_ENDERMAN_AMBIENT;1;0.8
+    items:
+    - type: spawner
+      name: '&6&l??? Mystery Spawner ???'
+      lore:
+      - '&7Place to reveal a random mob!'
+      - '&8Powered by SimpleKits'
+      glow: true
+      amount: 2
+  - chance: 20.0
+    messages:
+    - <gray>You found a</gray> <white><bold>Simple Crate</bold></white> <gray>in the Rare Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% simple 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.2
+  - chance: 16.0
+    messages:
+    - <gray>You found a</gray> <green><bold>Unique Crate</bold></green> <gray>in the Rare Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% unique 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.3
+  - chance: 12.0
+    messages:
+    - <gray>You found an</gray> <aqua><bold>Elite Crate</bold></aqua> <gray>in the Rare Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% elite 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.4
+  - chance: 20.0
+    messages:
+    - <gray>You received a</gray> <gold><bold>Militant Rank Voucher</bold></gold> <gray>from the Rare Crate!</gray>
+    commands:
+    - rankvoucher give %player% militant 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.0
+  - chance: 15.0
+    messages:
+    - <gray>You received a</gray> <gold><bold>Tactician Rank Voucher</bold></gold> <gray>from the Rare Crate!</gray>
+    commands:
+    - rankvoucher give %player% tactician 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+  - chance: 10.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>Militant GKIT Gem</bold></gold> <gray>in the Rare Crate!</gray>
+    commands:
+    - gkitgem give %player% vampire
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.2
+  - chance: 8.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>Tactician GKIT Gem</bold></gold> <gray>in the Rare Crate!</gray>
+    commands:
+    - gkitgem give %player% archer
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.2
+  - chance: 3.0
+    messages:
+    - <gold><bold>!! RARE FIND !!</bold></gold> <gray>%player% found a</gray> <yellow><bold>Militant Rank Voucher</bold></yellow> <gray>from a Rare Envoy Crate!</gray>
+    commands:
+    - rankvoucher give %player% militant 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 18.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Militant GKIT Piece</bold></gold> <gray>from the Rare Crate!</gray>
+    items:
+    - type: diamond_sword
+      name: '&6&lMilitant GKIT Piece &7- &fSword'
+      enchants:
+      - sharpness:5
+      - unbreaking:3
+      lore:
+      - Vampiric II
+      - Execute II
+      amount: 1
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.3
+  - chance: 16.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Militant GKIT Piece</bold></gold> <gray>from the Rare Crate!</gray>
+    items:
+    - type: diamond_helmet
+      name: '&6&lMilitant GKIT Piece &7- &fHelmet'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - respiration:2
+      lore:
+      - Armored II
+      - Tank I
+      amount: 1
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.3
+  - chance: 14.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Tactician GKIT Piece</bold></gold> <gray>from the Rare Crate!</gray>
+    items:
+    - type: diamond_chestplate
+      name: '&6&lTactician GKIT Piece &7- &fChestplate'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Armored II
+      - Overload II
+      amount: 1
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.3
+  - chance: 14.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Tactician GKIT Piece</bold></gold> <gray>from the Rare Crate!</gray>
+    items:
+    - type: diamond_leggings
+      name: '&6&lTactician GKIT Piece &7- &fLeggings'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Tank I
+      - Armored I
+      amount: 1
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.3
+  - chance: 14.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Tactician GKIT Piece</bold></gold> <gray>from the Rare Crate!</gray>
+    items:
+    - type: diamond_boots
+      name: '&6&lTactician GKIT Piece &7- &fBoots'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - feather_falling:4
+      lore:
+      - Springs II
+      - Anti Gravity I
+      amount: 1
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.3
+  - chance: 14.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Tactician GKIT Piece</bold></gold> <gray>from the Rare Crate!</gray>
+    items:
+    - type: bow
+      name: '&6&lTactician GKIT Piece &7- &fBow'
+      enchants:
+      - power:5
+      - unbreaking:3
+      - infinity:1
+      lore:
+      - Snare II
+      - Snipe I
+      amount: 1
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.3
+  - chance: 40.0
+    messages:
+    - <gray>You found</gray> <gold><bold>3x Enchanted Golden Apples</bold></gold> <gray>in the Rare Crate!</gray>
+    commands:
+    - give %player% enchanted_golden_apple 3
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.4
+  - chance: 30.0
+    messages:
+    - <gray>You found a</gray> <green><bold>Unique Crate</bold></green> <gray>in the Rare Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% unique 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.3
+  - chance: 25.0
+    messages:
+    - <gray>You found an</gray> <aqua><bold>Elite Crate</bold></aqua> <gray>in the Rare Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% elite 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.4
+  - chance: 22.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>10,000 XP Bottle</bold></gold> <gray>in the Rare Crate!</gray>
+    items:
+    - type: experience_bottle
+      name: '&b&lXP Bottle - 10000 XP'
+      lore:
+      - '&7Right-click to consume'
+      amount: 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.2
+  - chance: 12.0
+    messages:
+    - <gray>You found a</gray> <aqua><bold>Fat Water Bucket</bold></aqua> <gray>in the Rare Crate!</gray>
+    commands:
+    - gen give %player% fat_water_bucket 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.1
+  - chance: 10.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>Fat Lava Bucket</bold></gold> <gray>in the Rare Crate!</gray>
+    commands:
+    - gen give %player% fat_lava_bucket 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+  - chance: 14.0
+    messages:
+    - <gray>You found</gray> <yellow><bold>2x Mystery Mob Spawners</bold></yellow> <gray>in the Rare Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_ENDERMAN_AMBIENT;1;0.8
+  - chance: 12.0
+    messages:
+    - <gray>You found a</gray> <green><bold>$20,000 Bank Balance Note</bold></green> <gray>in the Rare Crate!</gray>
+    commands:
+    - banknote give %player% 20000
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+  - chance: 4.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>Sell Wand</bold></gold> <gray>in the Rare Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run f sellwand
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+  - chance: 4.0
+    messages:
+    - <gray>You found a</gray> <red><bold>TNT Wand</bold></red> <gray>in the Rare Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run f tntwand
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+
+hologram:
+  enabled: true
+  height: 2.0
+  lines:
+  - '&9&lSUPPLY CRATE'
+  - '&7Rarity: &9&lRARE'
+  - '&7Click to claim rewards!'

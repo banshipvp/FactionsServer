@@ -1,0 +1,53 @@
+# SimpleKits Configuration
+
+# Cooldown in hours for gkits
+gkit-cooldown-hours: 24
+
+# Mystery spawner settings
+mystery-spawner:
+  # Mob spawn chances (must total 100)
+  spawn-chances:
+    ZOMBIE: 15.0
+    SKELETON: 15.0
+    CREEPER: 15.0
+    SPIDER: 15.0
+    COW: 10.0
+    SHEEP: 10.0
+    ENDERMAN: 8.0
+    BLAZE: 5.0
+    WITHER_SKELETON: 3.0
+    ENDER_DRAGON: 0.5
+    WITHER: 0.5
+
+# GKit definitions
+gkits:
+  starter:
+    display-name: "Starter Kit"
+    description: "Basic starter items"
+  fire:
+    display-name: "Fire Guardian"
+    description: "Fire-themed combat kit"
+  ice:
+    display-name: "Ice Warrior"
+    description: "Frost-focused combat kit"
+  miner:
+    display-name: "Miner's Fortune"
+    description: "Mining and resource gathering"
+  vampire:
+    display-name: "Vampire's Kiss"
+    description: "Life-steal combat kit"
+  thunder:
+    display-name: "Thunder Lord"
+    description: "Lightning-based combat"
+  assassin:
+    display-name: "Assassin's Edge"
+    description: "High damage and speed"
+  tank:
+    display-name: "Tank's Fortress"
+    description: "Heavy defense and endurance"
+  archer:
+    display-name: "Archer's Precision"
+    description: "Bow-based combat kit"
+  royalty:
+    display-name: "Royalty"
+    description: "Premium endgame kit"

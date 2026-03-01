@@ -1,0 +1,353 @@
+#Cooldown in seconds until a player can collect a new crateType of this type
+#THIS OVERRIDES THE SAME SETTING IN THE ENVOY'S CATEGORY! If you do NOT want to override it, remove it from here
+collect-cooldown: 0
+broadcast-collect: true
+
+display-name: '&6&lLEGENDARY SUPPLY CRATE'
+block: diamond_block
+
+required-interactions:
+  amount: 1
+  #In ticks. 1 second is 20 ticks! Set to 0 to disable!
+  cooldown: 0
+
+falling-block:
+  enabled: true
+  height: 16
+  block: orange_concrete
+  speed: -0.7
+
+firework:
+  enabled: true
+  color: '#FFD700'
+  type: burst
+
+flare:
+  enabled: true
+  #In ticks, 20 ticks is 1 second
+  every: 140
+  firework:
+    color: '#FFD700'
+    type: burst
+
+reward-amount: 2
+
+rewards:
+  # ── ECO MONEY (EssentialsX / Vault) ─────────────────────
+
+  
+  
+  # ── MYSTERY MOB SPAWNER (SimpleKits - /spawner) ──────────
+
+  
+  # ── SIMPLECRATES REWARDS ──────────────────────────────────
+
+  
+  
+  
+  # ── RANDOM ENCHANTED GEAR (LEGENDARY TIER) ──────────────
+
+  
+  
+  # ── RANK VOUCHERS ─────────────────────────────────────────
+
+  # ── RANK VOUCHER (SimpleCrates) - 1.5% ──────────────────
+
+  # ── FULL DIAMOND GOD SET ─────────────────────────────────
+
+  # ── RESOURCES ────────────────────────────────────────────
+
+  
+  
+  - chance: 22.0
+    messages:
+    - <gray>You found a</gray> <green><bold>$50,000 Bank Balance Note</bold></green> <gray>in the Legendary Crate!</gray>
+    commands:
+    - banknote give %player% 50000
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.0
+  - chance: 14.0
+    messages:
+    - <gray>You found a</gray> <green><bold>$100,000 Bank Balance Note</bold></green> <gray>in the Legendary Crate!</gray>
+    commands:
+    - banknote give %player% 100000
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.5
+  - chance: 5.0
+    messages:
+    - <gold><bold>!! INSANE WIN !!</bold></gold> <gray>%player% found a</gray> <green><bold>$250,000 Bank Balance Note</bold></green> <gray>from a Legendary Crate!</gray>
+    commands:
+    - banknote give %player% 250000
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 30.0
+    messages:
+    - <gray>You found</gray> <yellow><bold>2x Mystery Mob Spawners</bold></yellow> <gray>in the Legendary Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_IRON_GOLEM_DEATH;1;0.8
+    items:
+    - type: spawner
+      name: '&6&l??? Mystery Spawner ???'
+      lore:
+      - '&7Place to reveal a random mob!'
+      - '&8Powered by SimpleKits'
+      glow: true
+      amount: 2
+  - chance: 15.0
+    messages:
+    - <gray>You found</gray> <yellow><bold>3x Mystery Mob Spawners</bold></yellow> <gray>in the Legendary Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_SKELETON_AMBIENT;1;0.7
+    items:
+    - type: spawner
+      name: '&6&l??? Mystery Spawner ???'
+      lore:
+      - '&7Place to reveal a random mob!'
+      - '&8Powered by SimpleKits'
+      glow: true
+      amount: 3
+  - chance: 16.0
+    messages:
+    - <gray>You found a</gray> <green><bold>Unique Crate</bold></green> <gray>in the Legendary Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% unique 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.3
+  - chance: 16.0
+    messages:
+    - <gray>You found an</gray> <aqua><bold>Elite Crate</bold></aqua> <gray>in the Legendary Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% elite 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.4
+  - chance: 14.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: netherite_sword
+      name: '&6&lWarlord GKIT Piece &7- &fSword'
+      enchants:
+      - sharpness:5
+      - unbreaking:3
+      - fire_aspect:2
+      - looting:3
+      lore:
+      - Execute III
+      - Vampiric III
+      amount: 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.5
+  - chance: 10.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: netherite_helmet
+      name: '&6&lWarlord GKIT Piece &7- &fHelmet'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - respiration:3
+      - aqua_affinity:1
+      lore:
+      - Armored III
+      - Tank II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 25.0
+    messages:
+    - <gray>You received a</gray> <gold><bold>Warlord Rank Voucher</bold></gold> <gray>from the Legendary Crate!</gray>
+    commands:
+    - rankvoucher give %player% warlord 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.3
+  - chance: 10.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>Warlord GKIT Gem</bold></gold> <gray>in the Legendary Crate!</gray>
+    commands:
+    - gkitgem give %player% thunder
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 1.5
+    messages:
+    - <red><bold>!! LEGENDARY FIND !!</bold></red> <gray>%player% found a</gray> <gold><bold>Warlord Rank Voucher</bold></gold> <gray>from a Legendary Envoy Crate!</gray>
+    commands:
+    - rankvoucher give %player% warlord 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+  - chance: 18.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: netherite_chestplate
+      name: '&6&lWarlord GKIT Piece &7- &fChestplate'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Overload II
+      - Armored II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.5
+  - chance: 16.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: netherite_leggings
+      name: '&6&lWarlord GKIT Piece &7- &fLeggings'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Tank II
+      - Armored II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.5
+  - chance: 15.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: netherite_boots
+      name: '&6&lWarlord GKIT Piece &7- &fBoots'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - feather_falling:4
+      - depth_strider:3
+      lore:
+      - Springs III
+      - Anti Gravity II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.5
+  - chance: 15.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: diamond_leggings
+      name: '&6&lWarlord GKIT Piece &7- &fLeggings'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Tank II
+      - Armored II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.5
+  - chance: 15.0
+    messages:
+    - <gray>You rolled</gray> <gold><bold>Warlord GKIT Piece</bold></gold> <gray>from the Legendary Crate!</gray>
+    items:
+    - type: diamond_boots
+      name: '&6&lWarlord GKIT Piece &7- &fBoots'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - feather_falling:4
+      lore:
+      - Springs II
+      - Anti Gravity I
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.5
+  - chance: 45.0
+    messages:
+    - <gray>You found</gray> <gold><bold>5x Enchanted Golden Apples</bold></gold> <gray>in the Legendary Crate!</gray>
+    commands:
+    - give %player% enchanted_golden_apple 5
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.6
+  - chance: 22.0
+    messages:
+    - <gray>You found an</gray> <dark_purple><bold>Ultimate Crate</bold></dark_purple> <gray>in the Legendary Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% ultimate 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 18.0
+    messages:
+    - <gray>You found a</gray> <light_purple><bold>Godly Crate</bold></light_purple> <gray>in the Legendary Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% godly 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.1
+  - chance: 20.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>15,000 XP Bottle</bold></gold> <gray>in the Legendary Crate!</gray>
+    items:
+    - type: experience_bottle
+      name: '&b&lXP Bottle - 15000 XP'
+      lore:
+      - '&7Right-click to consume'
+      amount: 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.3
+  - chance: 14.0
+    messages:
+    - <gray>You found</gray> <aqua><bold>2x Fat Water Buckets</bold></aqua> <gray>in the Legendary Crate!</gray>
+    commands:
+    - gen give %player% fat_water_bucket 2
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+  - chance: 12.0
+    messages:
+    - <gray>You found</gray> <gold><bold>2x Fat Lava Buckets</bold></gold> <gray>in the Legendary Crate!</gray>
+    commands:
+    - gen give %player% fat_lava_bucket 2
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.3
+  - chance: 10.0
+    messages:
+    - <gray>You found a</gray> <dark_red><bold>Lava Gen Bucket</bold></dark_red> <gray>in the Legendary Crate!</gray>
+    commands:
+    - gen give %player% lava_gen_bucket 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 14.0
+    messages:
+    - <gray>You found</gray> <yellow><bold>3x Mystery Mob Spawners</bold></yellow> <gray>in the Legendary Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_WITHER_SPAWN;1;0.6
+  - chance: 12.0
+    messages:
+    - <gray>You found a</gray> <green><bold>$150,000 Bank Balance Note</bold></green> <gray>in the Legendary Crate!</gray>
+    commands:
+    - banknote give %player% 150000
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.3
+  - chance: 6.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>Sell Wand</bold></gold> <gray>in the Legendary Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run f sellwand
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 6.0
+    messages:
+    - <gray>You found a</gray> <red><bold>TNT Wand</bold></red> <gray>in the Legendary Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run f tntwand
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+
+hologram:
+  enabled: true
+  height: 2.0
+  lines:
+  - '&6&lSUPPLY CRATE'
+  - '&7Rarity: &6&lLEGENDARY'
+  - '&7Click to claim rewards!'

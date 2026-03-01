@@ -1,0 +1,354 @@
+#Cooldown in seconds until a player can collect a new crateType of this type
+#THIS OVERRIDES THE SAME SETTING IN THE ENVOY'S CATEGORY! If you do NOT want to override it, remove it from here
+collect-cooldown: 0
+broadcast-collect: true
+
+display-name: '&4&lBOSS SUPPLY CRATE'
+block: crying_obsidian
+
+required-interactions:
+  amount: 1
+  #In ticks. 1 second is 20 ticks! Set to 0 to disable!
+  cooldown: 0
+
+falling-block:
+  enabled: true
+  height: 20
+  block: red_concrete
+  speed: -0.8
+
+firework:
+  enabled: true
+  color: '#FF0000'
+  type: creeper
+
+flare:
+  enabled: true
+  #In ticks, 20 ticks is 1 second
+  every: 120
+  firework:
+    color: '#FF0000'
+    type: creeper
+
+reward-amount: 2
+
+rewards:
+  # ── ECO MONEY (EssentialsX / Vault) ─────────────────────
+
+  
+  
+  # ── MYSTERY MOB SPAWNER (SimpleKits - /spawner) ──────────
+  # Rare mobs include: Warden (3%), Dolphin (4%), Iron Golem (5%)
+
+  
+  # ── SIMPLECRATES REWARDS (TOP TIERS) ─────────────────────
+
+  
+  
+  
+  
+  # ── RANDOM ENCHANTED GEAR (BOSS TIER) ───────────────────
+
+  
+  
+  # ── RANK VOUCHER (Highest Tier) ──────────────────────────
+
+  # ── RANK VOUCHER (SimpleCrates) - 0.5% ──────────────────
+
+  # ── FULL NETHERITE GOD SET ───────────────────────────────
+
+  # ── SUPPLIES ─────────────────────────────────────────────
+
+  
+  
+  - chance: 16.0
+    messages:
+    - <red><bold>BOSS CRATE!</bold></red> <gray>%player% found a</gray> <green><bold>$250,000 Bank Balance Note</bold></green><gray>!</gray>
+    commands:
+    - banknote give %player% 250000
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 8.0
+    messages:
+    - <gray>%player% found a</gray> <green><bold>$500,000 Bank Balance Note</bold></green> <gray>from the Boss Crate!</gray>
+    commands:
+    - banknote give %player% 500000
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.5
+  - chance: 2.0
+    messages:
+    - <dark_red><bold>!! JACKPOT !!</bold></dark_red> <gray>%player% found a</gray> <gold><bold>$1,000,000 Bank Balance Note</bold></gold> <gray>from the Boss Crate!</gray>
+    commands:
+    - banknote give %player% 1000000
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+    - ENTITY_PLAYER_LEVELUP;1;2.0
+  - chance: 35.0
+    messages:
+    - <gray>%player% found</gray> <yellow><bold>3x Mystery Mob Spawners</bold></yellow> <gray>from the Boss Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_WITHER_SPAWN;1;0.6
+    items:
+    - type: spawner
+      name: '&6&l??? Mystery Spawner ???'
+      lore:
+      - '&7Place to reveal a random mob!'
+      - '&c💀 3% Ultra Rare: Warden'
+      - '&b✨ 4% Rare: Dolphin'
+      - '&8Powered by SimpleKits'
+      glow: true
+      amount: 3
+  - chance: 20.0
+    messages:
+    - <gray>%player% found</gray> <yellow><bold>5x Mystery Mob Spawners</bold></yellow> <gray>from the Boss Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_ELDER_GUARDIAN_AMBIENT;1;0.8
+    items:
+    - type: spawner
+      name: '&6&l??? Mystery Spawner ???'
+      lore:
+      - '&7Place to reveal a random mob!'
+      - '&c💀 3% Ultra Rare: Warden'
+      - '&b✨ 4% Rare: Dolphin'
+      - '&8Powered by SimpleKits'
+      glow: true
+      amount: 5
+  - chance: 18.0
+    messages:
+    - <gray>%player% found an</gray> <dark_purple><bold>Ultimate Crate</bold></dark_purple> <gray>in the Boss Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% ultimate 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.5
+  - chance: 15.0
+    messages:
+    - <gray>%player% found a</gray> <gold><bold>Legendary Crate</bold></gold> <gray>in the Boss Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% legendary 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 10.0
+    messages:
+    - <gray>%player% found a</gray> <light_purple><bold>Godly Crate</bold></light_purple> <gray>in the Boss Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% godly 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.2
+  - chance: 10.0
+    messages:
+    - <gray>You found a</gray> <gold><bold>20,000 XP Bottle</bold></gold> <gray>in the Boss Crate!</gray>
+    items:
+    - type: experience_bottle
+      name: '&b&lXP Bottle - 20000 XP'
+      lore:
+      - '&7Right-click to consume'
+      amount: 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.2
+  - chance: 30.0
+    messages:
+    - <gray>%player% received a</gray> <gold><bold>Sovereign Rank Voucher</bold></gold> <gray>from the Boss Crate!</gray>
+    commands:
+    - rankvoucher give %player% sovereign 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;2.0
+  - chance: 12.0
+    messages:
+    - <gray>%player% found a</gray> <gold><bold>Sovereign GKIT Gem</bold></gold> <gray>from the Boss Crate!</gray>
+    commands:
+    - gkitgem give %player% royalty
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.2
+  - chance: 0.5
+    messages:
+    - <dark_red><bold>!!! EXTREMELY RARE !!!</bold></dark_red> <gray>%player% found a</gray> <gold><bold>Sovereign Rank Voucher</bold></gold> <gray>from the Boss Crate! Incredible!</gray>
+    commands:
+    - rankvoucher give %player% sovereign 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+    - ENTITY_PLAYER_LEVELUP;1;2.0
+    - ENTITY_FIREWORK_ROCKET_LARGE_BLAST;1;1.0
+  - chance: 18.0
+    messages:
+    - <gray>%player% rolled</gray> <gold><bold>Sovereign GKIT Piece</bold></gold> <gray>from the Boss Crate!</gray>
+    items:
+    - type: netherite_sword
+      name: '&6&lSovereign GKIT Piece &7- &fSword'
+      enchants:
+      - sharpness:5
+      - unbreaking:3
+      - fire_aspect:2
+      - looting:3
+      lore:
+      - Deathbringer III
+      - Execute III
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+  - chance: 16.0
+    messages:
+    - <gray>%player% rolled</gray> <gold><bold>Sovereign GKIT Piece</bold></gold> <gray>from the Boss Crate!</gray>
+    items:
+    - type: netherite_helmet
+      name: '&6&lSovereign GKIT Piece &7- &fHelmet'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - respiration:3
+      - aqua_affinity:1
+      lore:
+      - Armored III
+      - Tank III
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+  - chance: 15.0
+    messages:
+    - <gray>%player% rolled</gray> <gold><bold>Sovereign GKIT Piece</bold></gold> <gray>from the Boss Crate!</gray>
+    items:
+    - type: netherite_chestplate
+      name: '&6&lSovereign GKIT Piece &7- &fChestplate'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Overload III
+      - Armored III
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+  - chance: 15.0
+    messages:
+    - <gray>%player% rolled</gray> <gold><bold>Sovereign GKIT Piece</bold></gold> <gray>from the Boss Crate!</gray>
+    items:
+    - type: netherite_leggings
+      name: '&6&lSovereign GKIT Piece &7- &fLeggings'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      lore:
+      - Tank III
+      - Armored II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+  - chance: 15.0
+    messages:
+    - <gray>%player% rolled</gray> <gold><bold>Sovereign GKIT Piece</bold></gold> <gray>from the Boss Crate!</gray>
+    items:
+    - type: netherite_boots
+      name: '&6&lSovereign GKIT Piece &7- &fBoots'
+      enchants:
+      - protection:5
+      - unbreaking:3
+      - feather_falling:4
+      - depth_strider:3
+      lore:
+      - Springs III
+      - Anti Gravity II
+      amount: 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;2.0
+  - chance: 60.0
+    messages:
+    - <gray>%player% found</gray> <gold><bold>16x Enchanted Golden Apples</bold></gold> <gray>from the Boss Crate!</gray>
+    commands:
+    - give %player% enchanted_golden_apple 16
+    sounds:
+    - ENTITY_ITEM_PICKUP;1;1.8
+  - chance: 50.0
+    messages:
+    - <gray>%player% found a</gray> <green><bold>25,000 XP Bottle</bold></green> <gray>from the Boss Crate!</gray>
+    items:
+    - type: experience_bottle
+      name: '&b&lXP Bottle - 25000 XP'
+      lore:
+      - '&7Right-click to consume'
+      amount: 1
+    sounds:
+    - ENTITY_EXPERIENCE_ORB_PICKUP;1;1.5
+  - chance: 30.0
+    messages:
+    - <gray>%player% found an</gray> <dark_purple><bold>Ultimate Crate</bold></dark_purple> <gray>in the Boss Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% ultimate 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 20.0
+    messages:
+    - <gray>%player% found a</gray> <white><bold>Totem of Undying</bold></white> <gray>from the Boss Crate!</gray>
+    commands:
+    - give %player% totem_of_undying 1
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.5
+  - chance: 16.0
+    messages:
+    - <gray>%player% found</gray> <aqua><bold>3x Fat Water Buckets</bold></aqua> <gray>from the Boss Crate!</gray>
+    commands:
+    - gen give %player% fat_water_bucket 3
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.2
+  - chance: 14.0
+    messages:
+    - <gray>%player% found</gray> <gold><bold>3x Fat Lava Buckets</bold></gold> <gray>from the Boss Crate!</gray>
+    commands:
+    - gen give %player% fat_lava_bucket 3
+    sounds:
+    - ENTITY_PLAYER_LEVELUP;1;1.3
+  - chance: 10.0
+    messages:
+    - <gray>%player% found</gray> <dark_red><bold>2x Lava Gen Buckets</bold></dark_red> <gray>from the Boss Crate!</gray>
+    commands:
+    - gen give %player% lava_gen_bucket 2
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 16.0
+    messages:
+    - <gray>%player% found a</gray> <light_purple><bold>Godly Crate</bold></light_purple> <gray>in the Boss Crate!</gray>
+    commands:
+    - simplecrates:crate give %player% godly 1
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.1
+  - chance: 12.0
+    messages:
+    - <gray>%player% found</gray> <yellow><bold>4x Mystery Mob Spawners</bold></yellow> <gray>in the Boss Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    - minecraft:execute as %player% at %player% run spawner
+    sounds:
+    - ENTITY_ELDER_GUARDIAN_AMBIENT;1;0.8
+  - chance: 8.0
+    messages:
+    - <gray>%player% found a</gray> <gold><bold>Sell Wand</bold></gold> <gray>in the Boss Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run f sellwand
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+  - chance: 8.0
+    messages:
+    - <gray>%player% found a</gray> <red><bold>TNT Wand</bold></red> <gray>in the Boss Crate!</gray>
+    commands:
+    - minecraft:execute as %player% at %player% run f tntwand
+    sounds:
+    - UI_TOAST_CHALLENGE_COMPLETE;1;1.0
+
+hologram:
+  enabled: true
+  height: 2.0
+  lines:
+  - '&4&lBOSS CRATE'
+  - '&7Rarity: &4&lBOSS'
+  - '&c&lEXTREMELY RARE!'
+  - '&7Click to claim rewards!'

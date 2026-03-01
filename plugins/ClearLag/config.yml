@@ -1,0 +1,338 @@
+# ================================================================= #
+#                        ClearLag                                   #
+#                 Created by: fernsehheft                           #
+#                                                                   #
+#                     VERSION: 1.6.24.2                             #
+# ================================================================= #
+
+
+# --- Discord Webhook Integration ---
+# Sends log messages to a Discord channel.
+discord:
+  webhook-enabled: false
+  webhook-url: ""
+  # --- Periodic Performance Reports ---
+  performance-report:
+    enabled: false
+    # Interval in seconds to send a performance summary to Discord.
+    interval-seconds: 3600 # Default: 1 hour
+
+# --- Auto-Updater ---
+# Check regularly for new updates for the plugin.
+auto-updater:
+  enabled: true
+  # Interval in hours, specifying how often to check for updates.
+  interval-hours: 2
+
+# --- Auto-Clear Settings ---
+# Automatically clears dropped items and certain entities from the world.
+auto-clear:
+  enabled: true
+  interval-seconds: 300 # Time in seconds between each clear
+  clear-items: true
+  clear-entities: false # Set to true to clear all entities (excluding players, item frames, etc.)
+  # --- Excluded Worlds ---
+  # Auto-Clear will be disabled in these worlds.
+  excluded-worlds:
+    - "world_from_fernsehheft" # Example
+    - ""
+  # List of entity types to be excluded from the clear command.
+  excluded-entities:
+    - PIG
+    - SHEEP
+    - COW
+    - CHICKEN
+    - COPPER_GOLEM 
+  # List of item types (Materials) to be excluded from the item clear.
+  excluded-items:
+    - DIAMOND_SWORD
+    - IRON_PICKAXE
+    - EMERALD
+  # Mob exclusion settings for Auto-Clear.
+  exclusions:
+    named: true # Excludes mobs with a custom name
+    bred: true # Excludes breedable mobs (both adult and baby)
+    tagged: true # Excludes mobs with the scoreboard tag "clearlag_exclude"
+    bypass-bred: # List of breedable mobs to clear even if 'bred' is true
+      # - RABBIT
+      # - CAMEL
+      # - PIG
+
+# --- Death Item Protection ---
+# Protects items dropped by players on death from being cleared by the auto-clear.
+death-item-protection:
+  enabled: true
+  # How long (in seconds) should items be protected after a player dies.
+  # Set to -1 to protect them forever (until they despawn naturally or are picked up).
+  protection-duration-seconds: 600
+
+# --- Manual Kill Mobs Settings ---
+# Settings for the /clearlag killmobs command.
+kill-mobs:
+  exclusions:
+    named: true # Excludes named mobs from the manual kill command
+    bred: true # Excludes breedable mobs (both adult and baby)
+    tagged: true # Excludes tagged mobs from the manual kill command
+    bypass-bred: # List of breedable mobs to kill even if 'bred' is true
+      # - RABBIT
+      # - CAMEL
+
+# --- Optimizations ---
+# This section contains various performance-related optimizations.
+optimizations:
+  redstone:
+    enabled: true
+
+  # --- TNT Explosion Optimization ---
+  # Prevents blocks from dropping items (cobblestone, dirt, etc.) during TNT explosions.
+  # This drastically reduces lag during massive explosions.
+  tnt-no-drops: true
+
+  # Limits the number of armor stands and item frames per chunk and globally.
+  item-frame-armor-stand-limiter:
+    armor-stand:
+      enabled: false
+      chunk-limit: 10
+      global-limit: 100
+    item-frame:
+      enabled: false
+      chunk-limit: 10
+      global-limit: 100
+
+  # Limits the number of hostile and passive mobs per 4 chunks.
+  mob-spawn-limiter:
+    enabled: true
+    hostile-limit-per-4-chunks: 30
+    passive-limit-per-4-chunks: 20
+
+  # Reduces performance impact of hoppers by batching their operations.
+  hopper-optimization:
+    enabled: true
+
+  # Limits the growth of certain farm blocks (e.g., sugar cane, bamboo).
+  farm-limiter:
+    enabled: true
+
+  # Despawns mobs that are too far from any player to reduce AI processing load.
+  ai-optimization:
+    enabled: true
+    despawn-distance-blocks: 64.0
+    check-interval-seconds: 30
+    # Mob exclusion settings for AI Optimization.
+    exclusions:
+      named: true # Excludes mobs with a custom name
+      bred: true # Excludes breedable mobs (both adult and baby)
+      tagged: true # Excludes mobs with the scoreboard tag "clearlag_exclude"
+    # List of specific entity types to be excluded from AI optimization.
+    excluded-entities:
+      - VILLAGER
+      - WOLF
+      - IRON_GOLEM
+      - WANDERING_TRADER
+
+  # Detects and throttles fast redstone clocks to stop lag machines.
+  fast-clock-detector:
+    enabled: true
+    # Number of redstone activations per second per chunk before the chunk is blocked.
+    threshold-per-second: 200
+    # How long (in seconds) the redstone current in the chunk will be blocked.
+    block-duration-seconds: 30
+    # Notifies players nearby with the 'clearlag.warnings.receive' permission.
+    notify-players: true
+
+  # --- Mob Stacking ---
+  # Automatically stacks similar mobs together to reduce entity count.
+  mob-stacking:
+    enabled: false
+    # How often (in ticks) to scan for and stack mobs. 20 ticks = 1 second.
+    stack-interval-ticks: 100 # Default: 5 seconds
+    # Horizontal radius (in blocks) to check for mobs to stack.
+    stack-radius-horizontal: 8
+    # Vertical radius (in blocks) to check for mobs to stack.
+    stack-radius-vertical: 4
+    # Minimum number of mobs required to form a stack.
+    min-stack-size: 2
+    # Per-entity override for min-stack-size.
+    # Format: EntityType: <size>
+    filters:
+      # ZOMBIE: 5
+      # SKELETON: 3
+
+    # Maximum number of mobs allowed in a single stack.
+    max-stack-size: 500
+    # The format for the stack's name. {type} = Mob Type, {count} = Stack Size.
+    name-format: "&e{type} &fx{count}"
+    # List of mob types (EntityType) to NEVER stack.
+    excluded-mobs:
+      - VILLAGER
+      - WOLF
+      - IRON_GOLEM
+      - WANDERING_TRADER
+    # Exclusion rules for mobs that would otherwise be stacked.
+    exclusions:
+      named: true # Exclude mobs that already have a custom name
+      bred: true # Exclude breedable mobs
+      tagged: true # Exclude mobs with the "clearlag_exclude" scoreboard tag
+      leashed: true # Exclude leashed mobs
+      tamed: true # Exclude tamed mobs (like wolves, cats)
+
+  # --- Anti-Block-Physics-Abuse ---
+  # Limits or converts falling blocks during mass-fall events to prevent lag.
+  anti-physics-abuse:
+    enabled: false
+    # List of blocks (Materials) to monitor.
+    block-list:
+      - SAND
+      - GRAVEL
+      - DRAGON_EGG
+      - ANVIL
+      - CHIPPED_ANVIL
+      - DAMAGED_ANVIL
+    # How often (in ticks) to check the falling block count.
+    check-interval-ticks: 10 # Default: 0.5 seconds
+    # How many falling blocks in the interval must be detected to trigger the action.
+    threshold: 100
+    # What to do when the threshold is hit:
+    # "LIMIT" - Temporarily blocks new falling blocks of these types from spawning.
+    # "CONVERT_TO_ITEMS" - Instantly converts new falling blocks into dropped items.
+    action: "CONVERT_TO_ITEMS"
+    # How long (in ticks) the "LIMIT" or "CONVERT_TO_ITEMS" action should last.
+    limit-duration-ticks: 60 # Default: 3 seconds
+    
+  # --- Item Merge Optimization ---
+  # Actively merges dropped items to reduce entity count.
+  item-merge-optimization:
+    enabled: false
+    # How often (in ticks) to check for merging when an item is spawned.
+    # 0 = merge immediately on spawn.
+    check-delay-ticks: 1
+    # The radius (in blocks) to check for other items to merge with.
+    # A larger radius can improve performance but might look unnatural.
+    merge-radius: 3.0
+
+  # Sends a message to server staff when performance drops below a certain threshold  
+  performance-warnings:
+    enabled: true
+    # At which TPS value should a warning be sent?
+    tps-threshold: 18.0
+    # How often (in seconds) should the TPS be checked?
+    check-interval-seconds: 60
+    startup-delay-seconds: 120
+    # The message is now in messages.yml (warnings.tps)
+    # message: "&c[ClearLag] Server TPS has dropped to &e{tps}&c! Performance is critical!" #
+
+# --- Performance Metrics ---
+# These settings control the performance monitoring.
+performance:
+  enabled: true # Enables the background task for monitoring performance.
+
+# --- Messages and Sounds ---
+# Configure messages and sounds for the auto-clear countdown.
+messages:
+  broadcast-enabled: true
+  # Default location for countdown messages: CHAT, TITLE, or ACTIONBAR
+  default-location: "CHAT"
+
+sounds:
+  countdown-enabled: false
+  # The sound to play. Use Spigot Sound enum names (e.g., "BLOCK_NOTE_BLOCK_PLING")
+  # For 1.18+, common ones: BLOCK_NOTE_BLOCK_PLING, ENTITY_EXPERIENCE_ORB_PICKUP, UI_BUTTON_CLICK
+  countdown-sound: "BLOCK_NOTE_BLOCK_PLING"
+  countdown-volume: 1.0
+  countdown-pitch: 1.0
+  # Sound settings for when entities are removed
+  success-sound: "ENTITY_PLAYER_LEVELUP"
+  success-volume: 1.0
+  success-pitch: 1.0
+
+# List of countdown values (in seconds) at which to broadcast a message and play a sound.
+countdown-messages-at:
+  - 600
+  - 300
+  - 180
+  - 120
+  - 60
+  - 30
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+
+# Enable debug mode to see detailed logs in the console.
+debug-mode: false
+
+# --- Command Settings ---
+# If true, all commands (including /clearlag togglemessages) will require OP or a specific permission.
+# If false, /clearlag togglemessages can be used by anyone.
+hide-all-commands: false
+
+# --- Command Blocking ---
+# Hides and blocks the /version and /plugins commands for players without OP
+# or the 'clearlag.bypass.commandblock' permission.
+command-blocking:
+  block-version-command: false
+  block-plugins-command: false
+  
+# --- InstaLeafDecay ---
+# Enables the instant leaf decay feature when logs are broken or leaves decay.
+# Code from Mobilestars' InstaLeafDecay plugin.
+insta-leaf-decay:
+  enabled: false
+
+# --- Dynamic View Distance ---
+# Automatically reduces view distance when TPS drops to maintain performance.
+dynamic-view-distance:
+  enabled: true
+  # List of threshold values. Format: "TPS VIEW_DISTANCE"
+  thresholds:
+    - "15 3"
+    - "10 2"
+    - "5 1"
+
+# --- Auto Unload Hot Chunks ---
+# Automatically unloads chunks that are far from players and have a high entity count.
+auto-unload:
+  enabled: false
+  # How often (in seconds) to scan for laggy chunks.
+  check-interval-seconds: 300
+  # Chunks with more entities than this will be considered for unloading.
+  entity-threshold: 250
+  # How far (in blocks) a player must be from a chunk for it to be unloaded.
+  # Set to 0 to unload even if players are nearby (DANGEROUS).
+  min-player-distance: 128
+  # Worlds to exclude from this scan.
+  excluded-worlds:
+    - "spawn_world"
+  # Also exclude chunks containing important mobs (using the same exclusion rules as auto-clear)?
+  exclude-important-mobs: true
+
+# --- Player-Activity-Based Simulation ---
+# Prioritize simulation distance based on player activity.
+player-activity-simulation:
+  enabled: false
+  # How long (in seconds) a player must be inactive to be considered AFK.
+  afk-timeout-seconds: 60
+  # The simulation distance to set for AFK players.
+  afk-simulation-distance: 2
+  # How often (in seconds) to check for AFK players.
+  check-interval-seconds: 1
+  # Title and Sound settings for AFK status changes.
+  titles:
+    enabled: true
+    # Shown when countdown is happening (3, 2, 1...)
+    warning: "&eYou will be AFK in &c{time}&e..."
+    # Shown when player becomes AFK
+    afk: "&cYou are now AFK"
+    # Shown when player returns
+    active: "&aWelcome back!"
+  sounds:
+    enabled: true
+    # Played on countdown interaction/tick (e.g., UI_BUTTON_CLICK)
+    warning: "UI_BUTTON_CLICK"
+    # Played when becoming AFK (e.g., ENTITY_EXPERIENCE_ORB_PICKUP)
+    afk: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    # Played when returning (e.g., ENTITY_PLAYER_LEVELUP)
+    active: "ENTITY_PLAYER_LEVELUP"

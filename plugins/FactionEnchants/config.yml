@@ -1,0 +1,18 @@
+name: FactionEnchants
+version: 1.0
+main: com.factionenchants.FactionEnchantsPlugin
+api-version: 1.13
+commands:
+  enchanter:
+    description: Opens the enchanter interface to purchase enchant books.
+    usage: /<command>
+  alchemist:
+    description: Combines two identical enchant books to create a higher-level book.
+    usage: /<command>
+permissions:
+  factionenchants.enchanter:
+    description: Allows access to the enchanter command.
+    default: true
+  factionenchants.alchemist:
+    description: Allows access to the alchemist command.
+    default: true

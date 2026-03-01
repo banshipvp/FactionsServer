@@ -1,0 +1,128 @@
+# PlayerVault Configuration File
+# ================================
+
+# Cross-Server Sync Configuration
+# For BungeeCord/Velocity networks
+sync:
+  # Enable cross-server vault synchronization
+  # Requires MySQL/SQLite database and Redis
+  enabled: false
+  
+  # Unique server name for this server in the network
+  server-name: server1
+
+# Redis Configuration (for cross-server sync)
+redis:
+  # Enable Redis for cross-server cache synchronization
+  enabled: false
+  host: localhost
+  port: 6379
+  password: ''
+  pool-size: 8
+
+# Database Configuration
+# Supported types: YAML, SQLITE, MYSQL
+database:
+  # Database type to use for vault storage
+  # YAML - Store vaults in individual YAML files (default, no setup required, NO CROSS-SERVER)
+  # SQLITE - Store vaults in a local SQLite database (better performance for many vaults, NO CROSS-SERVER)
+  # MYSQL - Store vaults in a MySQL database (best for multi-server setups, REQUIRED for cross-server)
+  type: YAML
+  
+  # MySQL Database Settings (only used if type is MYSQL)
+  mysql:
+    host: localhost
+    port: 3306
+    database: playervaults
+    username: root
+    password: password
+    pool-size: 10
+    use-ssl: false
+
+# Plugin Settings
+settings:
+  # How often to run automatic cleanup of empty vaults (in minutes)
+  auto-cleanup-interval: 30
+  
+  # Whether to cache vault data in memory for better performance
+  cache-vaults: true
+  
+  # Size of each vault (must be multiple of 9, max 54)
+  vault-size: 54
+  
+  # Maximum number of vaults (minimum 1, maximum 2147483647)
+  max-vaults: 2147483647
+  server-name: server1
+
+# Customizable Messages
+# Set any message to "" (empty string) to disable it
+messages:
+  # GUI title for vaults ({vault} = vault number, {player} = player name)
+  vault-title: '&8PlayerVault #{vault}'
+  
+  # Success messages
+  vault-opened: '&aOpened vault #{vault}!'
+  config-reloaded: '&aConfiguration reloaded successfully!'
+  
+  # Error messages
+  vault-error: '&cError opening vault! Please try again.'
+  no-permission: '&cYou don''t have permission to use this command!'
+  no-vault-permission: '&cYou don''t have permission to access vault #{vault}!'
+  only-players: '&cOnly players can use this command!'
+  usage: '&eUsage: /pv <1-2147483647> or /playervault for help'
+  invalid-number: '&cInvalid vault number! Please use a number.'
+  invalid-range: '&cVault number must be between 1 and 2147483647!'
+  
+  # Help message (displayed when using /playervault)
+  help:
+  - '&8&m----------&r &6&lPlayerVault Help &8&m----------'
+  - '&e/pv <1-2147483647> &7- Open a specific vault'
+  - '&e/pv reload &7- Reload configuration &8(Admin only)'
+  - '&7'
+  - '&7Vaults are automatically saved when closed!'
+  - '&7Empty vaults are cleaned up to save storage.'
+  - '&8Features:'
+  - '&7Ã¢â‚¬Â¢ Up to 2147483647 vaults per player'
+  - '&7Ã¢â‚¬Â¢ Permission-based access control'
+  - '&7Ã¢â‚¬Â¢ Automatic empty vault cleanup'
+  - '&7Ã¢â‚¬Â¢ Tab completion for commands'
+  - '&7Ã¢â‚¬Â¢ Lightweight and lag-free'
+  - '&8&m----------------------------------------'
+  
+  # Admin-specific messages
+  admin-vault-title: '&8&l[ADMIN] &r&8{player}''s Vault #{vault}'
+  admin-vault-opened: '&aViewing &e{player}''s &avault #{vault}! &7(You can edit items)'
+  admin-vault-saved: '&aChanges saved to &e{player}''s &avault #{vault}!'
+  admin-unknown-command: '&cUnknown admin command! Use /pva for help.'
+  admin-list-usage: '&cUsage: /pva list <player>'
+  admin-view-usage: '&cUsage: /pva view <player> <vault>'
+  admin-clear-usage: '&cUsage: /pva clear <player> <vault|all>'
+  admin-delete-usage: '&cUsage: /pva delete <player>'
+  admin-migrate-usage: '&cUsage: /pva migrate <from_player> <to_player>'
+  admin-stats-usage: '&cUsage: /pva stats <player>'
+  
+  player-not-found: '&cPlayer &e{player} &cnot found!'
+  vault-not-found: '&cVault not found or already empty!'
+  
+  cleanup-started: '&eStarting vault cleanup...'
+  cleanup-completed: '&aCleanup completed! Removed &e{count} &aempty vaults.'
+  reload-error: '&cError reloading configuration! Check console for details.'
+  
+  admin-vault-cleared: '&aCleared vault #{vault} for player &e{player}&a!'
+  admin-cleared-all: '&aCleared &e{count} &avaults for player &e{player}&a!'
+  admin-player-deleted: '&aDeleted &e{count} &avaults for player &e{player}&a!'
+  
+  migrate-started: '&eStarting vault migration...'
+  migrate-completed: '&aMigrated &e{count} &avaults from &e{from} &ato &e{to}&a!'
+  
+  backup-started: '&eCreating vault backup...'
+  backup-completed: '&aBackup created: &e{backup}'
+  backup-failed: '&cBackup failed! Check console for details.'
+
+# Color Codes Reference:
+# &0 = Black    &1 = Dark Blue    &2 = Dark Green   &3 = Dark Aqua
+# &4 = Dark Red &5 = Dark Purple  &6 = Gold         &7 = Gray
+# &8 = Dark Gray &9 = Blue        &a = Green        &b = Aqua
+# &c = Red      &d = Light Purple &e = Yellow       &f = White
+# &k = Magic    &l = Bold         &m = Strikethrough &n = Underline
+# &o = Italic   &r = Reset
