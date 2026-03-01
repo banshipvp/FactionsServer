@@ -1,0 +1,14 @@
+# Minecraft Server .gitignore
+
+# Only exclude truly temporary files
+.console_history
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
