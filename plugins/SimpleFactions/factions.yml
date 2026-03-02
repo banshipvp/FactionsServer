@@ -10,53 +10,416 @@ factions:
       298dceae-c320-41d3-b36b-a420dffcf532: LEADER
     claims:
     - world:-38:10
-    - world:-36:10
+    - faction_spawn:-20:49
+    - faction_spawn:-20:48
+    - faction_spawn:-20:47
+    - faction_spawn:97:30
+    - faction_spawn:-20:57
+    - faction_spawn:97:31
+    - faction_spawn:-20:56
+    - faction_spawn:97:32
+    - faction_spawn:-20:55
+    - faction_spawn:97:33
+    - faction_spawn:-20:54
+    - faction_spawn:97:34
+    - faction_spawn:97:35
+    - faction_spawn:97:36
+    - faction_spawn:97:37
+    - faction_spawn:97:38
+    - faction_spawn:97:28
+    - faction_spawn:97:29
+    - faction_spawn:-20:53
+    - faction_spawn:-20:52
+    - faction_spawn:-20:51
+    - faction_spawn:-20:50
+    - faction_spawn:96:38
+    - faction_spawn:100:29
+    - faction_spawn:100:28
+    - faction_spawn:96:30
+    - faction_spawn:96:31
+    - faction_spawn:96:32
+    - faction_spawn:96:33
+    - faction_spawn:-21:55
+    - faction_spawn:96:34
+    - faction_spawn:-21:56
+    - faction_spawn:96:35
+    - faction_spawn:-21:57
+    - faction_spawn:96:36
+    - faction_spawn:96:37
+    - faction_spawn:-21:51
+    - faction_spawn:-21:52
+    - faction_spawn:96:28
+    - faction_spawn:-21:53
+    - faction_spawn:96:29
+    - faction_spawn:-21:54
     - world:-40:10
+    - faction_spawn:-21:50
+    - faction_spawn:100:38
+    - faction_spawn:148:-57
+    - faction_spawn:148:-58
+    - faction_spawn:148:-59
+    - faction_spawn:148:-53
+    - faction_spawn:148:-54
+    - faction_spawn:148:-55
+    - faction_spawn:148:-56
+    - world:-39:10
+    - faction_spawn:148:-51
+    - faction_spawn:148:-52
+    - faction_spawn:154:-51
+    - faction_spawn:154:-52
+    - faction_spawn:154:-53
+    - faction_spawn:100:32
+    - faction_spawn:100:33
+    - faction_spawn:100:30
+    - faction_spawn:100:31
+    - faction_spawn:100:36
+    - faction_spawn:147:-61
+    - faction_spawn:100:37
+    - faction_spawn:100:34
+    - faction_spawn:100:35
+    - faction_spawn:147:-60
+    - faction_spawn:154:-54
+    - faction_spawn:154:-55
+    - faction_spawn:154:-56
+    - faction_spawn:154:-57
+    - faction_spawn:148:-60
+    - faction_spawn:154:-58
+    - faction_spawn:148:-61
+    - faction_spawn:154:-59
+    - faction_spawn:95:38
+    - faction_spawn:95:37
+    - faction_spawn:154:-60
+    - faction_spawn:147:-59
+    - faction_spawn:154:-61
+    - faction_spawn:147:-58
+    - faction_spawn:147:-55
+    - faction_spawn:147:-54
+    - faction_spawn:147:-57
+    - faction_spawn:147:-56
+    - faction_spawn:147:-51
+    - faction_spawn:147:-53
+    - faction_spawn:147:-52
+    - faction_spawn:101:29
+    - faction_spawn:101:28
+    - faction_spawn:-21:48
+    - faction_spawn:-21:49
+    - faction_spawn:95:29
+    - faction_spawn:95:28
+    - faction_spawn:-21:47
+    - world:-39:8
+    - faction_spawn:95:36
+    - world:-39:7
+    - faction_spawn:95:35
+    - faction_spawn:95:34
+    - world:-39:9
+    - faction_spawn:95:33
+    - faction_spawn:95:32
+    - faction_spawn:95:31
+    - faction_spawn:95:30
+    - world:-39:4
+    - world:-39:6
+    - world:-39:5
+    - faction_spawn:-28:49
+    - faction_spawn:-28:48
+    - faction_spawn:-28:47
+    - faction_spawn:101:30
     - world:-42:9
+    - faction_spawn:101:34
+    - faction_spawn:101:33
     - world:-42:7
-    - world:-40:9
-    - world:-41:8
+    - faction_spawn:101:32
     - world:-42:8
+    - faction_spawn:101:31
+    - faction_spawn:101:38
+    - faction_spawn:101:37
+    - faction_spawn:101:36
+    - faction_spawn:101:35
+    - world:-41:6
+    - world:-41:7
+    - world:-41:4
+    - world:-41:5
+    - faction_spawn:94:38
+    - faction_spawn:94:37
+    - faction_spawn:94:36
+    - faction_spawn:149:-58
+    - faction_spawn:149:-59
+    - faction_spawn:149:-56
+    - faction_spawn:149:-57
+    - faction_spawn:-28:57
+    - faction_spawn:-28:56
+    - faction_spawn:-28:55
+    - faction_spawn:-28:54
+    - faction_spawn:-28:53
+    - faction_spawn:149:-51
+    - faction_spawn:-28:52
+    - world:-41:10
+    - faction_spawn:-28:51
+    - faction_spawn:-28:50
+    - faction_spawn:149:-54
+    - faction_spawn:149:-55
+    - faction_spawn:149:-52
+    - faction_spawn:149:-53
+    - faction_spawn:94:29
+    - faction_spawn:94:28
+    - faction_spawn:94:35
+    - faction_spawn:94:34
+    - faction_spawn:-27:57
+    - faction_spawn:94:33
+    - faction_spawn:94:32
+    - faction_spawn:-27:55
+    - faction_spawn:94:31
+    - faction_spawn:-27:56
+    - faction_spawn:94:30
+    - faction_spawn:-27:53
+    - faction_spawn:-27:54
+    - faction_spawn:149:-61
+    - faction_spawn:-27:51
+    - faction_spawn:-27:52
+    - world:-41:8
     - world:-42:10
     - world:-41:9
+    - faction_spawn:149:-60
+    - faction_spawn:-27:50
     - world:-40:4
-    - world:-41:6
-    - world:-42:5
     - world:-40:7
-    - world:-41:7
-    - world:-42:6
     - world:-40:8
-    - world:-41:4
     - world:-40:5
-    - world:-41:5
     - world:-40:6
-    - world:-39:10
+    - faction_spawn:-30:50
+    - faction_spawn:-30:52
+    - faction_spawn:-30:51
+    - faction_spawn:93:37
+    - faction_spawn:93:38
+    - faction_spawn:93:35
+    - faction_spawn:93:36
+    - faction_spawn:-29:57
+    - faction_spawn:-29:56
+    - faction_spawn:-29:55
+    - faction_spawn:-30:54
+    - faction_spawn:-29:54
+    - faction_spawn:-30:53
+    - faction_spawn:-29:53
+    - world:-40:9
+    - faction_spawn:-30:56
+    - faction_spawn:-29:52
+    - faction_spawn:-30:55
+    - faction_spawn:-29:51
+    - faction_spawn:-29:50
+    - faction_spawn:-30:57
+    - faction_spawn:93:28
+    - faction_spawn:93:29
+    - faction_spawn:93:33
+    - faction_spawn:93:34
+    - faction_spawn:93:31
+    - faction_spawn:93:32
+    - faction_spawn:93:30
+    - faction_spawn:-30:47
+    - faction_spawn:-30:49
+    - faction_spawn:-30:48
+    - faction_spawn:92:38
+    - faction_spawn:92:36
+    - faction_spawn:92:37
+    - faction_spawn:92:34
+    - faction_spawn:92:35
+    - faction_spawn:-29:49
+    - faction_spawn:-29:48
+    - faction_spawn:-29:47
+    - faction_spawn:92:29
+    - faction_spawn:92:28
+    - faction_spawn:-25:56
+    - faction_spawn:92:32
+    - faction_spawn:-25:55
+    - faction_spawn:92:33
+    - faction_spawn:92:30
+    - faction_spawn:-25:57
+    - faction_spawn:92:31
+    - faction_spawn:-25:52
+    - faction_spawn:-25:51
+    - faction_spawn:-25:54
+    - faction_spawn:-25:53
+    - faction_spawn:-25:50
+    - faction_spawn:152:-56
+    - faction_spawn:152:-57
+    - faction_spawn:152:-58
+    - faction_spawn:152:-59
+    - faction_spawn:152:-60
+    - faction_spawn:152:-61
+    - faction_spawn:91:38
+    - faction_spawn:91:37
+    - faction_spawn:144:-52
+    - faction_spawn:91:34
+    - faction_spawn:144:-51
+    - faction_spawn:91:33
+    - faction_spawn:91:36
+    - faction_spawn:91:35
+    - faction_spawn:152:-52
+    - faction_spawn:152:-53
+    - faction_spawn:152:-54
+    - faction_spawn:152:-55
+    - faction_spawn:152:-51
+    - faction_spawn:91:29
+    - faction_spawn:91:28
+    - faction_spawn:-25:49
+    - faction_spawn:-25:48
+    - faction_spawn:144:-61
+    - faction_spawn:144:-60
+    - faction_spawn:144:-56
+    - faction_spawn:91:30
+    - faction_spawn:144:-55
+    - faction_spawn:144:-54
+    - faction_spawn:-25:47
+    - faction_spawn:91:32
+    - faction_spawn:144:-53
+    - faction_spawn:91:31
+    - faction_spawn:144:-59
+    - faction_spawn:144:-58
+    - faction_spawn:144:-57
+    - faction_spawn:153:-60
+    - faction_spawn:153:-61
+    - faction_spawn:-27:48
+    - faction_spawn:-27:49
+    - faction_spawn:-27:47
+    - faction_spawn:153:-57
+    - faction_spawn:153:-58
+    - faction_spawn:153:-55
+    - faction_spawn:153:-56
+    - faction_spawn:153:-59
+    - faction_spawn:153:-53
+    - faction_spawn:153:-54
+    - faction_spawn:153:-51
+    - faction_spawn:153:-52
+    - faction_spawn:-26:49
+    - faction_spawn:-26:47
+    - faction_spawn:-26:48
+    - world:-42:5
+    - world:-42:6
+    - faction_spawn:-26:56
+    - faction_spawn:-26:57
+    - faction_spawn:-26:54
+    - faction_spawn:-26:55
+    - faction_spawn:-26:52
+    - faction_spawn:-26:53
+    - faction_spawn:-26:50
+    - faction_spawn:-26:51
+    - faction_spawn:150:-60
+    - faction_spawn:150:-61
+    - faction_spawn:150:-58
+    - faction_spawn:150:-59
+    - faction_spawn:-23:47
+    - faction_spawn:-23:49
+    - faction_spawn:-23:48
     - world:-38:9
-    - world:-39:8
     - world:-38:8
-    - world:-39:7
-    - world:-37:9
-    - world:-37:10
-    - world:-39:9
-    - world:-41:10
-    - world:-36:5
-    - world:-37:4
-    - world:-36:4
     - world:-38:5
-    - world:-36:7
-    - world:-39:4
-    - world:-37:6
     - world:-38:4
-    - world:-36:6
-    - world:-37:5
     - world:-38:7
-    - world:-36:9
-    - world:-39:6
-    - world:-37:8
     - world:-38:6
-    - world:-36:8
-    - world:-39:5
+    - faction_spawn:146:-59
+    - faction_spawn:146:-58
+    - faction_spawn:-22:49
+    - faction_spawn:146:-57
+    - faction_spawn:146:-56
+    - faction_spawn:146:-55
+    - faction_spawn:146:-54
+    - faction_spawn:146:-53
+    - faction_spawn:146:-52
+    - faction_spawn:-22:47
+    - faction_spawn:146:-51
+    - faction_spawn:-22:48
+    - world:-36:10
+    - faction_spawn:146:-61
+    - faction_spawn:146:-60
+    - faction_spawn:99:30
+    - faction_spawn:99:32
+    - faction_spawn:99:31
+    - faction_spawn:99:34
+    - faction_spawn:150:-51
+    - faction_spawn:99:33
+    - faction_spawn:150:-52
+    - faction_spawn:99:36
+    - faction_spawn:150:-53
+    - faction_spawn:99:35
+    - faction_spawn:150:-54
+    - faction_spawn:-22:56
+    - faction_spawn:99:38
+    - faction_spawn:150:-55
+    - faction_spawn:-22:57
+    - faction_spawn:99:37
+    - faction_spawn:150:-56
+    - faction_spawn:150:-57
+    - faction_spawn:-22:52
+    - world:-37:9
+    - faction_spawn:-22:53
+    - faction_spawn:-22:54
+    - faction_spawn:-22:55
+    - faction_spawn:-22:50
+    - faction_spawn:-22:51
+    - world:-37:4
+    - world:-37:6
+    - world:-37:5
+    - world:-37:8
     - world:-37:7
+    - faction_spawn:151:-60
+    - faction_spawn:151:-61
+    - faction_spawn:-24:48
+    - faction_spawn:-24:47
+    - faction_spawn:99:29
+    - faction_spawn:-24:49
+    - faction_spawn:99:28
+    - faction_spawn:151:-59
+    - faction_spawn:151:-57
+    - faction_spawn:151:-58
+    - faction_spawn:-24:55
+    - faction_spawn:-24:54
+    - faction_spawn:-24:57
+    - faction_spawn:-24:56
+    - faction_spawn:-24:51
+    - faction_spawn:-24:50
+    - faction_spawn:-24:53
+    - faction_spawn:-24:52
+    - world:-36:5
+    - world:-36:4
+    - world:-36:7
+    - world:-36:6
+    - world:-36:9
+    - world:-36:8
+    - faction_spawn:145:-53
+    - faction_spawn:145:-52
+    - faction_spawn:145:-55
+    - faction_spawn:145:-54
+    - faction_spawn:145:-57
+    - faction_spawn:145:-56
+    - faction_spawn:145:-59
+    - faction_spawn:98:30
+    - faction_spawn:145:-58
+    - faction_spawn:98:31
+    - faction_spawn:98:32
+    - faction_spawn:98:33
+    - faction_spawn:98:34
+    - faction_spawn:98:35
+    - faction_spawn:98:36
+    - faction_spawn:-23:57
+    - faction_spawn:98:37
+    - faction_spawn:98:38
+    - faction_spawn:-23:54
+    - faction_spawn:98:29
+    - faction_spawn:-23:53
+    - faction_spawn:-23:56
+    - faction_spawn:-23:55
+    - faction_spawn:-23:50
+    - faction_spawn:-23:52
+    - faction_spawn:-23:51
+    - faction_spawn:145:-60
+    - faction_spawn:145:-61
+    - faction_spawn:151:-55
+    - faction_spawn:151:-56
+    - faction_spawn:151:-53
+    - faction_spawn:151:-54
+    - faction_spawn:151:-51
+    - faction_spawn:151:-52
+    - faction_spawn:98:28
+    - world:-37:10
+    - faction_spawn:145:-51
     allies: []
     enemies: []
     flags:
@@ -69,15 +432,33 @@ factions:
     warps: {}
     titles: {}
     upgrades:
-      maxMembers: 0
-      spawnerMult: 0
-      maxWarps: 0
-      chestSlots: 0
+      maxMembers: 5
+      spawnerMult: 5
+      maxWarps: 5
+      chestSlots: 5
     access:
       allClaims: []
       permissions: {}
       chunks: {}
-    chest: []
+    chest:
+    - item:
+        DataVersion: 4556
+        id: minecraft:black_wool
+        count: 64
+        schema_version: 1
+      slot: 0
+    - item:
+        DataVersion: 4556
+        id: minecraft:light_gray_wool
+        count: 64
+        schema_version: 1
+      slot: 1
+    - item:
+        DataVersion: 4556
+        id: minecraft:light_gray_wool
+        count: 64
+        schema_version: 1
+      slot: 2
   warzone:
     name: Warzone
     description: System-managed warzone and safezone regions. No players belong to
@@ -88,45 +469,35 @@ factions:
     tntBank: 0
     roles: {}
     claims:
-    - hub:3:9
-    - hub:3:8
-    - hub:3:7
-    - hub:3:6
-    - hub:3:5
-    - hub:3:4
-    - hub:-9:-3
-    - hub:3:3
-    - hub:7:-6
-    - hub:-9:-2
-    - hub:3:2
-    - hub:7:-5
-    - hub:-9:-1
-    - hub:3:1
-    - hub:7:-8
+    - faction_spawn:2:-4
+    - faction_spawn:2:-3
+    - faction_spawn:-9:8
+    - faction_spawn:2:-6
+    - faction_spawn:-9:9
+    - faction_spawn:2:-5
+    - faction_spawn:-9:6
+    - faction_spawn:2:-8
+    - faction_spawn:-9:7
+    - faction_spawn:2:-7
+    - faction_spawn:-9:4
+    - faction_spawn:-9:5
+    - faction_spawn:2:-9
+    - faction_spawn:-9:2
+    - faction_spawn:-9:3
+    - faction_spawn:-9:0
     - hub:-1:0
-    - hub:3:0
-    - hub:7:-7
-    - hub:7:-9
-    - hub:-9:-9
-    - hub:-9:-8
-    - hub:-9:-7
-    - hub:7:-2
-    - hub:-9:-6
-    - hub:7:-1
-    - hub:-9:-5
-    - hub:7:-4
-    - hub:-9:-4
-    - hub:7:-3
-    - hub:-2:4
-    - hub:-2:5
-    - hub:-2:6
-    - hub:-2:7
-    - hub:-2:0
-    - hub:-2:1
-    - hub:-2:2
-    - hub:-2:3
-    - hub:-2:8
-    - hub:-2:9
+    - faction_spawn:-9:1
+    - faction_spawn:-11:-7
+    - faction_spawn:-11:-6
+    - faction_spawn:-11:-9
+    - faction_spawn:-11:-8
+    - faction_spawn:-11:-3
+    - faction_spawn:-11:-2
+    - faction_spawn:-11:-5
+    - faction_spawn:-11:-4
+    - faction_spawn:2:-2
+    - faction_spawn:-11:-1
+    - faction_spawn:2:-1
     - hub:2:9
     - hub:2:8
     - hub:2:7
@@ -136,9 +507,8 @@ factions:
     - hub:2:3
     - hub:2:2
     - hub:2:1
-    - hub:-7:10
     - hub:2:0
-    - hub:5:-10
+    - faction_spawn:1:-10
     - hub:-8:-1
     - hub:-8:-2
     - hub:-8:-9
@@ -148,6 +518,7 @@ factions:
     - hub:-1:6
     - hub:-8:-7
     - hub:-1:7
+    - faction_spawn:-2:-1
     - hub:-8:-8
     - hub:-1:8
     - hub:-8:-5
@@ -158,29 +529,44 @@ factions:
     - hub:-1:3
     - hub:-8:-4
     - hub:-1:4
+    - faction_spawn:-2:-7
+    - faction_spawn:-2:-6
+    - faction_spawn:-2:-9
+    - faction_spawn:-2:-8
     - hub:-1:9
-    - hub:5:9
-    - hub:5:8
-    - hub:5:7
-    - hub:5:6
-    - hub:5:5
-    - hub:5:4
-    - hub:5:3
-    - hub:5:2
-    - hub:5:1
-    - hub:5:0
-    - hub:-9:10
+    - faction_spawn:-2:-3
+    - faction_spawn:-2:-2
+    - faction_spawn:-2:-5
+    - faction_spawn:-2:-4
+    - faction_spawn:-11:10
     - hub:-10:-10
-    - hub:7:10
+    - faction_spawn:10:0
     - hub:8:-7
+    - faction_spawn:10:1
     - hub:8:-6
+    - faction_spawn:10:2
     - hub:8:-9
+    - faction_spawn:10:3
     - hub:8:-8
+    - faction_spawn:10:4
+    - faction_spawn:10:5
+    - faction_spawn:10:6
+    - faction_spawn:10:7
+    - faction_spawn:10:8
+    - faction_spawn:-4:-2
+    - faction_spawn:-4:-3
     - hub:8:-1
+    - faction_spawn:-4:-1
     - hub:8:-3
     - hub:8:-2
     - hub:8:-5
     - hub:8:-4
+    - faction_spawn:-4:-8
+    - faction_spawn:-4:-9
+    - faction_spawn:-4:-6
+    - faction_spawn:-4:-7
+    - faction_spawn:-4:-4
+    - faction_spawn:-4:-5
     - hub:4:9
     - hub:4:8
     - hub:-2:-10
@@ -190,22 +576,26 @@ factions:
     - hub:4:4
     - hub:4:3
     - hub:4:2
-    - hub:9:-9
     - hub:4:1
     - hub:4:0
-    - hub:9:-7
-    - hub:9:-8
-    - hub:9:-1
-    - hub:9:-2
-    - hub:9:-5
-    - hub:9:-6
-    - hub:9:-3
-    - hub:9:-4
-    - hub:6:-10
+    - faction_spawn:10:9
+    - faction_spawn:0:10
+    - faction_spawn:2:-10
     - hub:-8:10
-    - hub:-5:10
+    - faction_spawn:-2:10
+    - faction_spawn:-9:10
+    - faction_spawn:-5:8
+    - faction_spawn:-5:9
+    - faction_spawn:-5:6
+    - faction_spawn:-5:7
+    - faction_spawn:-1:-10
+    - faction_spawn:-5:4
+    - faction_spawn:-5:5
+    - faction_spawn:-5:2
+    - faction_spawn:-5:3
+    - faction_spawn:-5:0
+    - faction_spawn:-5:1
     - hub:-5:-10
-    - hub:3:10
     - hub:4:-2
     - hub:4:-3
     - hub:4:-4
@@ -215,38 +605,32 @@ factions:
     - hub:4:-8
     - hub:4:-9
     - hub:-6:-6
-    - hub:-6:0
     - hub:-6:-5
-    - hub:-6:1
     - hub:-6:-8
-    - hub:-6:2
     - hub:-6:-7
-    - hub:-6:3
     - hub:-6:-2
     - hub:-6:-1
     - hub:-6:-4
     - hub:-6:-3
     - hub:4:-1
-    - hub:-6:8
-    - hub:-6:9
-    - hub:-6:4
     - hub:-6:-9
-    - hub:-6:5
-    - hub:-6:6
-    - hub:-6:7
-    - hub:5:-3
-    - hub:5:-4
-    - hub:5:-5
-    - hub:5:-6
-    - hub:5:-7
-    - hub:5:-8
-    - hub:5:-9
-    - hub:5:-1
-    - hub:5:-2
+    - faction_spawn:2:9
+    - faction_spawn:2:8
+    - faction_spawn:2:7
+    - faction_spawn:2:6
+    - faction_spawn:2:5
+    - faction_spawn:2:4
+    - faction_spawn:2:3
+    - faction_spawn:2:2
+    - faction_spawn:2:1
+    - faction_spawn:2:0
+    - faction_spawn:-11:-10
+    - faction_spawn:4:10
     - hub:-4:10
     - hub:-5:1
-    - hub:7:-10
+    - faction_spawn:-3:0
     - hub:-5:2
+    - faction_spawn:-3:1
     - hub:-5:3
     - hub:-5:4
     - hub:-5:0
@@ -254,50 +638,63 @@ factions:
     - hub:-5:5
     - hub:-5:6
     - hub:-5:7
+    - faction_spawn:3:-10
     - hub:-5:8
-    - hub:1:9
-    - hub:1:8
-    - hub:1:7
-    - hub:1:6
-    - hub:1:5
-    - hub:1:4
-    - hub:1:3
-    - hub:1:2
-    - hub:1:1
-    - hub:1:0
+    - faction_spawn:-7:8
+    - faction_spawn:-7:9
+    - faction_spawn:-7:6
+    - faction_spawn:-7:7
+    - faction_spawn:-7:4
+    - faction_spawn:-7:5
+    - faction_spawn:-7:2
+    - faction_spawn:-7:3
+    - faction_spawn:-7:0
+    - faction_spawn:-7:1
     - hub:9:-10
+    - faction_spawn:2:10
+    - faction_spawn:-10:4
+    - faction_spawn:-10:5
+    - faction_spawn:-10:6
+    - faction_spawn:-10:7
+    - faction_spawn:-10:0
+    - faction_spawn:-10:1
+    - faction_spawn:-10:2
+    - faction_spawn:-10:3
+    - faction_spawn:-10:8
+    - faction_spawn:-10:9
     - hub:-6:10
-    - hub:-4:2
-    - hub:-4:3
-    - hub:-4:4
     - hub:4:10
-    - hub:-4:5
-    - hub:-4:0
-    - hub:-4:1
-    - hub:-4:6
-    - hub:-4:7
-    - hub:-4:8
-    - hub:-4:9
+    - faction_spawn:4:-6
+    - faction_spawn:4:-5
+    - faction_spawn:0:8
+    - faction_spawn:4:-8
+    - faction_spawn:0:9
+    - faction_spawn:4:-7
+    - faction_spawn:0:6
     - hub:0:9
+    - faction_spawn:0:7
+    - faction_spawn:4:-9
     - hub:0:8
+    - faction_spawn:0:4
     - hub:0:7
+    - faction_spawn:0:5
     - hub:0:6
-    - hub:-7:-1
+    - faction_spawn:0:2
     - hub:0:5
+    - faction_spawn:0:3
     - hub:0:4
+    - faction_spawn:0:0
     - hub:0:3
+    - faction_spawn:0:1
     - hub:0:2
     - hub:0:1
     - hub:0:0
-    - hub:-7:-8
-    - hub:-7:-9
-    - hub:5:10
-    - hub:-7:-6
-    - hub:-7:-7
-    - hub:-7:-4
-    - hub:-7:-5
-    - hub:-7:-2
-    - hub:-7:-3
+    - faction_spawn:4:-10
+    - faction_spawn:4:-2
+    - faction_spawn:4:-1
+    - faction_spawn:4:-4
+    - faction_spawn:-10:-10
+    - faction_spawn:4:-3
     - hub:-4:-10
     - hub:6:-4
     - hub:6:-5
@@ -318,29 +715,54 @@ factions:
     - hub:-3:7
     - hub:-3:8
     - hub:-3:9
-    - hub:-7:-10
+    - faction_spawn:5:6
+    - faction_spawn:5:5
+    - faction_spawn:5:4
+    - faction_spawn:5:3
+    - faction_spawn:5:2
+    - faction_spawn:5:1
+    - faction_spawn:5:0
     - hub:8:-10
+    - faction_spawn:-1:8
+    - faction_spawn:-1:9
+    - faction_spawn:-1:6
+    - faction_spawn:-1:7
+    - faction_spawn:-1:4
+    - faction_spawn:-1:5
+    - faction_spawn:6:10
+    - faction_spawn:5:9
+    - faction_spawn:5:8
+    - faction_spawn:5:7
     - hub:-2:10
+    - faction_spawn:-8:-7
+    - faction_spawn:-8:-6
+    - faction_spawn:-8:-5
+    - faction_spawn:-8:-4
+    - faction_spawn:-8:-3
+    - faction_spawn:-3:-10
+    - faction_spawn:-8:-2
+    - faction_spawn:-8:-1
     - hub:0:10
+    - faction_spawn:-8:-9
+    - faction_spawn:-8:-8
+    - faction_spawn:8:-9
     - hub:-11:-8
-    - hub:-3:-2
     - hub:-11:-7
-    - hub:-3:-3
-    - hub:-3:-4
     - hub:-11:-9
-    - hub:-3:-5
     - hub:-11:-4
     - hub:-11:-3
     - hub:-11:-6
     - hub:-11:-5
-    - hub:-3:-1
+    - faction_spawn:8:-4
+    - faction_spawn:8:-3
     - hub:-11:-2
+    - faction_spawn:8:-2
     - hub:-11:-1
-    - hub:1:10
-    - hub:-3:-6
-    - hub:-3:-7
-    - hub:-3:-8
-    - hub:-3:-9
+    - faction_spawn:8:-1
+    - faction_spawn:8:-8
+    - faction_spawn:8:-7
+    - faction_spawn:8:-6
+    - faction_spawn:8:-5
     - hub:2:-7
     - hub:2:-6
     - hub:2:-5
@@ -349,6 +771,7 @@ factions:
     - hub:2:-3
     - hub:2:-2
     - hub:2:-1
+    - faction_spawn:-6:10
     - hub:0:-10
     - hub:2:-9
     - hub:2:-8
@@ -359,48 +782,50 @@ factions:
     - hub:-9:8
     - hub:-9:1
     - hub:-9:2
-    - hub:-10:10
     - hub:-9:3
     - hub:-9:4
-    - hub:3:-8
-    - hub:3:-7
-    - hub:3:-6
-    - hub:3:-5
-    - hub:3:-4
-    - hub:3:-3
-    - hub:3:-2
-    - hub:3:-1
-    - hub:3:-9
-    - hub:-5:-5
-    - hub:-5:-4
-    - hub:-5:-7
-    - hub:-5:-6
-    - hub:-5:-1
-    - hub:-5:-3
-    - hub:-5:-2
-    - hub:-5:-9
-    - hub:-5:-8
-    - hub:-8:0
-    - hub:-8:1
-    - hub:-6:-10
-    - hub:-8:6
-    - hub:-8:7
-    - hub:-8:8
-    - hub:-8:9
-    - hub:-8:2
-    - hub:-8:3
-    - hub:-8:4
-    - hub:-8:5
-    - hub:-3:10
+    - faction_spawn:3:8
+    - faction_spawn:6:-9
+    - faction_spawn:3:7
+    - faction_spawn:3:6
+    - faction_spawn:6:-7
+    - faction_spawn:3:5
+    - faction_spawn:6:-8
+    - faction_spawn:3:4
+    - faction_spawn:3:3
+    - faction_spawn:-2:-10
+    - faction_spawn:3:2
+    - faction_spawn:3:1
+    - faction_spawn:-3:8
+    - faction_spawn:3:0
+    - faction_spawn:-3:9
+    - faction_spawn:-3:6
+    - faction_spawn:-3:7
+    - faction_spawn:-3:4
+    - faction_spawn:-3:5
+    - faction_spawn:-3:2
+    - faction_spawn:-3:3
+    - faction_spawn:6:-1
+    - faction_spawn:6:-2
+    - faction_spawn:6:-5
+    - faction_spawn:6:-6
+    - faction_spawn:6:-3
+    - faction_spawn:3:9
+    - faction_spawn:6:-4
+    - faction_spawn:-8:10
     - hub:-11:10
     - hub:1:-10
     - hub:-4:-4
+    - faction_spawn:-1:2
     - hub:-7:0
     - hub:-4:-3
+    - faction_spawn:-1:3
     - hub:-7:1
     - hub:-4:-6
+    - faction_spawn:-1:0
     - hub:-7:2
     - hub:-4:-5
+    - faction_spawn:-1:1
     - hub:-4:-2
     - hub:-4:-1
     - hub:-7:7
@@ -414,39 +839,22 @@ factions:
     - hub:-7:5
     - hub:-7:6
     - hub:-4:-9
-    - hub:7:7
-    - hub:7:6
-    - hub:7:5
-    - hub:7:4
-    - hub:7:3
-    - hub:7:2
-    - hub:7:1
-    - hub:7:0
-    - hub:-11:-10
-    - hub:-1:-3
-    - hub:-1:-2
-    - hub:-1:-1
-    - hub:-1:-7
-    - hub:-1:-6
-    - hub:-1:-5
-    - hub:-1:-4
+    - faction_spawn:9:2
+    - faction_spawn:9:1
+    - faction_spawn:9:0
+    - faction_spawn:0:-10
+    - faction_spawn:9:9
+    - faction_spawn:9:8
+    - faction_spawn:9:7
     - hub:-10:2
+    - faction_spawn:9:6
     - hub:-10:1
+    - faction_spawn:9:5
     - hub:-10:0
-    - hub:-1:-9
-    - hub:7:9
-    - hub:-1:-8
-    - hub:7:8
-    - hub:-11:5
-    - hub:-11:4
-    - hub:-11:3
-    - hub:-11:2
-    - hub:-11:9
-    - hub:-11:8
-    - hub:-11:7
-    - hub:-11:6
+    - faction_spawn:9:4
+    - faction_spawn:9:3
+    - faction_spawn:-4:10
     - hub:3:-10
-    - hub:8:10
     - hub:6:8
     - hub:6:7
     - hub:6:6
@@ -458,27 +866,24 @@ factions:
     - hub:6:0
     - hub:-1:-10
     - hub:2:-10
-    - hub:-11:1
-    - hub:-11:0
     - hub:6:9
     - hub:9:10
-    - hub:9:5
-    - hub:9:4
-    - hub:9:3
-    - hub:9:2
-    - hub:9:1
-    - hub:9:0
-    - hub:-8:-10
-    - hub:-1:10
-    - hub:9:9
-    - hub:9:8
-    - hub:9:7
-    - hub:9:6
+    - faction_spawn:7:4
+    - faction_spawn:7:3
+    - faction_spawn:7:2
+    - faction_spawn:7:1
+    - faction_spawn:7:0
+    - faction_spawn:7:9
+    - faction_spawn:7:8
+    - faction_spawn:7:7
+    - faction_spawn:7:6
+    - faction_spawn:7:5
     - hub:0:-4
     - hub:0:-5
     - hub:0:-2
     - hub:0:-3
     - hub:0:-1
+    - faction_spawn:-4:-10
     - hub:0:-8
     - hub:0:-9
     - hub:0:-6
@@ -492,34 +897,466 @@ factions:
     - hub:-2:-6
     - hub:-2:-7
     - hub:-2:-8
-    - hub:1:-5
     - hub:8:6
-    - hub:1:-6
     - hub:8:5
-    - hub:1:-3
     - hub:8:4
-    - hub:1:-4
     - hub:8:3
-    - hub:1:-1
     - hub:8:2
-    - hub:1:-2
     - hub:8:1
     - hub:8:0
     - hub:4:-10
-    - hub:1:-9
-    - hub:1:-7
-    - hub:1:-8
+    - faction_spawn:8:10
+    - faction_spawn:-5:-10
     - hub:8:9
     - hub:8:8
     - hub:8:7
     - hub:-10:6
     - hub:-10:5
     - hub:-10:4
-    - hub:-9:-10
     - hub:-10:3
     - hub:-10:9
     - hub:-10:8
     - hub:-10:7
+    - faction_spawn:-6:-4
+    - faction_spawn:-6:-5
+    - faction_spawn:-6:-2
+    - faction_spawn:-6:-3
+    - faction_spawn:-6:-1
+    - faction_spawn:-6:-8
+    - faction_spawn:-6:-9
+    - faction_spawn:-6:-6
+    - faction_spawn:-6:-7
+    - hub:3:9
+    - hub:3:8
+    - hub:3:7
+    - hub:3:6
+    - hub:3:5
+    - hub:3:4
+    - hub:-9:-3
+    - hub:3:3
+    - hub:7:-6
+    - hub:-9:-2
+    - hub:3:2
+    - hub:7:-5
+    - hub:-9:-1
+    - hub:3:1
+    - hub:7:-8
+    - hub:3:0
+    - hub:7:-7
+    - hub:7:-9
+    - hub:-9:-9
+    - hub:-9:-8
+    - hub:-9:-7
+    - hub:7:-2
+    - hub:-9:-6
+    - hub:7:-1
+    - hub:-9:-5
+    - hub:7:-4
+    - hub:-9:-4
+    - hub:7:-3
+    - faction_spawn:-1:10
+    - faction_spawn:9:-10
+    - faction_spawn:-10:10
+    - hub:-2:4
+    - hub:-2:5
+    - hub:-2:6
+    - hub:-2:7
+    - hub:-2:0
+    - hub:-2:1
+    - hub:-2:2
+    - hub:-2:3
+    - faction_spawn:1:10
+    - hub:-2:8
+    - hub:-2:9
+    - faction_spawn:-8:9
+    - faction_spawn:-8:7
+    - faction_spawn:-8:8
+    - faction_spawn:-6:-10
+    - faction_spawn:-8:5
+    - faction_spawn:-8:6
+    - faction_spawn:-8:3
+    - faction_spawn:-8:4
+    - faction_spawn:-8:1
+    - faction_spawn:-8:2
+    - hub:-7:10
+    - faction_spawn:-8:0
+    - hub:5:-10
+    - faction_spawn:3:-5
+    - faction_spawn:3:-4
+    - faction_spawn:3:-7
+    - faction_spawn:3:-6
+    - faction_spawn:3:-9
+    - faction_spawn:3:-8
+    - faction_spawn:3:-1
+    - faction_spawn:3:-3
+    - faction_spawn:3:-2
+    - hub:5:9
+    - hub:5:8
+    - hub:5:7
+    - hub:5:6
+    - hub:5:5
+    - hub:5:4
+    - hub:5:3
+    - hub:5:2
+    - hub:5:1
+    - hub:5:0
+    - hub:-9:10
+    - hub:7:10
+    - faction_spawn:1:-2
+    - faction_spawn:1:-3
+    - faction_spawn:1:-4
+    - faction_spawn:1:-5
+    - faction_spawn:1:-6
+    - faction_spawn:1:-7
+    - faction_spawn:1:-8
+    - faction_spawn:1:-9
+    - faction_spawn:1:-1
+    - hub:9:-9
+    - hub:9:-7
+    - hub:9:-8
+    - hub:9:-1
+    - hub:9:-2
+    - faction_spawn:-3:-2
+    - faction_spawn:-3:-1
+    - hub:9:-5
+    - hub:9:-6
+    - hub:9:-3
+    - hub:9:-4
+    - faction_spawn:-3:-8
+    - faction_spawn:-3:-7
+    - faction_spawn:-3:-9
+    - faction_spawn:-3:-4
+    - faction_spawn:-3:-3
+    - faction_spawn:-3:-6
+    - faction_spawn:-3:-5
+    - hub:6:-10
+    - faction_spawn:-7:-10
+    - faction_spawn:1:9
+    - faction_spawn:1:7
+    - faction_spawn:1:8
+    - faction_spawn:1:5
+    - faction_spawn:1:6
+    - faction_spawn:1:3
+    - faction_spawn:1:4
+    - faction_spawn:1:1
+    - hub:-5:10
+    - faction_spawn:1:2
+    - faction_spawn:1:0
+    - hub:3:10
+    - faction_spawn:5:-8
+    - faction_spawn:5:-9
+    - faction_spawn:5:-6
+    - faction_spawn:5:-7
+    - hub:-6:0
+    - hub:-6:1
+    - faction_spawn:-4:0
+    - hub:-6:2
+    - hub:-6:3
+    - hub:-6:8
+    - hub:-6:9
+    - faction_spawn:5:-1
+    - hub:-6:4
+    - faction_spawn:5:-4
+    - hub:-6:5
+    - faction_spawn:5:-5
+    - hub:-6:6
+    - faction_spawn:5:-2
+    - hub:-6:7
+    - faction_spawn:5:-3
+    - faction_spawn:-4:9
+    - hub:5:-3
+    - faction_spawn:-4:7
+    - hub:5:-4
+    - faction_spawn:-4:8
+    - hub:5:-5
+    - faction_spawn:-4:5
+    - hub:5:-6
+    - faction_spawn:-4:6
+    - hub:5:-7
+    - faction_spawn:-4:3
+    - hub:5:-8
+    - faction_spawn:-4:4
+    - hub:5:-9
+    - faction_spawn:-4:1
+    - faction_spawn:-4:2
+    - hub:5:-1
+    - hub:5:-2
+    - faction_spawn:-8:-10
+    - hub:7:-10
+    - hub:1:9
+    - hub:1:8
+    - hub:1:7
+    - hub:1:6
+    - hub:1:5
+    - hub:1:4
+    - hub:1:3
+    - hub:1:2
+    - hub:1:1
+    - hub:1:0
+    - faction_spawn:-1:-5
+    - faction_spawn:-1:-6
+    - faction_spawn:-1:-7
+    - faction_spawn:-1:-8
+    - faction_spawn:-1:-1
+    - faction_spawn:-1:-2
+    - faction_spawn:-1:-3
+    - faction_spawn:-1:-4
+    - faction_spawn:-9:-10
+    - faction_spawn:-1:-9
+    - hub:-4:2
+    - hub:-4:3
+    - faction_spawn:-10:-9
+    - hub:-4:4
+    - hub:-4:5
+    - faction_spawn:-10:-6
+    - faction_spawn:-10:-5
+    - hub:-4:0
+    - faction_spawn:-10:-8
+    - hub:-4:1
+    - faction_spawn:-10:-7
+    - faction_spawn:-10:-2
+    - faction_spawn:-10:-1
+    - faction_spawn:-10:-4
+    - faction_spawn:-10:-3
+    - hub:-4:6
+    - hub:-4:7
+    - hub:-4:8
+    - hub:-4:9
+    - faction_spawn:-6:9
+    - faction_spawn:-6:7
+    - faction_spawn:-6:8
+    - faction_spawn:-6:5
+    - hub:-7:-1
+    - faction_spawn:-6:6
+    - faction_spawn:-6:3
+    - faction_spawn:-6:4
+    - faction_spawn:-6:1
+    - faction_spawn:-6:2
+    - faction_spawn:-6:0
+    - hub:-7:-8
+    - hub:-7:-9
+    - hub:5:10
+    - hub:-7:-6
+    - hub:-7:-7
+    - hub:-7:-4
+    - hub:-7:-5
+    - hub:-7:-2
+    - hub:-7:-3
+    - faction_spawn:-11:3
+    - faction_spawn:-11:4
+    - faction_spawn:-11:5
+    - faction_spawn:-11:6
+    - faction_spawn:-11:0
+    - faction_spawn:-11:1
+    - faction_spawn:-11:2
+    - faction_spawn:-11:7
+    - faction_spawn:-11:8
+    - faction_spawn:-11:9
+    - faction_spawn:3:10
+    - hub:-7:-10
+    - faction_spawn:6:5
+    - faction_spawn:6:4
+    - faction_spawn:6:3
+    - faction_spawn:6:2
+    - faction_spawn:6:1
+    - faction_spawn:6:0
+    - hub:-3:-2
+    - faction_spawn:-7:-6
+    - hub:-3:-3
+    - faction_spawn:-7:-5
+    - hub:-3:-4
+    - faction_spawn:-7:-4
+    - hub:-3:-5
+    - faction_spawn:-7:-3
+    - faction_spawn:-7:-2
+    - faction_spawn:-7:-1
+    - hub:-3:-1
+    - hub:1:10
+    - hub:-3:-6
+    - faction_spawn:5:-10
+    - faction_spawn:6:9
+    - hub:-3:-7
+    - faction_spawn:-7:-9
+    - faction_spawn:6:8
+    - hub:-3:-8
+    - faction_spawn:-7:-8
+    - faction_spawn:6:7
+    - hub:-3:-9
+    - faction_spawn:-7:-7
+    - faction_spawn:6:6
+    - faction_spawn:7:10
+    - hub:-10:10
+    - hub:3:-8
+    - hub:3:-7
+    - hub:3:-6
+    - hub:3:-5
+    - hub:3:-4
+    - hub:3:-3
+    - hub:3:-2
+    - hub:3:-1
+    - hub:3:-9
+    - hub:-5:-5
+    - faction_spawn:-9:-9
+    - hub:-5:-4
+    - hub:-5:-7
+    - hub:-5:-6
+    - hub:-5:-1
+    - hub:-5:-3
+    - hub:-5:-2
+    - faction_spawn:-9:-1
+    - faction_spawn:-9:-2
+    - faction_spawn:-9:-3
+    - faction_spawn:-9:-4
+    - hub:-5:-9
+    - faction_spawn:-9:-5
+    - hub:-5:-8
+    - faction_spawn:-9:-6
+    - faction_spawn:-9:-7
+    - faction_spawn:-9:-8
+    - faction_spawn:6:-10
+    - faction_spawn:-2:1
+    - faction_spawn:-2:2
+    - hub:-8:0
+    - hub:-8:1
+    - faction_spawn:-2:0
+    - faction_spawn:5:10
+    - hub:-6:-10
+    - hub:-8:6
+    - hub:-8:7
+    - hub:-8:8
+    - hub:-8:9
+    - hub:-8:2
+    - hub:-8:3
+    - hub:-8:4
+    - hub:-8:5
+    - faction_spawn:4:7
+    - faction_spawn:4:6
+    - faction_spawn:4:5
+    - faction_spawn:4:4
+    - faction_spawn:4:3
+    - faction_spawn:4:2
+    - faction_spawn:4:1
+    - faction_spawn:4:0
+    - faction_spawn:-2:9
+    - hub:-3:10
+    - faction_spawn:-7:10
+    - faction_spawn:-2:7
+    - faction_spawn:-2:8
+    - faction_spawn:-2:5
+    - faction_spawn:-2:6
+    - faction_spawn:-2:3
+    - faction_spawn:-2:4
+    - faction_spawn:4:9
+    - faction_spawn:4:8
+    - faction_spawn:7:-9
+    - faction_spawn:7:-8
+    - faction_spawn:7:-3
+    - faction_spawn:7:-2
+    - faction_spawn:7:-1
+    - faction_spawn:7:-7
+    - faction_spawn:7:-6
+    - faction_spawn:7:-5
+    - faction_spawn:7:-4
+    - hub:7:7
+    - hub:7:6
+    - faction_spawn:10:-1
+    - hub:7:5
+    - faction_spawn:10:-2
+    - hub:7:4
+    - faction_spawn:10:-3
+    - hub:7:3
+    - hub:7:2
+    - hub:7:1
+    - hub:7:0
+    - hub:-11:-10
+    - faction_spawn:-5:-3
+    - faction_spawn:-5:-4
+    - faction_spawn:-5:-1
+    - faction_spawn:-5:-2
+    - hub:-1:-3
+    - hub:-1:-2
+    - hub:-1:-1
+    - hub:-1:-7
+    - hub:-1:-6
+    - hub:-1:-5
+    - faction_spawn:-5:-9
+    - hub:-1:-4
+    - faction_spawn:-5:-7
+    - faction_spawn:-5:-8
+    - hub:-1:-9
+    - hub:7:9
+    - faction_spawn:-5:-5
+    - hub:-1:-8
+    - hub:7:8
+    - faction_spawn:-5:-6
+    - hub:-11:5
+    - hub:-11:4
+    - hub:-11:3
+    - hub:-11:2
+    - hub:-11:9
+    - hub:-11:8
+    - hub:-11:7
+    - hub:-11:6
+    - faction_spawn:7:-10
+    - faction_spawn:9:10
+    - hub:8:10
+    - faction_spawn:0:-1
+    - faction_spawn:0:-2
+    - faction_spawn:0:-3
+    - faction_spawn:0:-4
+    - faction_spawn:0:-5
+    - faction_spawn:10:-10
+    - faction_spawn:0:-6
+    - faction_spawn:0:-7
+    - faction_spawn:0:-8
+    - faction_spawn:0:-9
+    - faction_spawn:-3:10
+    - hub:-11:1
+    - hub:-11:0
+    - hub:9:5
+    - hub:9:4
+    - hub:9:3
+    - hub:9:2
+    - hub:9:1
+    - faction_spawn:10:10
+    - hub:9:0
+    - faction_spawn:-5:10
+    - faction_spawn:8:-10
+    - hub:-8:-10
+    - hub:-1:10
+    - hub:9:9
+    - hub:9:8
+    - hub:9:7
+    - hub:9:6
+    - faction_spawn:9:-1
+    - faction_spawn:9:-6
+    - faction_spawn:9:-7
+    - faction_spawn:9:-8
+    - faction_spawn:9:-9
+    - faction_spawn:9:-2
+    - faction_spawn:9:-3
+    - faction_spawn:9:-4
+    - faction_spawn:9:-5
+    - hub:1:-5
+    - faction_spawn:8:3
+    - hub:1:-6
+    - faction_spawn:8:2
+    - hub:1:-3
+    - faction_spawn:8:1
+    - hub:1:-4
+    - faction_spawn:8:0
+    - hub:1:-1
+    - hub:1:-2
+    - hub:1:-9
+    - hub:1:-7
+    - hub:1:-8
+    - faction_spawn:8:9
+    - faction_spawn:8:8
+    - faction_spawn:8:7
+    - faction_spawn:8:6
+    - faction_spawn:8:5
+    - faction_spawn:8:4
+    - hub:-9:-10
     - hub:-10:-6
     - hub:-10:-7
     - hub:-10:-8
@@ -528,7 +1365,13 @@ factions:
     - hub:-10:-3
     - hub:-10:-4
     - hub:-10:-5
+    - faction_spawn:10:-8
+    - faction_spawn:10:-9
     - hub:-10:-1
+    - faction_spawn:10:-4
+    - faction_spawn:10:-5
+    - faction_spawn:10:-6
+    - faction_spawn:10:-7
     allies: []
     enemies: []
     flags:

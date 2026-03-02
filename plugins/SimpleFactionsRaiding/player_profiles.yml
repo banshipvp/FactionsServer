@@ -1,0 +1,145 @@
+298dceae-c320-41d3-b36b-a420dffcf532:
+  factions:
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:wooden_axe
+      count: 1
+      schema_version: 1
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:quartz_block
+      count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:obsidian
+      count: 1
+      schema_version: 1
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - null
+    - null
+    - null
+    - null
+    offhand:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      schema_version: 1
+      id: minecraft:air
+    level: 12
+    exp: 0.3191023
+    totalExp: 11675
+    food: 20
+    saturation: 20.0
+    health: 20.0
+  hub:
+    contents:
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:compass
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right-click
+          to open server menu",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:1b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Server
+          Selector",underlined:0b}],text:""}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplefactionsraiding:hub_selector_compass":1b}}'
+      schema_version: 1
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    armor:
+    - null
+    - null
+    - null
+    - null
+    level: 0
+    exp: 0.0
+    totalExp: 0
+    food: 20
+    saturation: 20.0
+    health: 20.0
+    offhand:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      schema_version: 1
+      id: minecraft:air

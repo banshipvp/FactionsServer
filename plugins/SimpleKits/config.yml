@@ -51,3 +51,6 @@ gkits:
   royalty:
     display-name: "Royalty"
     description: "Premium endgame kit"
+  raider:
+    display-name: "Raider"
+    description: "Ultimate raiding and cannon kit"

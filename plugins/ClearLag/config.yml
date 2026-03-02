@@ -132,7 +132,7 @@ optimizations:
 
   # Detects and throttles fast redstone clocks to stop lag machines.
   fast-clock-detector:
-    enabled: true
+    enabled: false
     # Number of redstone activations per second per chunk before the chunk is blocked.
     threshold-per-second: 200
     # How long (in seconds) the redstone current in the chunk will be blocked.

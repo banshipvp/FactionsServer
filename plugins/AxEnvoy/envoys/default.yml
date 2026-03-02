@@ -7,7 +7,7 @@ crates:
   legendary: 12
   boss: 3
 #You can also define a range, like 30-50
-amount: 50-75
+amount: 15-25
 #The amount cap will be used for predefined spawns aswell
 limit-predefined: true
 #In seconds
@@ -16,7 +16,7 @@ collect-cooldown: 0
 collect-global-cooldown: false
 broadcast-collect: true
 #This is in seconds
-timeout-time: 600
+timeout-time: 300
 #Start an envoy event every hour. To disable, leave as ""
 every: 30m
 send-spawn-message: false
@@ -38,15 +38,15 @@ random-spawn:
   #Should we use random spawning?
   enabled: true
   #The center location
-  center: world;-609;63;148
+  center: faction_spawn;8;102;9
   #The minimum distance from the center an envoy may spawn
-  min-distance: 20
+  min-distance: 10
   #The minimum height at which an envoy may spawn
-  min-height: 10
+  min-height: 60
   #The maximum height at which an envoy may spawn
-  max-height: 200
+  max-height: 120
   #The minimum distance that can be between crates
-  min-distance-between-crates: 0
+  min-distance-between-crates: 5
   heightmap-mode: ''
   #You can use RegEx here, to match the name of the block
   #For a list of materials, visit: https://jd.papermc.io/paper/1.20/org/bukkit/Material.html
