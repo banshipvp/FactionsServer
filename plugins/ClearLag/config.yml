@@ -30,7 +30,7 @@ auto-clear:
   enabled: true
   interval-seconds: 300 # Time in seconds between each clear
   clear-items: true
-  clear-entities: false # Set to true to clear all entities (excluding players, item frames, etc.)
+  clear-entities: true # Clears hostile/neutral mobs each interval
   # --- Excluded Worlds ---
   # Auto-Clear will be disabled in these worlds.
   excluded-worlds:

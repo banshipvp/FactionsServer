@@ -1,0 +1,27 @@
+punishment:
+  instant-ban: true
+  ban-command: "ban %player% Unfair Advantage (%check%)"
+  broadcast-format: "&c%player% has been banned for &e%check%"
+checks:
+  autoclicker:
+    cps-threshold: 24
+    max-violations: 3
+  killaura:
+    max-violations: 3
+  reach:
+    max-distance: 3.35
+    max-violations: 3
+  speed:
+    max-horizontal-per-tick: 1.1
+    max-violations: 3
+  bhop:
+    min-consecutive-jumps: 6
+    max-violations: 2
+client:
+  blocked-brands:
+    - vape
+    - drip
+    - wurst
+    - meteor
+    - sigma
+    - aristois

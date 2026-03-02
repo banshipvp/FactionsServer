@@ -1,0 +1,30 @@
+# Server Configuration for Factions Server
+# Run these commands in your server console on first startup:
+
+# 1. Stop daylight cycle and set to day
+gamerule doDaylightCycle false
+time set day
+
+# 2. Disable weather
+gamerule doWeatherCycle false
+weather clear
+
+# 3. Keep inventory on death
+gamerule keepInventory true
+
+# 4. Disable fire spread
+gamerule doFireTick false
+
+# 5. Announce advancements
+gamerule announceAdvancements false
+
+# 6. NOTE: Natural mob spawning is now controlled by SimpleKits plugin
+# The MobStackManager automatically blocks all natural spawns
+# Only spawner-based mobs will spawn
+
+# Additional recommended settings:
+# - Spawn protection: 0 (in server.properties)
+# - View distance: 10-12 (in server.properties)
+# - Simulation distance: 8-10 (in server.properties)
+
+# To make these permanent, add them to startup commands or bukkit.yml

@@ -1,0 +1,18 @@
+combat:
+  tag-seconds: 10
+  blocked-commands:
+    - pv
+    - home
+    - spawn
+    - hub
+    - server
+    - wild
+    - wilderness
+    - widlerness
+    - tpa
+    - tp
+    - warp
+legacy-pvp:
+  enabled: true
+  attack-speed-base: 24.0
+  reset-hit-immunity: true

@@ -68,7 +68,7 @@ world:
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -4523862787249241973
+  seed: -8808289761420249014
   spawn-location:
     ==: MVSpawnLocation
     x: -592.0
@@ -141,7 +141,7 @@ world_nether:
   pvp: true
   respawn-world: ''
   scale: 8.0
-  seed: -4523862787249241973
+  seed: -8276399501527008889
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
@@ -179,7 +179,7 @@ world_the_end:
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -4523862787249241973
+  seed: -8276399501527008889
   spawn-location:
     ==: MVSpawnLocation
     x: 0.0
