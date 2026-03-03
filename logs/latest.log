@@ -1,547 +1,416 @@
-[01:41:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
-[01:41:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-130-ver/1.21.10@8043efd (2026-01-04T21:00:59Z) for Minecraft 1.21.10
-[01:41:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:41:53] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\SimpleFactionsRaiding-1.0.0.jar'...
-[01:41:53] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\SimpleFactionsRaiding-1.0.0.jar' in 244ms.
-[01:41:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 24 plugins
-[01:41:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
+[16:43:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Eclipse Adoptium Temurin-21.0.10+7) on Windows 11 10.0 (amd64)
+[16:43:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-130-ver/1.21.10@8043efd (2026-01-04T21:00:59Z) for Minecraft 1.21.10
+[16:43:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:43:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\SimpleFactionsRaiding-1.0.0.jar'...
+[16:43:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\SimpleFactionsRaiding-1.0.0.jar' in 365ms.
+[16:43:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 24 plugins
+[16:43:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
  - AuctionHouse (3.4), AxEnvoy (2.4.0), ClearLag (1.6.24.2), Essentials (2.22.0-dev+66-f080f81), EssentialsChat (2.22.0-dev+66-f080f81), FactionEnchants (1.0), LuckPerms (5.5.36), Multiverse-Core (5.3.3), PlaceholderAPI (2.12.2), PlayerVaults (1.8.5), SimpleAntiCheat (1.0.0), SimpleCrates (1.0), SimpleEconomy (1.0), SimpleFactions (0.1.0), SimpleFactionsRaiding (1.0.0), SimpleGenBlocks (1.0.0), SimpleHUD (1.0), SimpleKits (1.0), SimplePvP (1.0.0), SimpleShop (1.0), SimpleZones (1.0.0), Vault (2.19.0), WorldEdit (7.4.0+7381-3decaf0), WorldGuard (7.0.15+2347-5fafea6)
-[01:41:57] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:41:59] [ServerMain/INFO]: Loaded 1461 recipes
-[01:41:59] [ServerMain/INFO]: Loaded 1574 advancements
-[01:41:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:41:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 255.6ms
-[01:41:59] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[01:41:59] [Server thread/INFO]: Loading properties
-[01:41:59] [Server thread/INFO]: This server is running Paper version 1.21.10-130-ver/1.21.10@8043efd (2026-01-04T21:00:59Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
-[01:41:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:41:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:41:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:42:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[01:42:00] [Server thread/INFO]: Default game type: SURVIVAL
-[01:42:00] [Server thread/INFO]: Generating keypair
-[01:42:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:42:00] [Server thread/INFO]: Using default channel type
-[01:42:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:42:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loading 1 libraries... please wait
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\MinecraftDev\FactionsServer\libraries\redis\clients\jedis\5.0.2\jedis-5.0.2.jar
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\MinecraftDev\FactionsServer\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\MinecraftDev\FactionsServer\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\MinecraftDev\FactionsServer\libraries\org\json\json\20231013\json-20231013.jar
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\MinecraftDev\FactionsServer\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 1 libraries... please wait
-[01:42:00] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library C:\MinecraftDev\FactionsServer\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
-[01:42:01] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[01:42:01] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.36
-[01:42:01] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:42:01] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.19.0
-[01:42:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
-[01:42:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@12775c8d]
-[01:42:02] [Server thread/INFO]: [SimpleFactions] Loading server plugin SimpleFactions v0.1.0
-[01:42:02] [Server thread/INFO]: [SimpleKits] Loading server plugin SimpleKits v1.0
-[01:42:02] [Server thread/INFO]: [SimpleEconomy] Loading server plugin SimpleEconomy v1.0
-[01:42:02] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+66-f080f81
-[01:42:02] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15+2347-5fafea6
-[01:42:02] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.3
-[01:42:02] [Server thread/INFO]: [SimpleZones] Loading server plugin SimpleZones v1.0.0
-[01:42:02] [Server thread/INFO]: [SimpleShop] Loading server plugin SimpleShop v1.0
-[01:42:02] [Server thread/INFO]: [SimplePvP] Loading server plugin SimplePvP v1.0.0
-[01:42:02] [Server thread/INFO]: [SimpleHUD] Loading server plugin SimpleHUD v1.0
-[01:42:02] [Server thread/INFO]: [SimpleGenBlocks] Loading server plugin SimpleGenBlocks v1.0.0
-[01:42:02] [Server thread/INFO]: [SimpleFactionsRaiding] Loading server plugin SimpleFactionsRaiding v1.0.0
-[01:42:02] [Server thread/INFO]: [SimpleCrates] Loading server plugin SimpleCrates v1.0
-[01:42:02] [Server thread/INFO]: [SimpleAntiCheat] Loading server plugin SimpleAntiCheat v1.0.0
-[01:42:02] [Server thread/INFO]: [PlayerVaults] Loading server plugin PlayerVaults v1.8.5
-[01:42:02] [Server thread/INFO]: [FactionEnchants] Loading server plugin FactionEnchants v1.0
-[01:42:02] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+66-f080f81
-[01:42:02] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.6.24.2
-[01:42:02] [Server thread/INFO]: [AxEnvoy] Loading server plugin AxEnvoy v2.4.0
-[01:42:02] [Server thread/INFO]: [AuctionHouse] Loading server plugin AuctionHouse v3.4
-[01:42:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:42:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.36
-[01:42:02] [Server thread/INFO]:         __    
-[01:42:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.36
-[01:42:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:42:02] [Server thread/INFO]: 
-[01:42:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:42:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:42:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:42:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 963ms)
-[01:42:03] [Server thread/INFO]: [Vault] Enabling Vault v2.19.0
-[01:42:03] [Server thread/INFO]: [Vault] Enabled Version 2.19.0
-[01:42:03] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[01:42:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
-[01:42:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:42:03] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[01:42:03] [Server thread/WARN]: This version of WorldEdit has not been tested with the current Minecraft version.
+[16:43:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:43:16] [ServerMain/INFO]: Loaded 1461 recipes
+[16:43:16] [ServerMain/INFO]: Loaded 1574 advancements
+[16:43:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:43:16] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 276.7ms
+[16:43:16] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[16:43:16] [Server thread/INFO]: Loading properties
+[16:43:16] [Server thread/INFO]: This server is running Paper version 1.21.10-130-ver/1.21.10@8043efd (2026-01-04T21:00:59Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[16:43:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:43:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:43:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:43:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[16:43:18] [Server thread/INFO]: Default game type: SURVIVAL
+[16:43:18] [Server thread/INFO]: Generating keypair
+[16:43:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:43:18] [Server thread/INFO]: Using default channel type
+[16:43:18] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:43:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loading 1 libraries... please wait
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\Users\admin\Dev\FactionsServer\libraries\redis\clients\jedis\5.0.2\jedis-5.0.2.jar
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\Users\admin\Dev\FactionsServer\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\Users\admin\Dev\FactionsServer\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\Users\admin\Dev\FactionsServer\libraries\org\json\json\20231013\json-20231013.jar
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [PlayerVaults] Loaded library C:\Users\admin\Dev\FactionsServer\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loading 1 libraries... please wait
+[16:43:18] [Server thread/INFO]: [SpigotLibraryLoader] [ClearLag] Loaded library C:\Users\admin\Dev\FactionsServer\libraries\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[16:43:18] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[16:43:18] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.36
+[16:43:19] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:43:19] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.19.0
+[16:43:19] [Server thread/INFO]: [FactionEnchants] Loading server plugin FactionEnchants v1.0
+[16:43:19] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0+7381-3decaf0
+[16:43:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4aa4fbda]
+[16:43:19] [Server thread/INFO]: [SimpleFactions] Loading server plugin SimpleFactions v0.1.0
+[16:43:19] [Server thread/INFO]: [SimpleKits] Loading server plugin SimpleKits v1.0
+[16:43:19] [Server thread/INFO]: [SimpleEconomy] Loading server plugin SimpleEconomy v1.0
+[16:43:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+66-f080f81
+[16:43:19] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.15+2347-5fafea6
+[16:43:19] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.3
+[16:43:19] [Server thread/INFO]: [SimpleZones] Loading server plugin SimpleZones v1.0.0
+[16:43:19] [Server thread/INFO]: [SimpleShop] Loading server plugin SimpleShop v1.0
+[16:43:19] [Server thread/INFO]: [SimplePvP] Loading server plugin SimplePvP v1.0.0
+[16:43:19] [Server thread/INFO]: [SimpleHUD] Loading server plugin SimpleHUD v1.0
+[16:43:19] [Server thread/INFO]: [SimpleGenBlocks] Loading server plugin SimpleGenBlocks v1.0.0
+[16:43:19] [Server thread/INFO]: [SimpleFactionsRaiding] Loading server plugin SimpleFactionsRaiding v1.0.0
+[16:43:19] [Server thread/INFO]: [SimpleCrates] Loading server plugin SimpleCrates v1.0
+[16:43:19] [Server thread/INFO]: [SimpleAntiCheat] Loading server plugin SimpleAntiCheat v1.0.0
+[16:43:19] [Server thread/INFO]: [PlayerVaults] Loading server plugin PlayerVaults v1.8.5
+[16:43:19] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+66-f080f81
+[16:43:19] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v1.6.24.2
+[16:43:19] [Server thread/INFO]: [AxEnvoy] Loading server plugin AxEnvoy v2.4.0
+[16:43:19] [Server thread/INFO]: [AuctionHouse] Loading server plugin AuctionHouse v3.4
+[16:43:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:43:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.36
+[16:43:20] [Server thread/INFO]:         __    
+[16:43:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.36
+[16:43:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:43:20] [Server thread/INFO]: 
+[16:43:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:43:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:43:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:43:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 936ms)
+[16:43:20] [Server thread/INFO]: [Vault] Enabling Vault v2.19.0
+[16:43:20] [Server thread/INFO]: [Vault] Enabled Version 2.19.0
+[16:43:20] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:43:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0+7381-3decaf0
+[16:43:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:43:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:43:21] [Server thread/WARN]: This version of WorldEdit has not been tested with the current Minecraft version.
 While it may work, there might be unexpected issues.
 It is recommended to use a version of WorldEdit that supports your Minecraft version.
 For more information, see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
 
-[01:42:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
-[01:42:03] [Server thread/INFO]: Preparing level "world"
-[01:42:04] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[01:42:04] [Server thread/INFO]: Preparing spawn area: 100%
-[01:42:04] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:42:04] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:42:04] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:42:04] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:42:04] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:42:04] [Server thread/INFO]: Done preparing level "world" (0.729s)
-[01:42:04] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[01:42:04] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[01:42:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
-[01:42:04] [Server thread/INFO]: [SimpleFactions] Enabling SimpleFactions v0.1.0
-[01:42:04] [Server thread/INFO]: [SimpleFactions] Loaded 2 factions and 1 player mappings.
-[01:42:04] [Server thread/INFO]: SimpleFactions: Economy enabled via EssentialsX Economy
-[01:42:05] [Server thread/INFO]: [SimpleFactions] SimpleFactions enabled.
-[01:42:05] [Server thread/INFO]: [SimpleFactions] Core Chunk system initialized.
-[01:42:05] [Server thread/INFO]: [SimpleKits] Enabling SimpleKits v1.0
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to starter sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to starter armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to starter armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to starter armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to starter armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to pickaxe: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to pickaxe: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to bow: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to bow: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to bow: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to sword: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/WARN]: [SimpleKits] Could not apply random custom enchants to armor: Cannot invoke "Object.getClass()" because "randomGearManager" is null
-[01:42:05] [Server thread/INFO]: [SimpleKits] SimpleKits enabled successfully.
-[01:42:05] [Server thread/INFO]: [SimpleKits] Loaded 11 gkits.
-[01:42:05] [Server thread/INFO]: [SimpleEconomy] Enabling SimpleEconomy v1.0
-[01:42:05] [Server thread/INFO]: [SimpleEconomy] Bank notes enabled.
-[01:42:05] [Server thread/INFO]: [SimpleEconomy] SimpleEconomy enabled successfully.
-[01:42:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+66-f080f81
-[01:42:05] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[01:42:05] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:42:05] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[01:42:05] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
-[01:42:05] [Server thread/INFO]: [Essentials] Using locale en_AU
-[01:42:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:42:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:42:05] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[01:42:05] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15+2347-5fafea6
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[01:42:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[01:42:05] [Server thread/INFO]: [WorldGuard] Loading region data...
-[01:42:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.3
-[01:42:06] [Server thread/ERROR]: [Multiverse-Core] Failed to load world Nether: Failure{reason=WORLD_FOLDER_INVALID}
-[01:42:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.3]
-[01:42:06] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[01:42:06] [Server thread/INFO]: [Multiverse-Core] Version 5.3.3 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[01:42:06] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[01:42:06] [Server thread/INFO]: [SimpleZones] Enabling SimpleZones v1.0.0
-[01:42:06] [Server thread/INFO]: [SimpleZones] SimpleZones enabled — 0 zone(s) loaded.
-[01:42:06] [Server thread/INFO]: [SimpleShop] Enabling SimpleShop v1.0
-[01:42:06] [Server thread/INFO]: [SimpleShop] SimpleShop enabled successfully!
-[01:42:06] [Server thread/INFO]: [SimplePvP] Enabling SimplePvP v1.0.0
-[01:42:06] [Server thread/INFO]: [SimplePvP] SimplePvP enabled.
-[01:42:06] [Server thread/INFO]: [SimpleHUD] Enabling SimpleHUD v1.0
-[01:42:06] [Server thread/INFO]: [SimpleHUD] SimpleHUD enabled successfully!
-[01:42:06] [Server thread/INFO]: [SimpleGenBlocks] Enabling SimpleGenBlocks v1.0.0
-[01:42:06] [Server thread/INFO]: [SimpleGenBlocks] SimpleGenBlocks enabled.
-[01:42:06] [Server thread/INFO]: [SimpleFactionsRaiding] Enabling SimpleFactionsRaiding v1.0.0
-[01:42:06] [Server thread/INFO]: [SimpleFactionsRaiding] === SimpleFactionsRaiding Plugin Enabled ===
-[01:42:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:hub'...
-[01:42:06] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:42:06] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
-[01:42:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:faction_spawn'...
-[01:42:06] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_spawn) TNT ignition is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_spawn) Lighters are PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_spawn) Lava fire is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_spawn) Fire spread is UNRESTRICTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'faction_spawn'
-[01:42:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:faction_nether'...
-[01:42:06] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_nether) TNT ignition is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_nether) Lighters are PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_nether) Lava fire is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_nether) Fire spread is UNRESTRICTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'faction_nether'
-[01:42:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:faction_end'...
-[01:42:06] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_end) TNT ignition is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_end) Lighters are PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_end) Lava fire is PERMITTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] (faction_end) Fire spread is UNRESTRICTED.
-[01:42:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'faction_end'
-[01:42:06] [Server thread/INFO]: [SimpleFactionsRaiding] /f tnt commands handled by FactionTntCommandListener.
-[01:42:06] [Server thread/INFO]: [SimpleFactionsRaiding] WorldEdit found — /pastecannon enabled.
-[01:42:06] [Server thread/INFO]: [SimpleFactionsRaiding] Raiding managers initialized successfully
-[01:42:07] [Server thread/INFO]: [SimpleFactionsRaiding] Applied wilderness world rules (border + bedrock layer).
-[01:42:07] [Server thread/INFO]: [SimpleFactionsRaiding] Auto-restart enabled every 180 minutes.
-[01:42:07] [Server thread/INFO]: [SimpleCrates] Enabling SimpleCrates v1.0
-[01:42:07] [Server thread/INFO]: [SimpleCrates] SimpleCrates enabled with 6 crate tiers.
-[01:42:07] [Server thread/INFO]: [SimpleAntiCheat] Enabling SimpleAntiCheat v1.0.0
-[01:42:07] [Server thread/INFO]: [SimpleAntiCheat] SimpleAntiCheat enabled.
-[01:42:07] [Server thread/INFO]: [PlayerVaults] Enabling PlayerVaults v1.8.5
-[01:42:07] [Server thread/INFO]: [PlayerVaults] Using YAML file storage for vaults
-[01:42:07] [Server thread/INFO]: [PlayerVaults] PlayerVault has been enabled!
-[01:42:07] [Server thread/INFO]: [FactionEnchants] Enabling FactionEnchants v1.0
-[01:42:07] [Server thread/WARN]: [FactionEnchants] Could not save messages.yml to plugins\FactionEnchants\messages.yml because messages.yml already exists.
-[01:42:07] [Server thread/INFO]: [FactionEnchants] Registered 175 custom enchantments.
-[01:42:07] [Server thread/INFO]: [FactionEnchants] FactionEnchants has been enabled!
-[01:42:07] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+66-f080f81
-[01:42:07] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[01:42:07] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.6.24.2
-[01:42:07] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
-[01:42:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clearlag [1.6.24.2]
-[01:42:07] [Server thread/INFO]: [AxEnvoy] Enabling AxEnvoy v2.4.0
-[01:42:07] [Server thread/INFO]: [AxEnvoy] Enabled PlaceholderAPI hook!
-[01:42:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: axenvoy [2.4.0]
-[01:42:07] [Server thread/INFO]: [AxEnvoy] Enabled WorldGuard hook!
-[01:42:08] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.4
-[01:42:08] [Server thread/INFO]: [AuctionHouse] Loaded 205 messages and GUI elements
-[01:42:08] [Server thread/WARN]: [AuctionHouse] Web server NOT started - neither sessions nor web-expansion is enabled
-[01:42:08] [Server thread/INFO]: [AuctionHouse] ========================================
-[01:42:08] [Server thread/INFO]: [AuctionHouse] AuctionHouse v3.4 Loaded Successfully!
-[01:42:08] [Server thread/INFO]: [AuctionHouse] Server: standalone
-[01:42:08] [Server thread/INFO]: [AuctionHouse] Velocity: disabled
-[01:42:08] [Server thread/INFO]: [AuctionHouse] Sessions: disabled
-[01:42:08] [Server thread/INFO]: [AuctionHouse] Web Expansion: disabled
-[01:42:08] [Server thread/INFO]: [AuctionHouse] ========================================
-[01:42:08] [Server thread/INFO]: [spark] Starting background profiler...
-[01:42:08] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[01:42:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[01:42:08] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[01:42:08] [Server thread/INFO]: Running delayed init tasks
-[01:42:08] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:42:08] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.19.0)!
-[01:42:08] [Server thread/INFO]: Done (16.168s)! For help, type "help"
-[01:42:08] [Craft Scheduler Thread - 1 - ClearLag/INFO]: [ClearLag] You are running the latest version (1.6.24.2)
-[01:42:08] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
-[01:42:08] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[01:42:11] [User Authenticator #0/INFO]: UUID of player BanshiPvP is 298dceae-c320-41d3-b36b-a420dffcf532
-[01:42:11] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
-[01:42:12] [Server thread/INFO]: BanshiPvP joined the game
-[01:42:12] [Server thread/INFO]: BanshiPvP[/127.0.0.1:59164] logged in with entity id 1 at ([faction_spawn]10.5, 79.84393855703121, 12.5)
-[01:42:18] [Server thread/INFO]: BanshiPvP issued server command: /wild
-[01:42:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.10-130-8043efd (MC: 1.21.10) ---
-[01:42:28] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[01:42:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:28] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:42:28] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[01:42:28] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 151,-133) in 'faction_spawn']
-[01:42:28] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=faction_spawn, chunkX=151, chunkZ=-133, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:carvers}, currentGenStatus=minecraft:carvers, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=null, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=5, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[01:42:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:28] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:42:28] [Paper Watchdog Thread/ERROR]: 	PID: 66 | Suspended: false | Native: false | State: TIMED_WAITING
-[01:42:28] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/jdk.internal.misc.Unsafe.park(Native Method)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:171)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:161)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.managedBlock(ServerChunkCache.java:802)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:122)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:156)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:321)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:960)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftWorld.getHighestBlockYAt(CraftWorld.java:914)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftRegionAccessor.getHighestBlockYAt(CraftRegionAccessor.java:124)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		SimpleFactionsRaiding-1.0.0.jar//local.simplefactionsraiding.WildernessCommand.onCommand(WildernessCommand.java:67)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000001fb822539a8.execute(Unknown Source)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:352)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000001fb82250000.run(Unknown Source)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000001fb81fb2798.run(Unknown Source)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
-[01:42:28] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
-[01:42:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:42:28] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.10-130-8043efd (MC: 1.21.10) ---
-[01:42:33] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[01:42:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:33] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:42:33] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[01:42:33] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( -45,16) in 'faction_spawn']
-[01:42:33] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=faction_spawn, chunkX=-45, chunkZ=16, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=null, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=16, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[01:42:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:33] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:42:33] [Paper Watchdog Thread/ERROR]: 	PID: 66 | Suspended: false | Native: false | State: TIMED_WAITING
-[01:42:33] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/jdk.internal.misc.Unsafe.park(Native Method)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:171)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:161)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.managedBlock(ServerChunkCache.java:802)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:122)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:156)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:321)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:960)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftWorld.getHighestBlockYAt(CraftWorld.java:914)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftRegionAccessor.getHighestBlockYAt(CraftRegionAccessor.java:124)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		SimpleFactionsRaiding-1.0.0.jar//local.simplefactionsraiding.WildernessCommand.onCommand(WildernessCommand.java:67)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000001fb822539a8.execute(Unknown Source)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:352)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000001fb82250000.run(Unknown Source)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000001fb81fb2798.run(Unknown Source)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
-[01:42:33] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
-[01:42:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:42:33] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.10-130-8043efd (MC: 1.21.10) ---
-[01:42:38] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[01:42:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:38] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:42:38] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
-[01:42:38] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( -152,134) in 'faction_spawn']
-[01:42:38] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=faction_spawn, chunkX=-152, chunkZ=134, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:carvers}, currentGenStatus=minecraft:carvers, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=null, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=8, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
-[01:42:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:38] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:42:38] [Paper Watchdog Thread/ERROR]: 	PID: 66 | Suspended: false | Native: false | State: TIMED_WAITING
-[01:42:38] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/jdk.internal.misc.Unsafe.park(Native Method)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:171)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:161)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.managedBlock(ServerChunkCache.java:802)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:122)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:156)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:321)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:960)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftWorld.getHighestBlockYAt(CraftWorld.java:914)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftRegionAccessor.getHighestBlockYAt(CraftRegionAccessor.java:124)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		SimpleFactionsRaiding-1.0.0.jar//local.simplefactionsraiding.WildernessCommand.onCommand(WildernessCommand.java:67)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x000001fb822539a8.execute(Unknown Source)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:364)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:352)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2321)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2294)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x000001fb82250000.run(Unknown Source)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:176)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:180)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:150)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1517)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1511)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1229)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1352)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000001fb81fb2798.run(Unknown Source)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
-[01:42:38] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
-[01:42:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:42:38] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:42:38] [Server thread/INFO]: BanshiPvP issued server command: /lag
-[01:42:41] [Server thread/INFO]: BanshiPvP issued server command: /speed 10
-[01:42:48] [Server thread/INFO]: BanshiPvP issued server command: /speed 1
-[01:42:55] [Server thread/INFO]: BanshiPvP issued server command: /pastecannon Banshis-319-OSRB-PSEUDO-DT-ADJXY-BH248-(watered) -o
-[01:42:57] [Server thread/INFO]: BanshiPvP issued server command: /f tnt
-[01:42:58] [Server thread/INFO]: BanshiPvP issued server command: /f tnt b
-[01:43:09] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 9484
-[01:43:11] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:43:12] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 9484
-[01:43:12] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:43:13] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 9484
-[01:43:13] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:43:14] [Server thread/INFO]: BanshiPvP issued server command: /f f
-[01:43:17] [Server thread/INFO]: BanshiPvP issued server command: /f unclaimall
-[01:43:20] [Server thread/INFO]: BanshiPvP issued server command: /f claim radius 5
-[01:43:27] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 10 10
-[01:43:28] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 14.25! Performance is critical!
-[01:43:28] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 14.25! Performance is critical!
-[01:43:39] [Server thread/INFO]: BanshiPvP issued server command: //set sand
-[01:43:40] [Server thread/INFO]: BanshiPvP issued server command: //stack 100 u
-[01:43:46] [Server thread/INFO]: BanshiPvP issued server command: //stack 100 u
-[01:43:49] [Server thread/INFO]: BanshiPvP issued server command: //set sand
-[01:43:50] [Server thread/INFO]: BanshiPvP issued server command: //stack 100 u
-[01:44:09] [Server thread/INFO]: BanshiPvP issued server command: /pastecannon undo
-[01:44:15] [Server thread/INFO]: BanshiPvP issued server command: /pastecannon Banshis-319-OSRB-PSEUDO-DT-ADJXY-BH248-(watered) -o
-[01:44:21] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 10 10
-[01:44:23] [Server thread/INFO]: BanshiPvP issued server command: /f tnt
-[01:44:29] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:34] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:34] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:35] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:36] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:36] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:37] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:37] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:38] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:39] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:39] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:40] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:40] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:41] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:41] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:42] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:43] [Server thread/INFO]: BanshiPvP issued server command: /give BanshiPvP tnt 94894
-[01:44:44] [Server thread/INFO]: BanshiPvP issued server command: /f tnt d all
-[01:44:49] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 10 10 10
-[01:44:54] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 10 10
-[01:44:54] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 10 10
-[01:44:55] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 10 10
-[01:45:52] [Server thread/INFO]: BanshiPvP issued server command: /pastecannon undo
-[01:45:59] [Server thread/INFO]: BanshiPvP issued server command: /pastecannon Banshis-319-OSRB-PSEUDO-DT-ADJXY-BH248-(watered) -o
-[01:46:02] [Server thread/INFO]: BanshiPvP issued server command: /f tnt bn
-[01:46:03] [Server thread/INFO]: BanshiPvP issued server command: /f tnt b
-[01:46:10] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 5 5
-[01:46:11] [Server thread/INFO]: BanshiPvP issued server command: /
-[01:46:13] [Server thread/INFO]: BanshiPvP issued server command: /f tnt fill 100 5 5
-[01:46:28] [Server thread/INFO]: BanshiPvP issued server command: /tps
-[01:46:30] [Server thread/INFO]: BanshiPvP issued server command: /tps
-[01:46:31] [Server thread/INFO]: BanshiPvP issued server command: /tps
-[01:46:32] [Server thread/INFO]: BanshiPvP issued server command: /tps
-[01:46:32] [Server thread/INFO]: BanshiPvP issued server command: /tps
-[01:46:33] [Server thread/INFO]: BanshiPvP issued server command: /tps
-[01:46:35] [Server thread/INFO]: BanshiPvP issued server command: /lag
-[01:46:36] [Server thread/INFO]: BanshiPvP issued server command: /lag
-[01:46:37] [Server thread/INFO]: BanshiPvP lost connection: Disconnected
-[01:46:38] [Server thread/INFO]: BanshiPvP left the game
-[01:46:41] [User Authenticator #1/INFO]: UUID of player BanshiPvP is 298dceae-c320-41d3-b36b-a420dffcf532
-[01:46:41] [Server thread/INFO]: BanshiPvP joined the game
-[01:46:41] [Server thread/INFO]: BanshiPvP[/127.0.0.1:54595] logged in with entity id 13551 at ([faction_spawn]-2293.997186646297, 214.55858106898634, 2280.971563323224)
-[01:47:11] [Server thread/INFO]: BanshiPvP lost connection: Disconnected
-[01:47:11] [Server thread/INFO]: BanshiPvP left the game
+[16:43:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_9.PaperweightAdapter as the Bukkit adapter
+[16:43:21] [Server thread/INFO]: Preparing level "world"
+[16:43:21] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[16:43:21] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:43:21] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[16:43:21] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:43:21] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[16:43:21] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:43:21] [Server thread/INFO]: Done preparing level "world" (0.541s)
+[16:43:21] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[16:43:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:43:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
+[16:43:22] [Server thread/INFO]: [FactionEnchants] Enabling FactionEnchants v1.0
+[16:43:22] [Server thread/WARN]: [FactionEnchants] Could not save messages.yml to plugins\FactionEnchants\messages.yml because messages.yml already exists.
+[16:43:22] [Server thread/INFO]: [FactionEnchants] Registered 175 custom enchantments.
+[16:43:22] [Server thread/INFO]: [FactionEnchants] FactionEnchants has been enabled!
+[16:43:22] [Server thread/INFO]: [SimpleFactions] Enabling SimpleFactions v0.1.0
+[16:43:22] [Server thread/INFO]: [SimpleFactions] Loaded 2 factions and 1 player mappings.
+[16:43:22] [Server thread/INFO]: SimpleFactions: Economy enabled via EssentialsX Economy
+[16:43:22] [Server thread/INFO]: [SimpleFactions] SimpleFactions enabled.
+[16:43:22] [Server thread/INFO]: [SimpleFactions] Core Chunk system initialized.
+[16:43:22] [Server thread/INFO]: [SimpleKits] Enabling SimpleKits v1.0
+[16:43:22] [Server thread/INFO]: [SimpleKits] Successfully hooked into FactionEnchants!
+[16:43:22] [Server thread/INFO]: [SimpleKits] SimpleKits enabled successfully.
+[16:43:22] [Server thread/INFO]: [SimpleKits] Loaded 10 gkits.
+[16:43:22] [Server thread/INFO]: [SimpleKits] Mob stacking system enabled.
+[16:43:22] [Server thread/INFO]: [SimpleKits] Flight persistence enabled.
+[16:43:22] [Server thread/INFO]: [SimpleEconomy] Enabling SimpleEconomy v1.0
+[16:43:22] [Server thread/INFO]: [SimpleEconomy] Bank notes enabled.
+[16:43:22] [Server thread/INFO]: [SimpleEconomy] SimpleEconomy enabled successfully.
+[16:43:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+66-f080f81
+[16:43:22] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:43:22] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:43:22] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:43:22] [Server thread/INFO]: [Essentials] Loaded 46309 items from items.json.
+[16:43:22] [Server thread/INFO]: [Essentials] Using locale en_AU
+[16:43:22] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:43:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:43:22] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:43:22] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.15+2347-5fafea6
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[16:43:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[16:43:23] [Server thread/INFO]: [WorldGuard] Loading region data...
+[16:43:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.3
+[16:43:23] [Server thread/ERROR]: [Multiverse-Core] Failed to load world Nether: Failure{reason=WORLD_FOLDER_INVALID}
+[16:43:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.3]
+[16:43:24] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[16:43:24] [Server thread/INFO]: [Multiverse-Core] Version 5.3.3 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[16:43:24] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[16:43:24] [Server thread/INFO]: [SimpleZones] Enabling SimpleZones v1.0.0
+[16:43:24] [Server thread/INFO]: [SimpleZones] SimpleZones enabled — 0 zone(s) loaded.
+[16:43:24] [Server thread/INFO]: [SimpleShop] Enabling SimpleShop v1.0
+[16:43:24] [Server thread/INFO]: [SimpleShop] SimpleShop enabled successfully!
+[16:43:24] [Server thread/INFO]: [SimplePvP] Enabling SimplePvP v1.0.0
+[16:43:24] [Server thread/INFO]: [SimplePvP] SimplePvP enabled.
+[16:43:24] [Server thread/INFO]: [SimpleHUD] Enabling SimpleHUD v1.0
+[16:43:24] [Server thread/INFO]: [SimpleHUD] SimpleHUD enabled successfully!
+[16:43:24] [Server thread/INFO]: [SimpleGenBlocks] Enabling SimpleGenBlocks v1.0.0
+[16:43:24] [Server thread/INFO]: [SimpleGenBlocks] SimpleGenBlocks enabled.
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] Enabling SimpleFactionsRaiding v1.0.0
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] === SimpleFactionsRaiding Plugin Enabled ===
+[16:43:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:hub'...
+[16:43:24] [Server thread/INFO]: Preparing spawn area: 100%
+[16:43:24] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:43:24] [Server thread/INFO]: [WorldGuard] (hub) TNT ignition is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (hub) Lighters are PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (hub) Lava fire is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (hub) Fire spread is UNRESTRICTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hub'
+[16:43:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:faction_spawn'...
+[16:43:24] [Server thread/INFO]: Prepared spawn area in 5 ms
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_spawn) TNT ignition is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_spawn) Lighters are PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_spawn) Lava fire is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_spawn) Fire spread is UNRESTRICTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'faction_spawn'
+[16:43:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:faction_nether'...
+[16:43:24] [Server thread/INFO]: Prepared spawn area in 6 ms
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_nether) TNT ignition is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_nether) Lighters are PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_nether) Lava fire is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_nether) Fire spread is UNRESTRICTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'faction_nether'
+[16:43:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:faction_end'...
+[16:43:24] [Server thread/INFO]: Prepared spawn area in 10 ms
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_end) TNT ignition is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_end) Lighters are PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_end) Lava fire is PERMITTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] (faction_end) Fire spread is UNRESTRICTED.
+[16:43:24] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'faction_end'
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] /f tnt commands handled by FactionTntCommandListener.
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] WorldEdit found — /pastecannon enabled.
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] Raiding managers initialized successfully
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] Applied wilderness world rules (border + bedrock layer).
+[16:43:24] [Server thread/INFO]: [SimpleFactionsRaiding] Auto-restart enabled every 180 minutes.
+[16:43:24] [Server thread/INFO]: [SimpleCrates] Enabling SimpleCrates v1.0
+[16:43:24] [Server thread/INFO]: [SimpleCrates] SimpleCrates enabled with 6 crate tiers.
+[16:43:24] [Server thread/INFO]: [SimpleAntiCheat] Enabling SimpleAntiCheat v1.0.0
+[16:43:24] [Server thread/INFO]: [SimpleAntiCheat] SimpleAntiCheat enabled.
+[16:43:24] [Server thread/INFO]: [PlayerVaults] Enabling PlayerVaults v1.8.5
+[16:43:24] [Server thread/INFO]: [PlayerVaults] Using YAML file storage for vaults
+[16:43:24] [Server thread/INFO]: [PlayerVaults] PlayerVault has been enabled!
+[16:43:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+66-f080f81
+[16:43:24] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:43:24] [Server thread/INFO]: [ClearLag] Enabling ClearLag v1.6.24.2
+[16:43:24] [Server thread/WARN]: [ClearLag] Luckperms detected! Running in advanced permission mode.
+[16:43:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clearlag [1.6.24.2]
+[16:43:24] [Server thread/INFO]: [AxEnvoy] Enabling AxEnvoy v2.4.0
+[16:43:24] [Server thread/INFO]: [AxEnvoy] Enabled PlaceholderAPI hook!
+[16:43:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: axenvoy [2.4.0]
+[16:43:24] [Server thread/INFO]: [AxEnvoy] Enabled WorldGuard hook!
+[16:43:25] [Server thread/INFO]: [AuctionHouse] Enabling AuctionHouse v3.4
+[16:43:25] [Server thread/INFO]: [AuctionHouse] Loaded 205 messages and GUI elements
+[16:43:25] [Server thread/WARN]: [AuctionHouse] Web server NOT started - neither sessions nor web-expansion is enabled
+[16:43:25] [Server thread/INFO]: [AuctionHouse] ========================================
+[16:43:25] [Server thread/INFO]: [AuctionHouse] AuctionHouse v3.4 Loaded Successfully!
+[16:43:25] [Server thread/INFO]: [AuctionHouse] Server: standalone
+[16:43:25] [Server thread/INFO]: [AuctionHouse] Velocity: disabled
+[16:43:25] [Server thread/INFO]: [AuctionHouse] Sessions: disabled
+[16:43:25] [Server thread/INFO]: [AuctionHouse] Web Expansion: disabled
+[16:43:25] [Server thread/INFO]: [AuctionHouse] ========================================
+[16:43:25] [Server thread/INFO]: [spark] Starting background profiler...
+[16:43:25] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[16:43:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:43:25] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[16:43:25] [Server thread/INFO]: Running delayed init tasks
+[16:43:25] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:43:25] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.19.0)!
+[16:43:25] [Server thread/INFO]: Done (16.865s)! For help, type "help"
+[16:43:25] [Craft Scheduler Thread - 3 - ClearLag/INFO]: [ClearLag] You are running the latest version (1.6.24.2)
+[16:43:25] [pool-70-thread-1/INFO]: Not enough players online. Rescheduling envoy...
+[16:43:26] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
+[16:43:26] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[16:43:27] [User Authenticator #0/INFO]: UUID of player BanshiPvP is 298dceae-c320-41d3-b36b-a420dffcf532
+[16:43:28] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
+[16:43:29] [Server thread/INFO]: BanshiPvP joined the game
+[16:43:29] [Server thread/INFO]: BanshiPvP[/127.0.0.1:49951] logged in with entity id 1 at ([faction_spawn]949.3376676912259, 164.87715705012295, 2256.699999988079)
+[16:43:29] [Server thread/INFO]: [SimpleFactionsRaiding] Not saving location for BanshiPvP - not in faction world (current: hub)
+[16:43:31] [Server thread/INFO]: [SimpleFactionsRaiding] Loading last location for BanshiPvP, path exists: true
+[16:43:31] [Server thread/INFO]: [SimpleFactionsRaiding] Stored world name: faction_spawn
+[16:43:31] [Server thread/INFO]: [SimpleFactionsRaiding] Attempting to teleport BanshiPvP to faction server
+[16:43:32] [Server thread/INFO]: [SimpleFactionsRaiding] Last location: Location{world=CraftWorld{name=faction_spawn},x=944.099093272075,y=166.36109588773934,z=2254.1469478463505,pitch=21.146225,yaw=-0.713562}
+[16:43:32] [Server thread/INFO]: [SimpleFactionsRaiding] Teleporting to last location: Location{world=CraftWorld{name=faction_spawn},x=944.099093272075,y=166.36109588773934,z=2254.1469478463505,pitch=21.146225,yaw=-0.713562}
+[16:48:41] [Server thread/INFO]: [SimpleFactions] Auto-saving faction data...
+[16:48:41] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[16:49:50] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.32! Performance is critical!
+[16:49:50] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.32! Performance is critical!
+[16:50:58] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.43! Performance is critical!
+[16:50:58] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.43! Performance is critical!
+[16:52:09] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 16.99! Performance is critical!
+[16:52:09] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 16.99! Performance is critical!
+[16:54:14] [Server thread/INFO]: [SimpleFactions] Auto-saving faction data...
+[16:54:14] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[16:55:24] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.05! Performance is critical!
+[16:55:24] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.05! Performance is critical!
+[16:55:35] [Server thread/INFO]: BanshiPvP lost connection: Disconnected
+[16:55:35] [Server thread/INFO]: [SimpleFactionsRaiding] Saving last location for BanshiPvP at Location{world=CraftWorld{name=faction_spawn},x=946.7839792255011,y=164.12711042234196,z=2249.0226249132506,pitch=37.13828,yaw=-88.985886}
+[16:55:35] [Server thread/INFO]: BanshiPvP left the game
+[16:56:32] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.78! Performance is critical!
+[16:56:32] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.78! Performance is critical!
+[16:57:42] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.45! Performance is critical!
+[16:57:42] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.45! Performance is critical!
+[16:59:47] [Server thread/INFO]: [SimpleFactions] Auto-saving faction data...
+[16:59:47] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[17:00:56] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.7! Performance is critical!
+[17:00:56] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.7! Performance is critical!
+[17:03:09] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.55! Performance is critical!
+[17:03:09] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.55! Performance is critical!
+[17:04:16] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.9! Performance is critical!
+[17:04:16] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.9! Performance is critical!
+[17:05:19] [Server thread/INFO]: [SimpleFactions] Auto-saving faction data...
+[17:05:19] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[17:06:27] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.85! Performance is critical!
+[17:06:27] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.85! Performance is critical!
+[17:08:25] [pool-70-thread-1/INFO]: TECHNOCLASH ENVOY starts in 05:00.
+[17:08:42] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.42! Performance is critical!
+[17:08:42] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.42! Performance is critical!
+[17:09:51] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.32! Performance is critical!
+[17:09:51] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.32! Performance is critical!
+[17:10:57] [Server thread/INFO]: [SimpleFactions] Auto-saving faction data...
+[17:10:57] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[17:12:05] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.67! Performance is critical!
+[17:12:05] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.67! Performance is critical!
+[17:13:11] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.94! Performance is critical!
+[17:13:11] [Server thread/WARN]: [ClearLag] [ClearLag] Server TPS has dropped to 17.94! Performance is critical!
+[17:13:20] [pool-70-thread-1/INFO]: TECHNOCLASH ENVOY starts in 00:05.
+[17:13:22] [pool-70-thread-1/INFO]: TECHNOCLASH ENVOY starts in 00:03.
+[17:13:23] [pool-70-thread-1/INFO]: TECHNOCLASH ENVOY starts in 00:02.
+[17:13:24] [pool-70-thread-1/INFO]: TECHNOCLASH ENVOY starts in 00:01.
+[17:13:25] [pool-70-thread-1/INFO]: Not enough players online. Rescheduling envoy...
+[17:13:38] [Server thread/INFO]: Stopping the server
+[17:13:38] [Server thread/INFO]: Stopping server
+[17:13:38] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v3.4
+[17:13:38] [Server thread/INFO]: [AuctionHouse] AuctionHouse has been disabled!
+[17:13:38] [Server thread/INFO]: [AxEnvoy] Disabling AxEnvoy v2.4.0
+[17:13:38] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+66-f080f81
+[17:13:38] [Server thread/INFO]: [PlayerVaults] Disabling PlayerVaults v1.8.5
+[17:13:38] [Server thread/INFO]: [PlayerVaults] PlayerVault has been disabled!
+[17:13:38] [Server thread/INFO]: [SimpleAntiCheat] Disabling SimpleAntiCheat v1.0.0
+[17:13:38] [Server thread/INFO]: [SimpleAntiCheat] SimpleAntiCheat disabled.
+[17:13:38] [Server thread/INFO]: [SimpleCrates] Disabling SimpleCrates v1.0
+[17:13:38] [Server thread/INFO]: [SimpleFactionsRaiding] Disabling SimpleFactionsRaiding v1.0.0
+[17:13:38] [Server thread/INFO]: [SimpleFactionsRaiding] SimpleFactionsRaiding Plugin Disabled
+[17:13:38] [Server thread/INFO]: [SimpleGenBlocks] Disabling SimpleGenBlocks v1.0.0
+[17:13:38] [Server thread/INFO]: [SimpleGenBlocks] SimpleGenBlocks disabled.
+[17:13:38] [Server thread/INFO]: [SimpleHUD] Disabling SimpleHUD v1.0
+[17:13:38] [Server thread/INFO]: [SimpleHUD] SimpleHUD disabled.
+[17:13:38] [Server thread/INFO]: [SimplePvP] Disabling SimplePvP v1.0.0
+[17:13:38] [Server thread/INFO]: [SimplePvP] SimplePvP disabled.
+[17:13:38] [Server thread/INFO]: [SimpleShop] Disabling SimpleShop v1.0
+[17:13:38] [Server thread/INFO]: [SimpleShop] SimpleShop disabled.
+[17:13:38] [Server thread/INFO]: [SimpleZones] Disabling SimpleZones v1.0.0
+[17:13:38] [Server thread/INFO]: [SimpleZones] SimpleZones disabled.
+[17:13:38] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.3
+[17:13:38] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.15+2347-5fafea6
+[17:13:38] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:13:38] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+66-f080f81
+[17:13:38] [Server thread/INFO]: [SimpleEconomy] Disabling SimpleEconomy v1.0
+[17:13:38] [Server thread/INFO]: [SimpleEconomy] SimpleEconomy disabled.
+[17:13:38] [Server thread/INFO]: [SimpleKits] Disabling SimpleKits v1.0
+[17:13:38] [Server thread/INFO]: [SimpleKits] SimpleKits disabled.
+[17:13:38] [Server thread/INFO]: [SimpleFactions] Disabling SimpleFactions v0.1.0
+[17:13:38] [Server thread/INFO]: [SimpleFactions] Saving faction data...
+[17:13:38] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[17:13:38] [Server thread/INFO]: [SimpleFactions] SimpleFactions disabled.
+[17:13:38] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0+7381-3decaf0
+[17:13:38] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:13:38] [Server thread/INFO]: [FactionEnchants] Disabling FactionEnchants v1.0
+[17:13:38] [Server thread/INFO]: [FactionEnchants] FactionEnchants has been disabled!
+[17:13:38] [Server thread/INFO]: [Vault] Disabling Vault v2.19.0
+[17:13:38] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.36
+[17:13:38] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:13:38] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:13:38] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:13:38] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
+[17:13:38] [Server thread/INFO]: Saving players
+[17:13:38] [Server thread/INFO]: Saving worlds
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hub]'/minecraft:hub
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hub'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hub'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hub'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'hub' in 0.02s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hub'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hub'
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[faction_spawn]'/minecraft:faction_spawn
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'faction_spawn'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'faction_spawn'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'faction_spawn'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'faction_spawn' in 0.01s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'faction_spawn'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'faction_spawn'
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[faction_nether]'/minecraft:faction_nether
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'faction_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'faction_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'faction_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'faction_nether' in 0.00s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'faction_nether'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'faction_nether'
+[17:13:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[faction_end]'/minecraft:faction_end
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'faction_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'faction_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'faction_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'faction_end' in 0.00s
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'faction_end'
+[17:13:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'faction_end'
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (hub): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (faction_spawn): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:13:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:13:38] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:13:38] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:13:38] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:13:38] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
