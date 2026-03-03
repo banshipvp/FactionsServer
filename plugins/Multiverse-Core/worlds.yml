@@ -112,6 +112,11 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
   world-blacklist: []
   version: 1.2
 world_nether:

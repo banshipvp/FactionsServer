@@ -227,7 +227,7 @@ entities:
     other: default
     player: default
 environment:
-  disable-explosion-knockback: false
+  disable-explosion-knockback: true
   disable-ice-and-snow: false
   disable-thunder: false
   fire-tick-delay: 30

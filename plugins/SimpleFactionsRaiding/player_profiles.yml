@@ -3,15 +3,19 @@
     contents:
     - ==: org.bukkit.inventory.ItemStack
       DataVersion: 4556
+      id: minecraft:tnt
+      count: 64
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:ladder
+      count: 64
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
       id: minecraft:wooden_axe
       count: 1
       schema_version: 1
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
     - ==: org.bukkit.inventory.ItemStack
       DataVersion: 4556
       id: minecraft:quartz_block
@@ -19,8 +23,79 @@
       schema_version: 1
     - ==: org.bukkit.inventory.ItemStack
       DataVersion: 4556
-      id: minecraft:obsidian
+      id: minecraft:sand
       count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:dispenser
+      count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:observer
+      count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:stone_button
+      count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:water_bucket
+      count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:observer
+      count: 1
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:quartz_slab
+      count: 1
+      schema_version: 1
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:birch_sapling
+      count: 3
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:birch_log
+      count: 5
+      schema_version: 1
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diorite
+      count: 64
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:torch
+      count: 64
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:golden_apple
+      count: 8
+      schema_version: 1
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diorite
+      count: 63
+      schema_version: 1
+    - null
+    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:andesite
+      count: 5
       schema_version: 1
     - null
     - null
@@ -29,51 +104,174 @@
     - null
     - null
     - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:flint
+      count: 2
+      schema_version: 1
     - null
     - null
     - null
     - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_boots
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Molten
+          III",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Commander
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Stormcaller
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"EnderShift
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"Torrent
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ragdoll
+          III",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Boots",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_leggings
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Lifebloom
+          IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Shuffle
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ward
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Reinforced
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Trickster
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Arrow
+          Deflect III",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tanky
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Frozen
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dodge
+          V",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Leggings",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_chestplate
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Godly
+          Overload II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Voodoo
+          III",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Creeper
+          Armor II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Restore
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cactus
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Poisoned
+          IV",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Chestplate",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_helmet
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Stormcaller
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sustain
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Commander
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"Enlighted
+          III",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Spirits
+          IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Aquatic
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Heavy
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Smoke
+          Bomb II",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Helmet",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
     - null
     - null
     - null
     armor:
-    - null
-    - null
-    - null
-    - null
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_boots
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Molten
+          III",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Commander
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Stormcaller
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"EnderShift
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"Torrent
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ragdoll
+          III",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Boots",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_leggings
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Lifebloom
+          IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Shuffle
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ward
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Reinforced
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Trickster
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Arrow
+          Deflect III",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Tanky
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Frozen
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Dodge
+          V",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Leggings",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_chestplate
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Godly
+          Overload II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Voodoo
+          III",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Creeper
+          Armor II",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Restore
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Cactus
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Poisoned
+          IV",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Chestplate",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_helmet
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Stormcaller
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Sustain
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Commander
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"Enlighted
+          III",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Spirits
+          IV",underlined:0b}],text:""},{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"Aquatic
+          I",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Heavy
+          II",underlined:0b}],text:""},{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Smoke
+          Bomb II",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"Raider
+          Helmet",underlined:0b}],text:""}'
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
     offhand:
       ==: org.bukkit.inventory.ItemStack
       DataVersion: 4556
       schema_version: 1
       id: minecraft:air
-    level: 12
-    exp: 0.3191023
-    totalExp: 11675
+    level: 150
+    exp: 0.7592364
+    totalExp: 80000
     food: 20
-    saturation: 20.0
+    saturation: 1.0
     health: 20.0
   hub:
     contents:
+    - null
+    - null
+    - null
+    - null
     - ==: org.bukkit.inventory.ItemStack
       DataVersion: 4556
       id: minecraft:compass
@@ -85,10 +283,6 @@
           Selector",underlined:0b}],text:""}'
         minecraft:custom_data: '{PublicBukkitValues:{"simplefactionsraiding:hub_selector_compass":1b}}'
       schema_version: 1
-    - null
-    - null
-    - null
-    - null
     - null
     - null
     - null

@@ -136,7 +136,7 @@ world-settings:
     zombie-aggressive-towards-villager: true
     simulation-distance: default
     view-distance: default
-    max-tnt-per-tick: 100
+    max-tnt-per-tick: 5000
     max-tick-time:
       tile: 50
       entity: 50
