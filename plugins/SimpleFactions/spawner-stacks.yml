@@ -10,9 +10,6 @@ stacks:
   - '1772603913242'
   - '1772603913287'
   - '1772603913839'
-  - '1772603914727'
-  - '1772603916207'
-  - '1772603916838'
 - locationKey: faction_spawn:2399:87:-1563
   entityType: iron_golem
   factionName: fac
@@ -32,20 +29,23 @@ stacks:
   - '1772603971173'
   - '1772603971375'
   - '1772603972222'
-- locationKey: faction_spawn:2400:85:-1562
+- locationKey: faction_spawn:2398:85:-1561
   entityType: iron_golem
   factionName: fac
   placedTimes:
-  - '1772603934734'
-  - '1772603945290'
-  - '1772603945292'
-  - '1772603945292'
-  - '1772603945387'
-  - '1772603945987'
-  - '1772603946738'
-  - '1772603956259'
-  - '1772603956676'
-  - '1772603957822'
+  - '1772605077331'
+  - '1772605083260'
+  - '1772605084870'
+- locationKey: faction_spawn:2399:86:-1561
+  entityType: iron_golem
+  factionName: fac
+  placedTimes:
+  - '1772605086310'
+  - '1772605087913'
+  - '1772605088324'
+  - '1772605089278'
+  - '1772605089574'
+  - '1772605090814'
 - locationKey: faction_spawn:2399:86:-1563
   entityType: iron_golem
   factionName: fac
@@ -107,3 +107,11 @@ stacks:
   - '1772603965373'
   - '1772603965574'
   - '1772603965776'
+- locationKey: faction_spawn:2399:85:-1561
+  entityType: iron_golem
+  factionName: fac
+  placedTimes:
+  - '1772605084873'
+  - '1772605085074'
+  - '1772605085474'
+  - '1772605086307'

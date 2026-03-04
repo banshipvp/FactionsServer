@@ -306,3 +306,117 @@ java.lang.IllegalStateException: Provider SpigotPluginProvider{path=plugins\worl
 [16:49:44] [Server thread/INFO]: BanshiPvP lost connection: Disconnected
 [16:49:44] [Server thread/INFO]: [SimpleFactionsRaiding] Saving last location for BanshiPvP at Location{world=CraftWorld{name=faction_spawn},x=2406.7243812473707,y=90.56221938542163,z=-1554.1650012423952,pitch=56.66743,yaw=124.64746}
 [16:49:44] [Server thread/INFO]: BanshiPvP left the game
+[16:54:47] [Server thread/INFO]: [SimpleFactions] Auto-saving faction data...
+[16:54:47] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[16:58:02] [Server thread/INFO]: Stopping the server
+[16:58:02] [Server thread/INFO]: Stopping server
+[16:58:02] [Server thread/INFO]: [AuctionHouse] Disabling AuctionHouse v3.4
+[16:58:02] [Server thread/INFO]: [AuctionHouse] AuctionHouse has been disabled!
+[16:58:02] [Server thread/INFO]: [AxEnvoy-Custom] Disabling AxEnvoy-Custom v1.0
+[16:58:02] [Server thread/INFO]: [AxEnvoy-Custom] AxEnvoy Custom Rewards system disabled!
+[16:58:02] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+66-f080f81
+[16:58:02] [Server thread/INFO]: [PlayerVaults] Disabling PlayerVaults v1.8.5
+[16:58:02] [Server thread/INFO]: [PlayerVaults] PlayerVault has been disabled!
+[16:58:02] [Server thread/INFO]: [SimpleAntiCheat] Disabling SimpleAntiCheat v1.0.0
+[16:58:02] [Server thread/INFO]: [SimpleAntiCheat] SimpleAntiCheat disabled.
+[16:58:02] [Server thread/INFO]: [SimpleFactionsRaiding] Disabling SimpleFactionsRaiding v1.0.0
+[16:58:02] [Server thread/INFO]: [SimpleFactionsRaiding] SimpleFactionsRaiding Plugin Disabled
+[16:58:02] [Server thread/INFO]: [SimpleGenBlocks] Disabling SimpleGenBlocks v1.0.0
+[16:58:02] [Server thread/INFO]: [SimpleGenBlocks] SimpleGenBlocks disabled.
+[16:58:02] [Server thread/INFO]: [SimpleHUD] Disabling SimpleHUD v1.0
+[16:58:02] [Server thread/INFO]: [SimpleHUD] SimpleHUD disabled.
+[16:58:02] [Server thread/INFO]: [SimplePvP] Disabling SimplePvP v1.0.0
+[16:58:02] [Server thread/INFO]: [SimplePvP] SimplePvP disabled.
+[16:58:02] [Server thread/INFO]: [SimpleShop] Disabling SimpleShop v1.0
+[16:58:02] [Server thread/INFO]: [SimpleShop] SimpleShop disabled.
+[16:58:02] [Server thread/INFO]: [SimpleZones] Disabling SimpleZones v1.0.0
+[16:58:02] [Server thread/INFO]: [SimpleZones] SimpleZones disabled.
+[16:58:02] [Server thread/INFO]: [AxEnvoy] Disabling AxEnvoy v2.4.0
+[16:58:02] [Server thread/INFO]: [SimpleCrates] Disabling SimpleCrates v1.0
+[16:58:02] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+66-f080f81
+[16:58:02] [Server thread/INFO]: [SimpleFactions] Disabling SimpleFactions v0.1.0
+[16:58:02] [Server thread/INFO]: [SimpleFactions] Saving faction data...
+[16:58:02] [Server thread/INFO]: [SimpleFactions] Saved 2 factions and 1 player mappings.
+[16:58:02] [Server thread/INFO]: [SimpleFactions] Saving spawner stack data...
+[16:58:02] [Server thread/INFO]: [SimpleFactions] Saving rank data...
+[16:58:02] [Server thread/INFO]: [SimpleFactions] SimpleFactions disabled.
+[16:58:02] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.3
+[16:58:02] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.15+2347-5fafea6
+[16:58:02] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[16:58:02] [Server thread/INFO]: [SimpleEconomy] Disabling SimpleEconomy v1.0
+[16:58:02] [Server thread/INFO]: [SimpleEconomy] SimpleEconomy disabled.
+[16:58:02] [Server thread/INFO]: [SimpleKits] Disabling SimpleKits v1.0
+[16:58:02] [Server thread/INFO]: [SimpleKits] SimpleKits disabled.
+[16:58:02] [Server thread/INFO]: [FactionEnchants] Disabling FactionEnchants v1.0
+[16:58:02] [Server thread/INFO]: [FactionEnchants] FactionEnchants has been disabled!
+[16:58:02] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+59372c5
+[16:58:02] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:58:02] [Server thread/INFO]: [Vault] Disabling Vault v2.19.0
+[16:58:02] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.36
+[16:58:02] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:58:02] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:58:02] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:58:02] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
+[16:58:02] [Server thread/INFO]: Saving players
+[16:58:02] [Server thread/INFO]: Saving worlds
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hub]'/minecraft:hub
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hub'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hub'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hub'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'hub' in 0.01s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hub'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hub'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[faction_spawn]'/minecraft:faction_spawn
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'faction_spawn'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'faction_spawn'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'faction_spawn'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'faction_spawn' in 0.01s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'faction_spawn'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'faction_spawn'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[faction_nether]'/minecraft:faction_nether
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'faction_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'faction_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'faction_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'faction_nether' in 0.00s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'faction_nether'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'faction_nether'
+[16:58:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[faction_end]'/minecraft:faction_end
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'faction_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'faction_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'faction_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'faction_end' in 0.00s
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'faction_end'
+[16:58:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'faction_end'
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (hub): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (faction_spawn): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:58:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:58:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:58:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:58:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:58:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

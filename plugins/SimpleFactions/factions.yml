@@ -139,7 +139,7 @@ factions:
       FIRE_SPREAD: true
       TNT: true
     spawners:
-      iron_golem: 9
+      iron_golem: 3
     warps: {}
     titles: {}
     upgrades:
