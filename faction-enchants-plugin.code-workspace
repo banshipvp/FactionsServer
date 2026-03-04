@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../faction-enchants-plugin"
+		},
+		{
+			"path": "../SimpleCrates"
+		},
+		{
+			"path": "../SimpleEconomy"
+		},
+		{
+			"path": "../SimpleFactions"
+		},
+		{
+			"path": "../SimpleFactionsRaiding"
+		},
+		{
+			"path": "../SimpleGenBlocks"
+		},
+		{
+			"path": "../SimpleHUD"
+		},
+		{
+			"path": "../SimpleKits"
+		},
+		{
+			"path": "../SimpleShop"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "BanshiPvP",
+      "uniqueId": "298dceae-c320-41d3-b36b-a420dffcf532"
+    },
+    "time": 1772599858286,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7Wvz3XfA4l"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BanshiPvP",
+      "uniqueId": "298dceae-c320-41d3-b36b-a420dffcf532"
+    },
+    "time": 1772598881096,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/6LTs9usb6g"
+    }
+  }
+]

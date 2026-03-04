@@ -276,7 +276,6 @@ player-commands:
   - chat.shout
   - chat.question
   - clearinventory
-  - compass
   - depth
   - delhome
   - getpos

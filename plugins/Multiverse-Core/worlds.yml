@@ -1,4 +1,4 @@
-Nether:
+Spawn:
   adjust-spawn: true
   alias: ''
   allow-advancement-grant: true
@@ -14,7 +14,7 @@ Nether:
     enabled: false
     amount: 0.0
     currency: '@vault-economy'
-  environment: nether
+  environment: normal
   gamemode: survival
   generator: ''
   hidden: false
@@ -24,21 +24,16 @@ Nether:
   portal-form: all
   pvp: true
   respawn-world: ''
-  scale: 8.0
-  seed: -7225180238842083774
+  scale: 1.0
+  seed: 1639200808042052849
   spawn-location:
     ==: MVSpawnLocation
-    x: 0.0
-    y: 50.0
-    z: 0.0
+    x: -32.0
+    y: 69.0
+    z: -80.0
     pitch: 0.0
     yaw: 0.0
-  spawning:
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
+  spawning: {}
   world-blacklist: []
   version: 1.2
 world:

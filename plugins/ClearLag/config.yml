@@ -212,7 +212,7 @@ optimizations:
 
   # Sends a message to server staff when performance drops below a certain threshold  
   performance-warnings:
-    enabled: true
+    enabled: false
     # At which TPS value should a warning be sent?
     tps-threshold: 18.0
     # How often (in seconds) should the TPS be checked?
@@ -224,7 +224,7 @@ optimizations:
 # --- Performance Metrics ---
 # These settings control the performance monitoring.
 performance:
-  enabled: true # Enables the background task for monitoring performance.
+  enabled: false # Disables heavy performance polling (getProcessCpuLoad)
 
 # --- Messages and Sounds ---
 # Configure messages and sounds for the auto-clear countdown.

@@ -16,22 +16,22 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1772519135682
-  login: 1772518409693
+  logout: 1772605184554
+  login: 1772605040314
   kits:
     militant: 1772339303484
     scout: 1772272915503
     sovereign: 1772272921395
-money: '6895103.250'
+money: '3837169303030.0'
 last-account-name: BanshiPvP
 logoutlocation:
   world: 30299cb4-7c44-402e-959a-4789a3d16968
   world-name: faction_spawn
-  x: 946.7839792255011
-  y: 164.12711042234196
-  z: 2249.0226249132506
-  yaw: -88.98588562011719
-  pitch: 37.13827896118164
+  x: 2406.7243812473707
+  y: 90.56221938542163
+  z: -1554.1650012423952
+  yaw: 124.6474609375
+  pitch: 56.66743087768555
 lastlocation:
   world: 090c4de5-f8fd-434e-9826-fbd2e76e1369
   world-name: world

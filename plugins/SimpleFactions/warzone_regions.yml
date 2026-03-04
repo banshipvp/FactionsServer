@@ -1,0 +1,11 @@
+region_0:
+  world: faction_spawn
+  type: SAFEZONE
+  min:
+    x: -111
+    y: 154
+    z: -90
+  max:
+    x: 155
+    y: 319
+    z: 164

@@ -1,27 +1,79 @@
-crates:
-  # Spawn weights — higher number = more likely to spawn.
-  # Effective % = (weight / total_weight) × 100
-  # Total weight: 100 → common=55%, rare=30%, legendary=12%, boss=3%
-  common: 55
-  rare: 30
-  legendary: 12
-  boss: 3
+messages:
+  start:
+    multiple: |-
+      <dark_gray>***</dark_gray> <gradient:#00F7FF:#9D00FF><bold>TECHNOCLASH ENVOY</bold></gradient> <dark_gray>***</dark_gray>
+      <gray>A TechnoClash Envoy has emerged beneath the main</gray> <white><bold>/spawn</bold></white> <gray>and across all PvP</gray> <white><bold>/warps</bold></white><gray>!</gray>
+      <gray>Multiple supply crates are now descending throughout the</gray> <red><bold>WARZONE</bold></red><gray>.</gray>
+      <dark_gray>((</dark_gray> <gray>Loot-filled crates have spawned at 50–100 random locations across the Warzone and PvP warps. Move fast, secure your rewards, and escape before others arrive. More crates appear where more players gather.</gray> <dark_gray>))</dark_gray>
+      <dark_gray>***</dark_gray> <gradient:#00F7FF:#9D00FF><bold>TECHNOCLASH ENVOY</bold></gradient> <dark_gray>***</dark_gray>
+  flare-start:
+    one: ''
+    multiple: ''
+  set-center: <green>Center set.</green>
+  set-predefined: <green>Predefined spawn added.</green>
+  remove-predefined: <yellow>Predefined spawn removed.</yellow>
+  stopped: <red><bold>Envoy event stopped.</bold></red>
+  cooldown: <red>Wait</red> <gold>%cooldown%</gold> <red>seconds before opening another crate.</red>
+  ended: <gradient:#00F7FF:#9D00FF><bold>TECHNOCLASH ENVOY</bold></gradient> <gray>has ended.</gray>
+  already-active: <red>An envoy event is already running.</red>
+  flare-disabled: <red>Flares are disabled for this envoy.</red>
+  reload: <green>Reloaded.</green> <gray>(</gray><gold>%time%ms</gold><gray>)</gray>
+  no-envoy-found: <red>No envoy found with that name.</red>
+  alert: <gradient:#00F7FF:#9D00FF><bold>TECHNOCLASH ENVOY</bold></gradient> <gray>starts in</gray> <gold>%time%</gold><gray>.</gray>
+  not-enough-autostart: <gray>Not enough players online. Rescheduling envoy...</gray>
+  crate-spawn-message: ''
+  location-format: <gray>%world%</gray>
+  start-time: <gray>%envoy% starts in</gray> <gold>%time%</gold>
+  toggle:
+    on: <green>Envoy messages enabled.</green>
+    off: <red>Envoy messages disabled.</red>
+  editor:
+    join: <aqua>Entered envoy editor.</aqua>
+    leave: <gray>Left envoy editor.</gray>
+  placeholder:
+    running: <green><bold>ACTIVE</bold></green>
+    not-running: <red><bold>INACTIVE</bold></red>
+    remaining: <gold>%remaining%</gold> crates remaining
+    remaining-time: <gold>%time%</gold>
+    until-next: <gold>%time%</gold>
+  time:
+    day: d
+    hour: h
+    minute: m
+    second: s
+  updatecheck:
+    message:
+    - <green>Update available:</green> <white><u><click:open_url:"https://modrinth.com/plugin/axenvoys/version/<version>">Download</click></u></white>
+    - <gray>Changelog:</gray>
+    - <changelog>
+    changelog-version: <white><version>:</white>
+    changelog: <gray><changelog-entry></gray>
+rates:
+  common: 50
+  rare: 40
+  legendary: 30
 #You can also define a range, like 30-50
-amount: 15-25
+amount: 30
 #The amount cap will be used for predefined spawns aswell
 limit-predefined: true
 #In seconds
-collect-cooldown: 0
+collect-cooldown: 10
 #Whether the cooldown should be for all crates of this envoy, or per-crate
 collect-global-cooldown: false
 broadcast-collect: true
 #This is in seconds
 timeout-time: 300
 #Start an envoy event every hour. To disable, leave as ""
-every: 30m
+every: 1h
+#What method should we use to find the top block at a location?
+#can be heightmap or iterative.
+#Iterative can pass through some blocks, heightmap
+#is the topmost block of the world at that location.
+top-block-finder: heightmap
 send-spawn-message: false
 alert-times:
-- 5m
+- 30m
+- 10m
 - 5s
 - 3s
 - 2s
@@ -31,23 +83,27 @@ alert-times:
 times: []
 #If there are other regions at that location other than __global__ an envoy can't spawn there
 only-in-global: false
-
-min-players: 1
-
+min-players: 2
 random-spawn:
   #Should we use random spawning?
   enabled: true
   #The center location
-  center: faction_spawn;8;102;9
+  center: world;0;100;0
+  max-distance:
+    #The maximum distance from the center an envoy may spawn, x coordinate
+    x: 100
+    #The maximum distance from the center an envoy may spawn, z coordinate
+    z: 100
   #The minimum distance from the center an envoy may spawn
-  min-distance: 10
+  min-distance: 20
   #The minimum height at which an envoy may spawn
-  min-height: 60
+  min-height: 10
   #The maximum height at which an envoy may spawn
-  max-height: 120
+  max-height: 100
+  #The heightmap type, refer to https://jd.papermc.io/paper/1.21.1/org/bukkit/HeightMap.html for valid inputs
+  heightmap: MOTION_BLOCKING
   #The minimum distance that can be between crates
-  min-distance-between-crates: 5
-  heightmap-mode: ''
+  min-distance-between-crates: 0
   #You can use RegEx here, to match the name of the block
   #For a list of materials, visit: https://jd.papermc.io/paper/1.20/org/bukkit/Material.html
   not-on-blocks:
@@ -55,44 +111,30 @@ random-spawn:
   - (leaves)
   - (sign)
   - diamond_block
-  max-distance:
-    #The maximum distance from the center an envoy may spawn, x coordinate
-    x: 100
-    #The maximum distance from the center an envoy may spawn, z coordinate
-    z: 100
-  #The heightmap type, refer to https://jd.papermc.io/paper/1.21.1/org/bukkit/HeightMap.html for valid inputs
-  heightmap: MOTION_BLOCKING
-
-# You can override messages from messages.yml. You need to put it exactly how it is in that file (For example, if it's prefix, you need to write prefix as the key).
-messages: null
+rewards:
+  #If we should use prefix for message rewards of this envoy
+  use-prefix: true
 #1 - HH:MM:SS, for example 01:25:35
 #2 - short format, for example 20m
 #3 - text format, for example 01h 25m 35s
 time-format: 1
-#What method should we use to find the top block at a location?
-#can be heightmap or iterative.
-#Iterative can pass through some blocks, heightmap
-#is the topmost block of the world at that location.
-top-block-finder: heightmap
-
-rewards:
-  #If we should use prefix for message rewards of this envoy
-  use-prefix: true
-
 flare:
   enabled: true
   #In seconds
   cooldown: 30
   item:
-    material: redstone_torch
-    name: '&cEnvoy flare'
-    glow: true
     custom-model-data: 0
+    name: '&cEnvoy flare'
     lore:
     - '&7Right click with this, to start'
     - '&7the default envoy!'
-
+    material: prismarine_shard
+    glow: true
 pre-defined-spawns:
   enabled: false
   locations:
   - world;1;1;1
+crates:
+  common: 50
+  rare: 40
+  legendary: 30

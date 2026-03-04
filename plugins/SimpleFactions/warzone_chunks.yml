@@ -115,7 +115,7 @@ faction_spawn:-2:10: WARZONE
 faction_spawn:-9:10: WARZONE
 faction_spawn:-5:8: WARZONE
 faction_spawn:-5:9: WARZONE
-faction_spawn:-5:6: WARZONE
+faction_spawn:-5:6: SAFEZONE
 faction_spawn:-5:7: WARZONE
 faction_spawn:-1:-10: WARZONE
 faction_spawn:-5:4: WARZONE
