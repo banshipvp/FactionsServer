@@ -292,3 +292,17 @@ java.lang.IllegalStateException: Provider SpigotPluginProvider{path=plugins\worl
 [16:47:04] [Craft Scheduler Thread - 8 - ClearLag/INFO]: [ClearLag] You are running the latest version (1.6.24.2)
 [16:47:04] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 2 EssentialsX dev build(s) out of date!
 [16:47:04] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[16:47:18] [User Authenticator #0/INFO]: UUID of player BanshiPvP is 298dceae-c320-41d3-b36b-a420dffcf532
+[16:47:18] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, WorldGuard]
+[16:47:20] [Server thread/INFO]: BanshiPvP joined the game
+[16:47:20] [Server thread/INFO]: BanshiPvP[/127.0.0.1:54850] logged in with entity id 1 at ([faction_spawn]2400.048991537061, 88.64376348461346, -1558.283939950449)
+[16:47:21] [Server thread/INFO]: [SimpleFactionsRaiding] Not saving location for BanshiPvP - not in faction world (current: hub)
+[16:47:27] [Server thread/INFO]: [SimpleFactionsRaiding] Loading last location for BanshiPvP, path exists: true
+[16:47:27] [Server thread/INFO]: [SimpleFactionsRaiding] Stored world name: faction_spawn
+[16:47:27] [Server thread/INFO]: [SimpleFactionsRaiding] Attempting to teleport BanshiPvP to faction server
+[16:47:27] [Server thread/INFO]: [SimpleFactionsRaiding] Last location: Location{world=CraftWorld{name=faction_spawn},x=2400.048991537061,y=88.64376348461346,z=-1558.283939950449,pitch=28.61708,yaw=-173.34796}
+[16:47:27] [Server thread/INFO]: [SimpleFactionsRaiding] Teleporting to last location: Location{world=CraftWorld{name=faction_spawn},x=2400.048991537061,y=88.64376348461346,z=-1558.283939950449,pitch=28.61708,yaw=-173.34796}
+[16:47:37] [Server thread/INFO]: BanshiPvP issued server command: /gmc
+[16:49:44] [Server thread/INFO]: BanshiPvP lost connection: Disconnected
+[16:49:44] [Server thread/INFO]: [SimpleFactionsRaiding] Saving last location for BanshiPvP at Location{world=CraftWorld{name=faction_spawn},x=2406.7243812473707,y=90.56221938542163,z=-1554.1650012423952,pitch=56.66743,yaw=124.64746}
+[16:49:44] [Server thread/INFO]: BanshiPvP left the game
