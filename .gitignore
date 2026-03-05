@@ -1,6 +1,6 @@
 # Minecraft Server .gitignore
 
-# Only exclude truly temporary files
+# Temporary / runtime files
 .console_history
 *.tmp
 
@@ -12,3 +12,39 @@ desktop.ini
 # IDE
 .vscode/
 .idea/
+
+# Server runtime data — do not commit
+logs/
+crash-reports/
+usercache.json
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+server.properties
+
+# World region/data/player files — do not commit
+**/region/
+**/entities/
+**/poi/
+**/level.dat
+**/level.dat_old
+**/level.dat_mcr
+**/session.lock
+**/data/raids*.dat
+**/data/random_sequences.dat
+**/playerdata/
+**/advancements/
+**/stats/
+
+# Plugin runtime data — do not commit
+plugins/.paper-remapped/
+plugins/LuckPerms/*.db
+plugins/LuckPerms/*.db.*
+plugins/spark/
+plugins/WorldGuard/cache/
+plugins/SimpleFactions/factions.yml
+plugins/SimpleFactions/spawner-stacks.yml
+plugins/SimpleFactionsRaiding/last_locations.yml
+plugins/SimpleFactionsRaiding/player_profiles.yml
+plugins/Essentials/userdata/
