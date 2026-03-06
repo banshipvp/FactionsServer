@@ -1,0 +1,164 @@
+skfni:
+  displayName: §3skfni
+  description: §7Custom created gkit
+  cooldownHours: 24
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_helmet
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"drunk,clarity,armored,enlighted,ender_shift,valor,protection_ce,aquatic,tank"}}'
+      schema_version: 1
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_chestplate
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"dodge,armored,enlighted,valor,guardians,tank,shockwave,overload"}}'
+      schema_version: 1
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_leggings
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_boots
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"undead_ruse,metaphysical,springs,ender_walker,valor,rocket_escape,tank,gears"}}'
+      schema_version: 1
+    '4':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_sword
+      count: 1
+      components:
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"ice_aspect,double_strike,deepwounds,rage,lifesteal,paralyze,block,silence,execute,assassin,featherweight"}}'
+      schema_version: 1
+    '5':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:chest
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right-click
+          to open this crate",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Left-click
+          to preview rewards",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Contains
+          5 rewards:",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          Money: ",underlined:0b},{color:"yellow",italic:0b,text:"$500K - $1.0M"}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          Spawners:",underlined:0b}],text:""},{extra:["    ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"•
+          Iron Golem",underlined:0b}],text:""},{extra:["    ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"•
+          Warden",underlined:0b}],text:""},{extra:["    ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"•
+          Ghast",underlined:0b}],text:""},{extra:["    ",{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"•
+          Magma Cube",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          GKit Gear",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          GKit Gems",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          Rank Vouchers",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          Bonus Crates",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"✦
+          Single Use ✦",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Not
+          selected",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Left
+          click: Select",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right
+          click: Unselect",underlined:0b}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:1b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Godly
+          Crate",underlined:0b}],text:""}'
+        minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers"]}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplecrates:crate_tier":"godly","simplekits:editor_crate_tier":"godly"}}'
+      schema_version: 1
+    '6':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:experience_bottle
+      count: 1
+      components:
+        minecraft:lore: '[{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Right-click
+          to consume",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Restores
+          ",underlined:0b},{color:"aqua",italic:0b,text:"15000"},{color:"gray",italic:0b,text:"
+          experience"}],text:""}]'
+        minecraft:custom_name: '{extra:[{bold:1b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"XP
+          Bottle - 15000 XP",underlined:0b}],text:""}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simpleeconomy:xp_amount":15000}}'
+      schema_version: 1
+start:
+  displayName: §3Start
+  description: §7Custom created gkit
+  cooldownHours: 24
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_helmet
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"smoke_bomb,glowing,ragdoll,valor,tank"}}'
+      schema_version: 1
+dev:
+  displayName: §3Dev
+  description: §7Custom created gkit
+  cooldownHours: 24
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_chestplate
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_leggings
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    '2':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_boots
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+      schema_version: 1
+    '3':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:netherite_helmet
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"stormcaller,voodoo,ragdoll,enlighted,ender_shift,abiding,protection_ce,ward,disappear,arrow_deflect,obsidianshield,drunk,commander,inversion,death_god,cactus,fat,hex,molten,hardened,tank,self_destruct,creeper_armor,trickster,surprise,dodge,restore,armored,valor,frozen,marksman,spirits,poisoned,guardians,implants,reinforced,heavy,smoke_bomb,glowing,clarity,demonic,aquatic,shuffle,sustain,wither"}}'
+      schema_version: 1
+'yes':
+  displayName: §4 yes
+  description: §7Custom created gkit
+  cooldownHours: 24
+  items:
+    '0':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_helmet
+      count: 1
+      components:
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"dodge,glowing,frozen,spirits,reinforced"}}'
+      schema_version: 1
+    '1':
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:diamond_chestplate
+      count: 1
+      components:
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"death_god,overload"}}'
+      schema_version: 1

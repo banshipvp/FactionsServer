@@ -5,6 +5,45 @@
       "name": "BanshiPvP",
       "uniqueId": "298dceae-c320-41d3-b36b-a420dffcf532"
     },
+    "time": 1772691569295,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3GkoNJT2bI"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BanshiPvP",
+      "uniqueId": "298dceae-c320-41d3-b36b-a420dffcf532"
+    },
+    "time": 1772689097477,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/oD3McykS64"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BanshiPvP",
+      "uniqueId": "298dceae-c320-41d3-b36b-a420dffcf532"
+    },
+    "time": 1772688961345,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5yaw8XYCKN"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "BanshiPvP",
+      "uniqueId": "298dceae-c320-41d3-b36b-a420dffcf532"
+    },
     "time": 1772599858286,
     "type": "Profiler",
     "data": {

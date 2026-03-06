@@ -1,0 +1,23 @@
+SimpleShop GUI Resource Pack Installed
+=====================================
+
+Installed files:
+- resourcepacks/SimpleShopGUI/
+- resourcepacks/SimpleShopGUI.zip
+
+Current SHA1:
+- ACA5C94B843CBA6020F289249282707E962482EC
+
+server.properties configured:
+- resource-pack=http://192.168.0.80:8080/SimpleShopGUI.zip
+- resource-pack-sha1=ACA5C94B843CBA6020F289249282707E962482EC
+- require-resource-pack=false
+
+To serve the ZIP to players:
+1) Run start-resourcepack-host.bat
+2) Keep that terminal open while the server is running
+3) Ensure port 8080 is reachable from players
+
+If players connect from outside your LAN:
+- Replace the resource-pack URL with a public HTTP/HTTPS URL
+- Keep the same SHA1 unless you regenerate the ZIP

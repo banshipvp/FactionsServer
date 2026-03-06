@@ -1,0 +1,9 @@
+server-start: 1772757831
+milestones:
+  gkits:
+    description: Server must be open for 1 hour before GKits are available
+    type: TIME
+    value: 3600.0
+    donated: 0.0
+    force-unlocked: false
+    unlock-description: GKits unlocked

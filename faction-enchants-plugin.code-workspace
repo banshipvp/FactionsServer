@@ -26,6 +26,15 @@
 		},
 		{
 			"path": "../SimpleShop"
+		},
+		{
+			"path": "../SimpleAntiCheat"
+		},
+		{
+			"path": "../SimplePvP"
+		},
+		{
+			"path": "../SimpleZones"
 		}
 	],
 	"settings": {

@@ -1,0 +1,659 @@
+# Default shop data for SimpleShop
+# Edited at runtime by /shopadd and /shopedit commands.
+# Do NOT edit while the server is running — use the admin commands instead.
+
+categories:
+  blocks:
+    position: 1
+    display-name: Blocks
+    icon: STONE
+    color: §b§l
+    tagline: Building materials
+    detail: Stone, Wood, Glass & more
+    items:
+      stone:
+        display-name: Stone
+        buy: 2.0
+        sell: 1.0
+      cobblestone:
+        display-name: Cobblestone
+        buy: 1.0
+        sell: 0.5
+      dirt:
+        display-name: Dirt
+        buy: 1.0
+        sell: 0.3
+      grass_block:
+        display-name: Grass Block
+        buy: 3.0
+        sell: 1.0
+      sand:
+        display-name: Sand
+        buy: 3.0
+        sell: 1.5
+      gravel:
+        display-name: Gravel
+        buy: 3.0
+        sell: 1.5
+      sandstone:
+        display-name: Sandstone
+        buy: 5.0
+        sell: 2.0
+      oak_log:
+        display-name: Oak Log
+        buy: 5.0
+        sell: 2.0
+      spruce_log:
+        display-name: Spruce Log
+        buy: 5.0
+        sell: 2.0
+      birch_log:
+        display-name: Birch Log
+        buy: 5.0
+        sell: 2.0
+      jungle_log:
+        display-name: Jungle Log
+        buy: 5.0
+        sell: 2.0
+      acacia_log:
+        display-name: Acacia Log
+        buy: 5.0
+        sell: 2.0
+      dark_oak_log:
+        display-name: Dark Oak Log
+        buy: 5.0
+        sell: 2.0
+      oak_planks:
+        display-name: Oak Planks
+        buy: 2.0
+        sell: 1.0
+      spruce_planks:
+        display-name: Spruce Planks
+        buy: 2.0
+        sell: 1.0
+      birch_planks:
+        display-name: Birch Planks
+        buy: 2.0
+        sell: 1.0
+      bricks:
+        display-name: Bricks
+        buy: 8.0
+        sell: 4.0
+      stone_bricks:
+        display-name: Stone Bricks
+        buy: 6.0
+        sell: 3.0
+      cobbled_deepslate:
+        display-name: Cobbled Deepslate
+        buy: 4.0
+        sell: 2.0
+      deepslate_bricks:
+        display-name: Deepslate Bricks
+        buy: 7.0
+        sell: 3.0
+      glass:
+        display-name: Glass
+        buy: 5.0
+        sell: 2.0
+      glass_pane:
+        display-name: Glass Pane
+        buy: 4.0
+        sell: 1.5
+      ladder:
+        display-name: Ladder
+        buy: 10.0
+        sell: 4.0
+      chest:
+        display-name: Chest
+        buy: 20.0
+        sell: 8.0
+      barrel:
+        display-name: Barrel
+        buy: 25.0
+        sell: 10.0
+      water_bucket:
+        display-name: Water Bucket
+        buy: 100.0
+        sell: 40.0
+      lava_bucket:
+        display-name: Lava Bucket
+        buy: 120.0
+        sell: 50.0
+      obsidian:
+        display-name: Obsidian
+        buy: 50.0
+        sell: 20.0
+      netherrack:
+        display-name: Netherrack
+        buy: 2.0
+        sell: 1.0
+      end_stone:
+        display-name: End Stone
+        buy: 10.0
+        sell: 5.0
+      quartz_block:
+        display-name: Quartz Block
+        buy: 40.0
+        sell: 15.0
+  ores:
+    position: 2
+    display-name: Minerals
+    icon: DIAMOND
+    color: §e§l
+    tagline: Ores and ingots
+    detail: Coal, Iron, Diamond & more
+    items:
+      coal:
+        display-name: Coal
+        buy: 5.0
+        sell: 3.0
+      iron_ingot:
+        display-name: Iron Ingot
+        buy: 20.0
+        sell: 10.0
+      gold_ingot:
+        display-name: Gold Ingot
+        buy: 50.0
+        sell: 25.0
+      diamond:
+        display-name: Diamond
+        buy: 200.0
+        sell: 100.0
+      emerald:
+        display-name: Emerald
+        buy: 300.0
+        sell: 150.0
+      netherite_ingot:
+        display-name: Netherite Ingot
+        buy: 2000.0
+        sell: 1000.0
+      iron_block:
+        display-name: Iron Block
+        buy: 180.0
+        sell: 90.0
+      gold_block:
+        display-name: Gold Block
+        buy: 450.0
+        sell: 220.0
+      diamond_block:
+        display-name: Diamond Block
+        buy: 1800.0
+        sell: 900.0
+      emerald_block:
+        display-name: Emerald Block
+        buy: 2600.0
+        sell: 1300.0
+      redstone:
+        display-name: Redstone
+        buy: 10.0
+        sell: 5.0
+      lapis_lazuli:
+        display-name: Lapis Lazuli
+        buy: 15.0
+        sell: 7.0
+      quartz:
+        display-name: Quartz
+        buy: 20.0
+        sell: 10.0
+      copper_ingot:
+        display-name: Copper Ingot
+        buy: 15.0
+        sell: 7.0
+      iron_nugget:
+        display-name: Iron Nugget
+        buy: 3.0
+        sell: 1.0
+      gold_nugget:
+        display-name: Gold Nugget
+        buy: 5.0
+        sell: 2.0
+  farming:
+    position: 3
+    display-name: Farming
+    icon: WHEAT
+    color: §a§l
+    tagline: Crops and seeds
+    detail: Wheat, Carrots & more
+    items:
+      wheat:
+        display-name: Wheat
+        buy: 5.0
+        sell: 2.0
+      wheat_seeds:
+        display-name: Wheat Seeds
+        buy: 2.0
+        sell: 1.0
+      carrot:
+        display-name: Carrot
+        buy: 4.0
+        sell: 2.0
+      potato:
+        display-name: Potato
+        buy: 4.0
+        sell: 2.0
+      beetroot:
+        display-name: Beetroot
+        buy: 4.0
+        sell: 2.0
+      pumpkin_seeds:
+        display-name: Pumpkin Seeds
+        buy: 3.0
+        sell: 1.0
+      melon_seeds:
+        display-name: Melon Seeds
+        buy: 3.0
+        sell: 1.0
+      beetroot_seeds:
+        display-name: Beetroot Seeds
+        buy: 3.0
+        sell: 1.0
+      nether_wart:
+        display-name: Nether Wart
+        buy: 10.0
+        sell: 5.0
+      sugar_cane:
+        display-name: Sugar Cane
+        buy: 5.0
+        sell: 3.0
+      cactus:
+        display-name: Cactus
+        buy: 6.0
+        sell: 3.0
+      melon_slice:
+        display-name: Melon Slice
+        buy: 3.0
+        sell: 1.0
+      pumpkin:
+        display-name: Pumpkin
+        buy: 10.0
+        sell: 5.0
+      bamboo:
+        display-name: Bamboo
+        buy: 2.0
+        sell: 1.0
+      kelp:
+        display-name: Kelp
+        buy: 3.0
+        sell: 1.0
+      sweet_berries:
+        display-name: Sweet Berries
+        buy: 5.0
+        sell: 2.0
+      cocoa_beans:
+        display-name: Cocoa Beans
+        buy: 7.0
+        sell: 3.0
+      apple:
+        display-name: Apple
+        buy: 8.0
+        sell: 4.0
+  food:
+    position: 4
+    display-name: Food
+    icon: COOKED_BEEF
+    color: §6§l
+    tagline: Cooked food items
+    detail: Bread, Steak & more
+    items:
+      bread:
+        display-name: Bread
+        buy: 10.0
+        sell: 5.0
+      cooked_beef:
+        display-name: Cooked Beef
+        buy: 15.0
+        sell: 7.0
+      cooked_porkchop:
+        display-name: Cooked Porkchop
+        buy: 15.0
+        sell: 7.0
+      cooked_chicken:
+        display-name: Cooked Chicken
+        buy: 12.0
+        sell: 6.0
+      cooked_mutton:
+        display-name: Cooked Mutton
+        buy: 12.0
+        sell: 6.0
+      cooked_rabbit:
+        display-name: Cooked Rabbit
+        buy: 14.0
+        sell: 7.0
+      cooked_salmon:
+        display-name: Cooked Salmon
+        buy: 13.0
+        sell: 6.0
+      cooked_cod:
+        display-name: Cooked Cod
+        buy: 12.0
+        sell: 5.0
+      baked_potato:
+        display-name: Baked Potato
+        buy: 9.0
+        sell: 4.0
+      cake:
+        display-name: Cake
+        buy: 120.0
+        sell: 50.0
+      golden_apple:
+        display-name: Golden Apple
+        buy: 500.0
+        sell: 250.0
+      enchanted_golden_apple:
+        display-name: Enchanted Golden Apple
+        buy: 5000.0
+        sell: 2500.0
+      golden_carrot:
+        display-name: Golden Carrot
+        buy: 100.0
+        sell: 50.0
+  combat:
+    position: 5
+    display-name: Combat
+    icon: DIAMOND_SWORD
+    color: §c§l
+    tagline: Arrows, Pearls, Armor
+    detail: PvP essentials
+    items:
+      arrow:
+        display-name: Arrow
+        buy: 2.0
+        sell: 1.0
+      bow:
+        display-name: Bow
+        buy: 100.0
+        sell: 50.0
+      crossbow:
+        display-name: Crossbow
+        buy: 180.0
+        sell: 90.0
+      trident:
+        display-name: Trident
+        buy: 2000.0
+        sell: 1000.0
+      shield:
+        display-name: Shield
+        buy: 180.0
+        sell: 90.0
+      ender_pearl:
+        display-name: Ender Pearl
+        buy: 150.0
+        sell: 75.0
+      iron_sword:
+        display-name: Iron Sword
+        buy: 180.0
+        sell: 90.0
+      diamond_sword:
+        display-name: Diamond Sword
+        buy: 1200.0
+        sell: 500.0
+      iron_axe:
+        display-name: Iron Axe
+        buy: 160.0
+        sell: 80.0
+      diamond_axe:
+        display-name: Diamond Axe
+        buy: 1000.0
+        sell: 400.0
+      iron_helmet:
+        display-name: Iron Helmet
+        buy: 220.0
+        sell: 100.0
+      iron_chestplate:
+        display-name: Iron Chestplate
+        buy: 360.0
+        sell: 170.0
+      iron_leggings:
+        display-name: Iron Leggings
+        buy: 320.0
+        sell: 150.0
+      iron_boots:
+        display-name: Iron Boots
+        buy: 180.0
+        sell: 90.0
+      diamond_helmet:
+        display-name: Diamond Helmet
+        buy: 1400.0
+        sell: 700.0
+      diamond_chestplate:
+        display-name: Diamond Chestplate
+        buy: 2200.0
+        sell: 1100.0
+      diamond_leggings:
+        display-name: Diamond Leggings
+        buy: 2000.0
+        sell: 1000.0
+      diamond_boots:
+        display-name: Diamond Boots
+        buy: 1200.0
+        sell: 600.0
+      totem_of_undying:
+        display-name: Totem of Undying
+        buy: 10000.0
+        sell: 5000.0
+  raiding:
+    position: 6
+    display-name: Raiding
+    icon: DISPENSER
+    color: §4§l
+    tagline: Cannon components
+    detail: TNT, Repeaters & more
+    items:
+      tnt:
+        display-name: TNT
+        buy: 200.0
+        sell: 100.0
+      sand:
+        display-name: Sand
+        buy: 3.0
+        sell: 1.5
+      redstone:
+        display-name: Redstone
+        buy: 10.0
+        sell: 5.0
+      redstone_torch:
+        display-name: Redstone Torch
+        buy: 20.0
+        sell: 8.0
+      repeater:
+        display-name: Repeater
+        buy: 35.0
+        sell: 15.0
+      comparator:
+        display-name: Comparator
+        buy: 45.0
+        sell: 20.0
+      dispenser:
+        display-name: Dispenser
+        buy: 1000.0
+        sell: 400.0
+      observer:
+        display-name: Observer
+        buy: 1000.0
+        sell: 400.0
+      piston:
+        display-name: Piston
+        buy: 60.0
+        sell: 25.0
+      sticky_piston:
+        display-name: Sticky Piston
+        buy: 100.0
+        sell: 45.0
+      slime_block:
+        display-name: Slime Block
+        buy: 220.0
+        sell: 100.0
+      lever:
+        display-name: Lever
+        buy: 8.0
+        sell: 3.0
+      stone_button:
+        display-name: Stone Button
+        buy: 5.0
+        sell: 2.0
+      oak_button:
+        display-name: Oak Button
+        buy: 5.0
+        sell: 2.0
+      redstone_block:
+        display-name: Redstone Block
+        buy: 90.0
+        sell: 45.0
+      obsidian:
+        display-name: Obsidian
+        buy: 50.0
+        sell: 20.0
+      water_bucket:
+        display-name: Water Bucket
+        buy: 100.0
+        sell: 40.0
+      flint_and_steel:
+        display-name: Flint and Steel
+        buy: 60.0
+        sell: 25.0
+      ladder:
+        display-name: Ladder
+        buy: 10.0
+        sell: 4.0
+  misc:
+    position: 7
+    display-name: Misc
+    icon: ENDER_EYE
+    color: §d§l
+    tagline: Special items
+    detail: Rare drops, XP & more
+    items:
+      string:
+        display-name: String
+        buy: 5.0
+        sell: 2.0
+      bone:
+        display-name: Bone
+        buy: 5.0
+        sell: 2.0
+      gunpowder:
+        display-name: Gunpowder
+        buy: 10.0
+        sell: 5.0
+      ender_eye:
+        display-name: Ender Eye
+        buy: 300.0
+        sell: 150.0
+      blaze_rod:
+        display-name: Blaze Rod
+        buy: 50.0
+        sell: 25.0
+      slime_ball:
+        display-name: Slime Ball
+        buy: 30.0
+        sell: 15.0
+      ghast_tear:
+        display-name: Ghast Tear
+        buy: 100.0
+        sell: 50.0
+      shulker_shell:
+        display-name: Shulker Shell
+        buy: 800.0
+        sell: 350.0
+      ender_chest:
+        display-name: Ender Chest
+        buy: 750.0
+        sell: 350.0
+      anvil:
+        display-name: Anvil
+        buy: 300.0
+        sell: 120.0
+      enchanting_table:
+        display-name: Enchanting Table
+        buy: 500.0
+        sell: 250.0
+      bookshelf:
+        display-name: Bookshelf
+        buy: 120.0
+        sell: 60.0
+      experience_bottle:
+        display-name: XP Bottle
+        buy: 50.0
+        sell: 25.0
+      nether_star:
+        display-name: Nether Star
+        buy: 20000.0
+        sell: 10000.0
+      dragon_breath:
+        display-name: Dragon Breath
+        buy: 1000.0
+        sell: 500.0
+spawners:
+  chicken:
+    display-name: Chicken
+    buy: 40000.0
+    faction-value: 40000.0
+  pig:
+    display-name: Pig
+    buy: 50000.0
+    faction-value: 50000.0
+  sheep:
+    display-name: Sheep
+    buy: 50000.0
+    faction-value: 50000.0
+  wolf:
+    display-name: Wolf
+    buy: 60000.0
+    faction-value: 60000.0
+  cow:
+    display-name: Cow
+    buy: 65000.0
+    faction-value: 65000.0
+  cave_spider:
+    display-name: Cave Spider
+    buy: 80000.0
+    faction-value: 80000.0
+  spider:
+    display-name: Spider
+    buy: 90000.0
+    faction-value: 90000.0
+  zombie:
+    display-name: Zombie
+    buy: 100000.0
+    faction-value: 100000.0
+  skeleton:
+    display-name: Skeleton
+    buy: 120000.0
+    faction-value: 120000.0
+  slime:
+    display-name: Slime
+    buy: 175000.0
+    faction-value: 175000.0
+  zombified_piglin:
+    display-name: Zombified Piglin
+    buy: 185000.0
+    faction-value: 185000.0
+  blaze:
+    display-name: Blaze
+    buy: 500000.0
+    faction-value: 500000.0
+  creeper:
+    display-name: Creeper
+    buy: 500000.0
+    faction-value: 500000.0
+  magma_cube:
+    display-name: Magma Cube
+    buy: 1800000.0
+    faction-value: 1250000.0
+  ghast:
+    display-name: Ghast
+    buy: 2000000.0
+    faction-value: 1500000.0
+  iron_golem:
+    display-name: Iron Golem
+    buy: 2000000.0
+    faction-value: 2000000.0
+  snow_golem:
+    display-name: Snowman
+    buy: 1.0E7
+    faction-value: 1.0E7
+  warden:
+    display-name: Warden
+    buy: 1.5E7
+    faction-value: 1.5E7
+

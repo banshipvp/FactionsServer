@@ -1,0 +1,126 @@
+tiers:
+  simple:
+    '0':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:iron_ingot
+        count: 16
+        schema_version: 1
+      chance: 50.0
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:golden_apple
+        count: 2
+        schema_version: 1
+      chance: 25.0
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:experience_bottle
+        count: 16
+        schema_version: 1
+      chance: 25.0
+  rare:
+    '0':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:diamond
+        count: 12
+        schema_version: 1
+      chance: 40.0
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:enchanted_golden_apple
+        count: 1
+        schema_version: 1
+      chance: 20.0
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:ender_pearl
+        count: 16
+        schema_version: 1
+      chance: 40.0
+  legendary:
+    '0':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:netherite_ingot
+        count: 2
+        schema_version: 1
+      chance: 30.0
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:totem_of_undying
+        count: 1
+        schema_version: 1
+      chance: 20.0
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:diamond_block
+        count: 4
+        schema_version: 1
+      chance: 50.0
+  godly:
+    '0':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:nether_star
+        count: 1
+        schema_version: 1
+      chance: 20.0
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:enchanted_golden_apple
+        count: 4
+        schema_version: 1
+      chance: 40.0
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:ancient_debris
+        count: 8
+        schema_version: 1
+      chance: 40.0
+  heroic_nether:
+    '0':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:netherite_upgrade_smithing_template
+        count: 1
+        schema_version: 1
+      chance: 20.0
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:netherite_ingot
+        count: 6
+        schema_version: 1
+      chance: 40.0
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4556
+        id: minecraft:ancient_debris
+        count: 24
+        schema_version: 1
+      chance: 40.0
