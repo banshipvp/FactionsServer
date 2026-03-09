@@ -1,3 +1,41 @@
+Nether:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: easy
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: nether
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: false
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 8.0
+  seed: 7759218670486292316
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 0.0
+    y: 62.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  spawning: {}
+  world-blacklist: []
+  version: 1.2
 Spawn:
   adjust-spawn: true
   alias: ''
@@ -149,6 +187,16 @@ faction_spawn:
     yaw: 0.0
   spawning:
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1

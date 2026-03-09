@@ -1,9 +1,22 @@
 current:
   ids:
-  - enchant_addict
-  - xp_grinder
-  - pvp_champion
-  start: 1772770835
+  - block_breaker
+  - book_opener
+  - block_placer
+  start: 1772943650
+  scores:
+    block_breaker:
+      298dceae-c320-41d3-b36b-a420dffcf532:
+        name: BanshiPvP
+        score: 2
+    book_opener:
+      298dceae-c320-41d3-b36b-a420dffcf532:
+        name: BanshiPvP
+        score: 15
+    block_placer:
+      298dceae-c320-41d3-b36b-a420dffcf532:
+        name: BanshiPvP
+        score: 2
 last:
-  id: pvp_champion
+  id: master_angler
   claimed: []

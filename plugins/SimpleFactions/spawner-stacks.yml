@@ -1,1 +1,20 @@
-stacks: []
+stacks:
+- locationKey: faction_spawn:-99:64:-185
+  entityType: magma_cube
+  factionName: wild
+  placedTimes:
+  - '1772846057954'
+  - '1772846057954'
+  - '1772846058753'
+  - '1772846058953'
+  - '1772846059104'
+- locationKey: faction_spawn:-93:64:-184
+  entityType: cow
+  factionName: wild
+  placedTimes:
+  - '1772850631555'
+  - '1772850631555'
+  - '1772850632255'
+  - '1772850632404'
+  - '1772850632505'
+  - '1772850632954'

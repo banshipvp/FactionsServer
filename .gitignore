@@ -48,3 +48,5 @@ plugins/SimpleFactions/spawner-stacks.yml
 plugins/SimpleFactionsRaiding/last_locations.yml
 plugins/SimpleFactionsRaiding/player_profiles.yml
 plugins/Essentials/userdata/
+
+server.zip
