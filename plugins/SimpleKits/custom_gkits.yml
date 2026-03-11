@@ -10,7 +10,7 @@ skfni:
       count: 1
       components:
         minecraft:enchantments: '{"minecraft:protection":5,"minecraft:unbreaking":3}'
-        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"drunk,clarity,armored,enlighted,ender_shift,valor,protection_ce,aquatic,tank"}}'
+        minecraft:custom_data: '{PublicBukkitValues:{"simplekits:gkit_custom_enchants":"drunk,clarity,armored,enlighted,ender_shift,valor,aquatic,tank"}}'
       schema_version: 1
     '1':
       ==: org.bukkit.inventory.ItemStack
