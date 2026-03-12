@@ -1,3 +1,23 @@
+proxy:
+  hub-server: "lobby"
+
+# Scheduled reboot settings
+reboot:
+  # Auto-reboot interval in minutes. 720 = every 12 hours.
+  interval: 720
+  alert-times:
+    - 10m
+    - 5m
+    - 1m
+    - 30s
+    - 10s
+    - 5s
+    - 4s
+    - 3s
+    - 2s
+    - 1s
+
+# Legacy hub world location - no longer used (hub is now the 'lobby' Velocity server)
 hub:
   world: hub
   x: -3.4931852878587373

@@ -1,18 +1,140 @@
-name: FactionEnchants
-version: 1.0
-main: com.factionenchants.FactionEnchantsPlugin
-api-version: 1.13
-commands:
-  enchanter:
-    description: Opens the enchanter interface to purchase enchant books.
-    usage: /<command>
-  alchemist:
-    description: Combines two identical enchant books to create a higher-level book.
-    usage: /<command>
-permissions:
-  factionenchants.enchanter:
-    description: Allows access to the enchanter command.
-    default: true
-  factionenchants.alchemist:
-    description: Allows access to the alchemist command.
-    default: true
+enchanter:
+  simple-cost: 1000
+  unique-cost: 2500
+  elite-cost: 7500
+  ultimate-cost: 15000
+  legendary-cost: 25000
+  soul-cost: 100000
+  heroic-cost: 150000
+  mastery-cost: 200000
+  vanilla:
+    sharpness-cost: 20000
+    smite-cost: 15000
+    bane_of_arthropods-cost: 15000
+    looting-cost: 30000
+    fire_aspect-cost: 20000
+    knockback-cost: 10000
+    sweeping_edge-cost: 15000
+    protection-cost: 25000
+    projectile_protection-cost: 15000
+    blast_protection-cost: 20000
+    fire_protection-cost: 15000
+    feather_falling-cost: 20000
+    unbreaking-cost: 15000
+    thorns-cost: 20000
+    depth_strider-cost: 50000
+    mending-cost: 75000
+    respiration-cost: 15000
+    aqua_affinity-cost: 10000
+    efficiency-cost: 15000
+    fortune-cost: 25000
+    silk_touch-cost: 30000
+    power-cost: 15000
+    punch-cost: 15000
+    flame-cost: 10000
+    infinity-cost: 30000
+    multishot-cost: 20000
+    quick_charge-cost: 15000
+    piercing-cost: 15000
+    loyalty-cost: 15000
+    channeling-cost: 20000
+    riptide-cost: 25000
+    impaling-cost: 15000
+    soul_speed-cost: 20000
+    swift_sneak-cost: 25000
+
+alchemist:
+  combine-cost: 10
+  level-multiplier: 5
+  tier-base:
+    SIMPLE: 5
+    UNIQUE: 10
+    ELITE: 20
+    ULTIMATE: 35
+    LEGENDARY: 55
+    SOUL: 80
+    HEROIC: 110
+    MASTERY: 150
+
+book-rates:
+  SIMPLE:
+    success-min: 85
+    success-max: 100
+    destroy-min: 0
+    destroy-max: 5
+  UNIQUE:
+    success-min: 80
+    success-max: 95
+    destroy-min: 2
+    destroy-max: 10
+  ELITE:
+    success-min: 70
+    success-max: 90
+    destroy-min: 5
+    destroy-max: 15
+  ULTIMATE:
+    success-min: 60
+    success-max: 85
+    destroy-min: 8
+    destroy-max: 20
+  LEGENDARY:
+    success-min: 50
+    success-max: 80
+    destroy-min: 10
+    destroy-max: 25
+  SOUL:
+    success-min: 45
+    success-max: 75
+    destroy-min: 12
+    destroy-max: 30
+  HEROIC:
+    success-min: 40
+    success-max: 70
+    destroy-min: 15
+    destroy-max: 35
+  MASTERY:
+    success-min: 35
+    success-max: 65
+    destroy-min: 20
+    destroy-max: 40
+
+random-dust:
+  dud-chance: 30
+  percent-cap: 15
+  base-percent:
+    SIMPLE: 1
+    UNIQUE: 2
+    ELITE: 3
+    ULTIMATE: 4
+    LEGENDARY: 5
+    SOUL: 7
+    HEROIC: 8
+    MASTERY: 10
+
+tinkerer:
+  gear-base-xp: 100
+  vanilla-enchant-point: 75
+
+xpshop:
+  detonate-pickaxe: 10000
+  lava-fat-bucket: 15000
+  water-fat-bucket: 15000
+  sell-wand: 50000
+  tnt-wand: 50000
+  simplefactions:
+    enabled: true
+    sell-wand-command: "f givewand {player} sell"
+    tnt-wand-command: "f givewand {player} tnt"
+
+random-gear:
+  min-enchants: 1
+  max-enchants: 4
+  tier-weights:
+    SIMPLE: 35
+    UNIQUE: 25
+    ELITE: 16
+    ULTIMATE: 10
+    LEGENDARY: 7
+    SOUL: 4
+    HEROIC: 2
+    MASTERY: 1
